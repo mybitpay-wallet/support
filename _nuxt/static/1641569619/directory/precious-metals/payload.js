@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/directory/precious-metals", {data:[{}],fetch:[],mutations:[]});

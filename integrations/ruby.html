@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="en" ng-csp>
+<!-- Mirrored from bitpay.com/integrations/ruby by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jan 2022 14:07:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>BitPay Ruby Library</title><meta name="description" content="Implement blockchain payments on your e-commerce website using BitPay's Ruby client library."><!-- Twitter Card data--><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@BitPay"><meta name="twitter:title" content="BitPay Ruby Library"><meta name="twitter:description" content="Implement blockchain payments on your e-commerce website using BitPay's Ruby client library."><meta name="twitter:image" content="../images/social/bitpay-hero-og.jpg"><!-- Open Graph data (Facebook and Reddit)--><meta property="og:title" content="BitPay Ruby Library"><meta property="og:type" content="article"><meta property="og:url" content="../index.html"><meta property="og:image" content="../images/social/bitpay-hero-og.jpg"><meta property="og:description" content="Implement blockchain payments on your e-commerce website using BitPay's Ruby client library."><meta property="og:site_name" content="BitPay"><!-- Add to homescreen for Chrome on Android--><meta name="mobile-web-app-capable" content="yes"><link rel="icon" sizes="192x192" href="../images/touch/android-chrome-192x192.61659022.png"><!-- Add to homescreen for Safari on iOS--><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="BitPay Website"><link rel="apple-touch-icon" sizes="144x144" href="../images/touch/apple-touch-icon-144x144.6f64a26e.png"><link rel="apple-touch-icon" sizes="152x152" href="../images/touch/apple-touch-icon-152x152.b17759e7.png"><link rel="apple-touch-icon" sizes="180x180" href="../images/touch/apple-touch-icon-180x180.d02e843b.png"><!-- Tile icon for Windows--><meta name="msapplication-TileImage" content="../images/touch/mstile-144x144.c1e37852.png"><meta name="msapplication-square150x150logo" content="../images/touch/mstile-150x150.b17dbca0.png"><meta name="msapplication-wide310x150logo" content="../images/touch/mstile-310x150.20036d39.png"><meta name="msapplication-square310x310logo" content="../images/touch/mstile-310x310.815ff051.png"><meta name="msapplication-TileColor" content="#1D3E92"><meta name="theme-color" content="#1D3E92"><!-- Favicon--><link rel="shortcut icon" href="../favicon.ico"><noscript><script type="application/ld+json">{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "BitPay",
+  "url" : "https://bitpay.com/",
+  "logo" : "https://bitpay.com/images/bitpay-logo-inverse.png",
+  "sameAs" : [
+    "http://www.facebook.com/BitPayOfficial",
+    "http://www.twitter.com/BitPay",
+    "http://plus.google.com/b/103321420256995341273/+BitPay1/posts",
+    "http://www.linkedin.com/company/bitpay-inc-?",
+    "http://www.youtube.com/user/BitPayVideos",
+    "http://angel.co/bitpay"
+  ]
+}
+</script></noscript><meta name="google-site-verification" content="ERpG77x8sqtARiA_nXt5TPjY2fEdjDHocAoWEktHTTw"><link rel="stylesheet" href="../styles/main.d8eebd45.css" data-instant-track><link rel="stylesheet" href="../assets/banner-latest.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700"></head><body class="white-header"><div data-offcanvas class="off-canvas-wrap container"><div class="inner-wrap"><div class="bp-wrap"><div class="sticky bg-blue"><nav data-topbar style="max-width: 90rem !important" class="row top-bar"><div style="display: inline-flex; align-items: center" class="column small-4"><a href="../index.html" style="position: relative; top: 1px;" aria-label="BitPay Homepage" class="bp-logo logo margin-top"><svg width="86" height="30"><title>BitPay</title><path d="M86.1,7.4h-4.4l-2.6,10.8l-0.4,1.5c-0.3,0.1-0.5,0.1-0.8,0.2C77.5,20,77.1,20,76.6,20c-0.6,0-1-0.1-1.4-0.3
+	c-0.3-0.2-0.6-0.4-0.7-0.7c-0.1-0.3-0.2-0.7-0.2-1.1c0-0.4,0.1-0.9,0.2-1.3l1.4-5.6l0.9-3.7h-4.5L70.2,16c-0.3,1.1-0.4,2.1-0.4,2.9
+	c0,1,0.1,1.8,0.4,2.5c0.3,0.7,0.9,1.3,1.7,1.7c0.8,0.4,1.9,0.6,3.2,0.6c1,0,1.9-0.1,2.6-0.3h0.1c-0.2,0.9-0.6,1.6-1.3,2.2
+	c-0.7,0.6-1.6,0.9-2.8,0.9c-0.5,0-1.1,0-1.5-0.1l-0.9,3.6c0.6,0.1,1.3,0.1,2,0.1c1.4,0,2.6-0.2,3.5-0.5c1-0.3,1.9-0.8,2.7-1.4
+	c0.7-0.6,1.4-1.4,1.9-2.4c0.5-1,0.9-2.1,1.2-3.3l3-12.9L86.1,7.4L86.1,7.4z M67.6,16.7c-0.3,1.1-0.4,2.3-0.3,3.4
+	c0.1,1.2,0.6,2.8,1,3.7h-4.3c-0.5-0.9-0.5-1.3-0.6-1.6c-0.6,0.5-1.2,0.8-1.9,1.1c-0.7,0.3-1.4,0.5-2.3,0.5c-1,0-1.9-0.2-2.6-0.5
+	c-0.7-0.3-1.3-0.8-1.8-1.4c-0.5-0.6-0.8-1.3-1-2.1c-0.2-0.8-0.3-1.6-0.3-2.6c0-1.4,0.3-2.7,0.7-3.8c0.5-1.2,1.2-2.3,2.1-3.1
+	c0.9-0.9,2.9-2.9,6.4-2.9h6.9L67.6,16.7L67.6,16.7z M64.4,11.2c-2.1,0-2.5,0-3.3,0.4c-0.6,0.3-1.1,0.8-1.6,1.4
+	c-0.4,0.5-0.8,1.2-1.1,1.9c-0.3,0.7-0.4,1.5-0.4,2.3c0,1,0.2,1.7,0.5,2.3c0.3,0.6,0.9,0.8,1.8,0.8c0.5,0,0.9-0.1,1.3-0.3
+	c0.4-0.2,0.8-0.5,1.2-0.9c0-0.5,0.1-1,0.2-1.6c0.1-0.6,0.2-1.1,0.3-1.5L64.4,11.2 M52.5,13.9c0,1.5-0.3,2.8-0.7,4
+	c-0.5,1.2-1.2,2.3-2,3.1c-0.9,0.9-1.9,1.6-3,2.1c-1.2,0.5-2.5,0.8-3.8,0.8c-0.7,0-1.4-0.1-2.1-0.2l-1.4,5.4h-4.4l5.1-21.6h5.9
+	c1.1,0,2.1,0.2,2.8,0.5c0.8,0.3,1.5,0.8,2,1.4s0.9,1.3,1.2,2.1C52.4,12.2,52.5,13,52.5,13.9L52.5,13.9z M41.6,20
+	c0.3,0.1,0.8,0.1,1.3,0.1c0.8,0,1.5-0.1,2.2-0.4c0.6-0.3,1.2-0.7,1.7-1.2c0.5-0.5,0.8-1.2,1.1-1.9s0.4-1.6,0.4-2.5s-0.2-1.6-0.6-2.2
+	c-0.4-0.6-1.1-0.9-2-0.9h-1.8L41.6,20L41.6,20z M32.4,20c-0.6,0-1-0.1-1.4-0.3c-0.3-0.2-0.6-0.4-0.7-0.7c-0.1-0.3-0.2-0.7-0.2-1.1
+	c0-0.4,0.1-0.9,0.2-1.3l1.4-5.6h5l0.9-3.7h-5.1l1.2-4.7L29,3.4L26,16.1c-0.3,1.1-0.4,2.1-0.4,2.9c0,1,0.1,1.8,0.4,2.5
+	c0.3,0.7,0.9,1.3,1.7,1.7c0.8,0.4,1.9,0.6,3.2,0.6c1,0,1.9-0.1,2.6-0.3c0.1,0,0.2,0,0.3-0.1l0.9-3.8c-0.3,0.1-0.6,0.2-0.9,0.2
+	C33.3,20,32.9,20,32.4,20L32.4,20z M21.1,7.4l-3.9,16.4h4.4l3.9-16.4H21.1z M25.9,5.5l0.7-2.8h-4.4l-0.7,2.8H25.9z M11.3,7.4
+	c1,0,1.8,0.2,2.5,0.5s1.3,0.8,1.8,1.4c0.5,0.6,0.8,1.3,1,2.1c0.2,0.8,0.3,1.6,0.3,2.5c0,1.4-0.3,2.7-0.8,3.9
+	c-0.5,1.2-1.2,2.3-2.1,3.2c-0.9,1-1.9,1.6-3.1,2.2c-1.2,0.5-2.5,0.8-3.8,0.8H6c-0.5,0-1,0-1.6-0.1c-0.6-0.1-1.2-0.2-1.9-0.4
+	s-1.3-0.4-1.9-0.7L5.8,1.1l4.6-0.7L8.5,8.1c0.4-0.2,0.8-0.3,1.2-0.4C10.4,7.4,10.8,7.4,11.3,7.4L11.3,7.4z M7.3,20.2
+	c0.7,0,1.4-0.2,2-0.5s1.2-0.8,1.6-1.4c0.5-0.6,0.8-1.2,1.1-1.9s0.4-1.5,0.4-2.3c0-1-0.2-1.7-0.5-2.3c-0.3-0.5-1-0.8-1.9-0.8
+	c-0.3,0-0.6,0-1,0.1c-0.5,0.1-0.8,0.3-1.2,0.6l-2,8.2c0.6,0.1,0.8,0.1,0.9,0.1C6.9,20.2,7.1,20.2,7.3,20.2z"/></svg>
+</a></div><div class="column small-3 hide-for-large-up margin-top override-show"><a href="javascript:;" aria-label="menu toggle" class="right-off-canvas-toggle menu-icon right"><span></span></a></div></nav><aside class="right-off-canvas-menu"></aside></div><div class="section"><div class="row"><div class="integration-guide-body column large-8 small-12"><h1>BitPay Ruby Library<p class="lead">Implement blockchain payments on your e-commerce website using BitPay's Ruby client library.</p></h1><h2 id="using-the-bitpay-ruby-client-library">Using the BitPay Ruby Client Library</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<p>You must have a BitPay merchant account to use this library.  It&#39;s free to <a href="../dashboard/signup.html">sign-up for a BitPay merchant account</a>.</p>
+<p>Once you have a BitPay merchant account, you will need <a href="../api/getting-access.json">a working BitPay Access Token</a> – this can be done either <a href="#pairing">via the library</a> or manually in <a href="../tokens.json">the BitPay Dashboard</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="installation">Installation</h3>
+<pre><code>gem install bitpay-sdk
+</code></pre><p><br/></p>
+<p>In your Gemfile:</p>
+<pre><code>gem &#39;bitpay-sdk&#39;, :require =&gt; &#39;bitpay_sdk&#39;
+</code></pre><p><br/></p>
+<p>Or directly:</p>
+<pre><code>require &#39;bitpay_sdk&#39;
+</code></pre><p><br/></p>
+<h3 id="configuration">Configuration</h3>
+<p>The bitpay client creates a cryptographically secure connection to your server by pairing an API code with keys generated by the library. The client can be initialized with pre-existing keys passed in as a pem file, or paired if initialized with a pem file and a tokens hash. Examples can be found in the cucumber step helpers.</p>
+<h2 id="pairing">Pairing</h2>
+<p>Most calls to the BitPay REST API require that your client is paired with the bitpay.com server.  To pair with bitpay.com you need to have an approved merchant account.</p>
+<p>Your client can be paired via the <code>pos</code> (point-of-sale) or <code>merchant</code> facade (or both).  The <code>pos</code> facade allows for invoices to be created.  The <code>merchant</code> facade has broader privileges to view all invoices, bills, and ledger entries, as well as to issue refunds.  Consider the level of access required when you pair your client.</p>
+<h3 id="a-quick-note-on-keys">A quick note on keys</h3>
+<p>The BitPay client gem includes the BitPay KeyUtilities gem, which can be used to generate new public private key pairs which it returns in PEM format. However, there are no methods which save the keys anywhere, so it is your responsibility to store the PEM file somewhere secure.</p>
+<h3 id="bitpay-authentication">BitPay authentication</h3>
+<p>BitPay authentication depends on four parts:</p>
+<ol>
+<li>An account on our servers.</li>
+<li>A token shared between the client and the server.</li>
+<li>A public key, shared between the client and the server.</li>
+<li>A private key, held exclusively by the client.</li>
+</ol>
+<p>In order to complete authentication, you have to associate your private key with a token, and associate that token with an account. Once this authentication is complete, as long as you have the private key, you never have to authenticate again. The token you created will always be associated with that private key, so any time you create a new bitpay client object with that key, it is authenticated with BitPay. This is true whether you use the ruby-client, python client, or no client at all, the key is the important thing. </p>
+<p>There are two ways to authenticate, from the client side or the server side. The Ruby Client supports both.</p>
+<p>To pair from the server side, you log in to the BitPay server, navigate to dashboard/merchant/api-tokens, and create a new token. This creates a new token, which is associated with your account. It is not associated with a key, so we provide a pairing code that you can use as a one time secret to associate the token with a key. From the client side, you can use the client.pair_pos_client(&lt;pairing_code&gt;) method to associate that method with a key held by the client.</p>
+<p>To pair from the client side, you use the client to call the /tokens endpoint on the server with no parameters. This creates a token on the server and associates that token with a public key. What it doesn&#39;t do is associate that token to an account (because we don&#39;t know what account to associate with). This call returns a pairing code, which is a one time secret that allows you to find the token you just created. In order to associate the token with an account, you log in to the BitPay server, and use the dashboard/merchant/api-tokens interface to associate the token with a specific account. And example of client side pairing is shown below.</p>
+<h3 id="pairing-programatically">Pairing Programatically</h3>
+<p>If you are developing a client with built-in pairing capability, you can pair programattically using the <code>pair_client</code> method.  This method can be called in two ways:</p>
+<ul>
+<li><code>pair_client()</code> will perform a client-initiated pairing, and will provide a pairing code that can be entered at <a href="../dashboard/merchant/api-tokens.html">https://bitpay.com/dashboard/merchant/api-tokens</a> to assign either <code>merchant</code> or <code>pos</code> facade.</li>
+<li><code>pair_client(&#39;pairing_code&#39;)</code> will complete a server-initiated pairing, when provided a pre-generated pairing code from <a href="../dashboard/merchant/api-tokens.html">https://bitpay.com/dashboard/merchant/api-tokens</a>.  In this case, the <code>pos</code> facade will be automatically assigned.</li>
+</ul>
+<p>This is an example of creating a paired client with the BitPay toolset.</p>
+<pre><code>$ gem install bitpay-sdk
+Successfully installed bitpay-sdk-2.2.0
+1 gem installed
+$ irb
+2.1.1 :001 &gt; require &#39;bitpay_sdk&#39;
+ =&gt; true 
+2.1.2 :002 &gt; pem = BitPay::KeyUtils.generate_pem
+ =&gt; &quot;-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIH8oSTRm8lVMTVOsDZleIB8AmkiuHnp+ctEknqeUmZahoAcGBSuBBAAK\noUQDQgAEbjhdKA+X8NEKgcbHhyJaBMvePV7Sj6AQuOMQzuZYdskdkPY1/jlfQwNG\n4GVd/zSw4uhfukw/SDBOEKlQGVAmxQ==\n-----END EC PRIVATE KEY-----\n&quot; 
+2.1.1 :002 &gt; client = BitPay::SDK::Client.new(api_uri: &#39;https://test.bitpay.com&#39;, pem: pem)
+ =&gt; #&lt;BitPay::SDK::Client:0x000000019c6d40 @pem=&quot;---... @tokens={}&gt; 
+2.1.1 :003 &gt; client.pair_client()
+ =&gt; {&quot;data&quot;=&gt;[{&quot;policies&quot;=&gt;[{&quot;policy&quot;=&gt;&quot;id&quot;, &quot;method&quot;=&gt;&quot;inactive&quot;, &quot;params&quot;=&gt;[&quot;Tf49SFeiUAtytFEW2EUqZgWj32nP51PK73M&quot;]}], &quot;token&quot;=&gt;&quot;BKQyVdaGQZAArdkkSuvtZN5gcN2355c8vXLj5eFPkfuK&quot;, &quot;dateCreated&quot;=&gt;1422474475162, &quot;pairingExpiration&quot;=&gt;1422560875162, &quot;pairingCode&quot;=&gt;&quot;Vy76yTh&quot;}]} 
+</code></pre><p><br/></p>
+<p>As described above, using the value from the <code>pairingCode</code> element, visit <a href="https://test.bitpay.com/api-tokens">https://test.bitpay.com/api-tokens</a> and search to register for the appropriate facade. That client is now paired. As previously mentioned, you must save the pem string you generated in order to use the client again.</p>
+<h2 id="general-usage">General Usage</h2>
+<h3 id="initialize-the-client">Initialize the client</h3>
+<pre><code>client = BitPay::SDK::Client.new(pem: File.read(&#39;bitpaykey.pem&#39;))
+</code></pre><p><br/><br>Optional parameters:</p>
+<ul>
+<li><code>api_uri</code> - specify a different api endpoint (e.g. &#39;<a href="https://test.bitpay.com')/">https://test.bitpay.com&#39;)</a>.  Ensure no trailing slash.</li>
+<li><code>tokens</code> - pass a stored hash of bitpay API tokens</li>
+<li><code>user-agent</code> - specify a custom user-agent value</li>
+<li><code>debug: true</code> - enable HTTP request logging to $stdout</li>
+<li><code>insecure: true</code> - disable HTTPs certificate validation (for local test environments)</li>
+</ul>
+<h3 id="create-a-new-bitcoin-invoice">Create a new bitcoin invoice</h3>
+<pre><code>invoice = client.create_invoice(price: &lt;price&gt;, currency: &lt;currency&gt;)
+</code></pre><p><br/>
+With invoice creation, <code>price</code> and <code>currency</code> are the only required fields. If you are sending a customer from your website to make a purchase, setting <code>redirectURL</code> will redirect the customer to your website when the invoice is paid.</p>
+<p>Response will be a hash with information on your newly created invoice. Send your customer to the <code>url</code> to complete payment:</p>
+<pre><code>{
+  &quot;url&quot;: &quot;https://bitpay.com/invoice?id=NKaqMuZWy3BAcP77RdkEEv&quot;,
+  &quot;paymentUrls&quot;: {
+    &quot;BIP21&quot;: &quot;bitcoin:mvYRECDxKPaPHnjNz9ZxiTpbx29xYNoRy4?amount=0.3745&quot;,
+    &quot;BIP72&quot;: &quot;bitcoin:mvYRECDxKPaPHnjNz9ZxiTpbx29xYNoRy4?amount=0.3745&amp;r=https://bitpay.com/i/NKaqMuZWy3BAcP77RdkEEv&quot;,
+    &quot;BIP72b&quot;: &quot;bitcoin:?r=https://bitpay.com/i/NKaqMuZWy3BAcP77RdkEEv&quot;,
+    &quot;BIP73&quot;: &quot;https://bitpay.com/i/NKaqMuZWy3BAcP77RdkEEv&quot;
+  },
+  &quot;status&quot;: &quot;new&quot;,
+  &quot;btcPrice&quot;: &quot;0.3745&quot;,
+  &quot;btcDue&quot;: &quot;0.3745&quot;,
+  &quot;price&quot;: 148,
+  &quot;currency&quot;: &quot;USD&quot;,
+  &quot;exRates&quot;: {
+    &quot;USD&quot;: 395.20000000000005
+  },
+  &quot;invoiceTime&quot;: 1415987168612,
+  &quot;expirationTime&quot;: 1415988068612,
+  &quot;currentTime&quot;: 1415987168629,
+  &quot;guid&quot;: &quot;438e8237-fff1-483c-81b4-dc7dba28922a&quot;,
+  &quot;id&quot;: &quot;NKaqMuZWy3BAcP77RdkEEv&quot;,
+  &quot;transactions&quot;: [
+
+  ],
+  &quot;btcPaid&quot;: &quot;0.0000&quot;,
+  &quot;rate&quot;: 395.2,
+  &quot;exceptionStatus&quot;: false,
+  &quot;token&quot;: &quot;9kZgUXFb5AC6qMuLaMpP9WopbM8X2UjMhkphKKdaprRbSKgUJNE6JNTX8bGsmgxKKv&quot;,
+  &quot;buyer&quot;: {
+  }
+}
+</code></pre><p><br/></p>
+<p>There are many options available when creating invoices, which are listed in the <a href="../docs/index.html">BitPay API documentation</a>.</p>
+<h3 id="get-invoice-status">Get invoice status</h3>
+<p>The ruby library provides two methods for fetching an existing invoice:</p>
+<pre><code># For authorized clients with a &#39;merchant&#39; token
+client.get_invoice(id: &#39;PvVhgBfA7wKPWhuVC24rJo&#39;)
+
+# For non-authenticated clients (public facade)
+# Returns the public subset of invoice fields
+client.get_public_invoice(id: &#39;PvVhgBfA7wKPWhuVC24rJo&#39;)
+</code></pre><p><br/></p>
+<h3 id="create-a-refund-request">Create a refund request</h3>
+<p>Clients with a <code>merchant</code> token can initiate a refund request for a paid invoice:</p>
+<pre><code>client.refund_invoice(id: &#39;6pbV13VBZfGFJ8BBmXmLZ8&#39;, params: {amount: 10, currency: &#39;USD&#39;})
+</code></pre><p><br/><br>Refund rules:</p>
+<ul>
+<li>Invoices cannot be refunded prior to 6 blockchain confirmations</li>
+<li>Invoices without <code>[&quot;flags&quot;][&quot;refundable&quot;] == true</code> must specify a <code>bitcoinAddress</code> param (one was not provided as part of the transaction)</li>
+<li>Invoices that are paid in full must specify an <code>amount</code> and <code>currency</code> param to indicate the amount to be refunded</li>
+</ul>
+<h3 id="view-refund-requests">View Refund Requests</h3>
+<p>The ruby library provides two methods for viewing refund requests.  Both require a <code>merchant</code> token.</p>
+<pre><code># To get an array of all refunds against a specific invoice
+client.get_all_refunds_for_invoice(id: &#39;PvVhgBfA7wKPWhuVC24rJo&#39;)
+
+# To get a specific refund for a specific invoice
+client.get_refund(id: &#39;JB49z2MsDH7FunczeyDS8j&#39;, request_id: &#39;4evCrXq4EDXk4oqDXdWQhX&#39;)
+</code></pre><p><br/></p>
+<h3 id="cancel-refund-requests">Cancel Refund Requests</h3>
+<p>Requires a <code>merchant</code> token.</p>
+<pre><code>client.cancel_refund(id: &#39;JB49z2MsDH7FunczeyDS8j&#39;, request_id: &#39;4evCrXq4EDXk4oqDXdWQhX&#39;)
+</code></pre><p><br/></p>
+<h3 id="make-a-http-request-directly-against-the-rest-api">Make a HTTP request directly against the REST API</h3>
+<p>For API tasks which lack a dedicated library method, BitPay provides methods that will automatically apply the proper cryptographic parameters to a request.</p>
+<pre><code>client.send_request(&quot;GET&quot;, &quot;invoices/JB49z2MsDH7FunczeyDS8j&quot;, facade: &#39;merchant&#39;)
+## This request is identical to:
+token = client.get_token(&quot;merchant&quot;)
+client.get(path: &quot;invoices/JB49z2MsDH7FunczeyDS8j&quot;, token: token)
+
+## post requests are also possible
+token = client.get_token(&quot;merchant&quot;)
+client.post(path: &quot;tokens&quot;, token: token, params: {facade: &quot;pos&quot;})  #returns a new token with pairing code
+## equivalent to
+client.send_request(&quot;POST&quot;, &quot;tokens&quot;, facade: &#39;merchant&#39;, params: {facade: &#39;pos&#39;})
+</code></pre><p><br/>
+Usage:</p>
+<ul>
+<li>Specify HTTP verb and REST endpoint</li>
+<li>Specifying a <code>facade</code> will fetch and apply the corresponding <code>token</code></li>
+<li>Alternatively provide a <code>token</code> explicitly</li>
+<li>For <code>POST</code> requests, the <code>params</code> hash will be included as the message body</li>
+</ul>
+<h2 id="testnet-usage">Testnet Usage</h2>
+<p>During development and testing, take advantage of the <a href="https://en.bitcoin.it/wiki/Testnet">Bitcoin TestNet</a> by passing a custom <code>api_uri</code> option on initialization:</p>
+<pre><code>BitPay::SDK::Client.new({api_uri: &quot;https://test.bitpay.com/api&quot;})
+</code></pre><p><br/>
+Note that in order to pair with testnet, you will need a pairing code from test.bitpay.com and will need to use the bitpay client with the --test option.</p>
+<h2 id="api-documentation">API Documentation</h2>
+<p>API Documentation is available on the <a href="../api/index.html">BitPay site</a>.</p>
+<h2 id="running-the-tests">Running the Tests</h2>
+<p>In order to run the tests, you must have phantomjs installed and on your PATH.</p>
+<p>The tests require that environment variables be set for the bitpay server, user name, password, an invoice id for refunds and a valid testnet bitcoin address for refunds. First run:</p>
+<pre><code>$ source ./spec/set_constants.sh https://test.bitpay.com &lt;yourusername&gt; &lt;yourpassword&gt; &lt;a-confirmed-invoice-id&gt; &lt;a-valid-testnet-address&gt;
+$ bundle install
+$ bundle exec rake
+</code></pre><p><br/>
+Tests are likely to run up against rate limiters on test.bitpay.com if used too frequently. Rake tasks which interact directly with BitPay will not run for the general public.</p>
+</div><div class="column large-4 small-12"><div class="h5 uppercase">Integration Options</div><select id="integrationDrop" selected="Select Plugin" class="js-dropdown margin-top-less radius"><option value="#">Plugins</option><option value="#">---</option><option value="/integrations/shopify">Shopify</option><option value="/integrations/wix">Wix</option><option value="/integrations/woocommerce">WooCommerce</option><option value="/integrations/whmcs">WHMCS</option><option value="/integrations/magento1">Magento 1</option><option value="/integrations/magento2">Magento 2</option><option value="/integrations/opencart">OpenCart</option><option value="/integrations/prestashop">PrestaShop</option><option value="/integrations/easy-digital-downloads">Easy Digital Downloads</option><option value="/integrations/drupal-commerce">Drupal Commerce</option><option value="https://github.com/bitpay/ubercart-drupal8">Ubercart</option><option value="https://github.com/bitpay/zencart-plugin">Zen Cart</option></select><select id="integrationDrop" selected="Select SDK" class="js-dropdown margin-top-less radius"><option value="#">Libraries</option><option value="#">---</option><option value="/integrations/php">PHP</option><option value="/integrations/php-lite">PHP (Lite)</option><option value="/integrations/java">Java</option><option value="/integrations/java-lite">Java (Lite)</option><option value="/integrations/csharp">C# .NET</option><option value="/integrations/csharp-lite">C# .NET (Lite)</option><option value="/integrations/nodejs">Node.js</option><option value="/integrations/ruby">Ruby</option><option value="/integrations/python">Python</option></select><img src="../images/integrations/ruby.d100eea0.svg" alt="BitPay Ruby Library" style="max-width:100%" class="padding-vertical-less"><div class="h6">Category</div><p>Libraries</p><img src="../images/integrations/github-icon.b28d3f8f.svg" alt=""><a href="https://github.com/bitpay/ruby-client" class="bold">  View on GitHub</a><a href="https://rubygems.org/gems/bitpay-sdk" class="white btn btn-blue-solid uppercase bold btn-margin block text-center margin-top">view on rubygems</a></div></div></div><div class="section bg-lightblue-gradient border-top-gray"><div class="row"><div class="column medium-8 medium-offset-2"><h2 class="text-center white">Get Started with the BitPay Ruby Library integration</h2></div></div><div class="row"><div class="column medium-8 medium-offset-2 text-center"><a href="../dashboard/signup.html" class="white btn btn-blue-solid uppercase bold btn-margin">Sign Up</a><a href="https://rubygems.org/gems/bitpay-sdk" class="white btn btn-blue-border uppercase bold arrow btn-margin">view on rubygems</a></div></div></div></div><a class="exit-off-canvas"></a></div></div></body><script src="../scripts/main.min.16707520.js" data-no-instant="data-no-instant"></script><script src="../track/banner.min.js"></script>
+<!-- Mirrored from bitpay.com/integrations/ruby by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jan 2022 14:07:26 GMT -->
+</html>

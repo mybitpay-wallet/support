@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BitPay - Billing</title>
+    <defs>
+        <circle id="billing-icon-path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+        <circle id="billing-icon-path-3" cx="24" cy="24" r="24"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Components/Navigation/Dropnav/Products-(Business-+-Personal)" transform="translate(-29.000000, -160.000000)">
+            <g id="Product-(Billing)">
+                <g transform="translate(29.000000, 156.900000)">
+                    <g id="Icons/Large-(50px)/Billing" transform="translate(0.000000, 3.000000)">
+                        <g id="Icon" transform="translate(0.000000, 0.100000)">
+                            <mask id="billing-icon-mask-2" fill="white">
+                                <use xlink:href="#billing-icon-path-1"></use>
+                            </mask>
+                            <use id="Oval-4" fill="#214497" xlink:href="#billing-icon-path-1"></use>
+                            <g id="Fill-3-+-Fill-4-+-Fill-5-+-Fill-6-+-Fill-7-+-Fill-8-Mask" mask="url(#billing-icon-mask-2)">
+                                <g transform="translate(-10.000000, -12.000000)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#billing-icon-path-3"></use>
+                                    </mask>
+                                    <use  stroke="none" fill="#1A2C57" fill-rule="evenodd" xlink:href="#billing-icon-path-3"></use>
+                                </g>
+                            </g>
+                            <g  mask="url(#billing-icon-mask-2)">
+                                <g transform="translate(-3.000000, 3.000000)"></g>
+                            </g>
+                            <g id="diag-bottom-right-copy" mask="url(#billing-icon-mask-2)" fill="#4F6EF7" fill-rule="nonzero">
+                                <g transform="translate(30.000000, 32.000000) scale(-1, -1) translate(-30.000000, -32.000000) translate(14.000000, 16.000000)" id="Shape">
+                                    <path d="M31.2380998,32 L16.0000952,32 C15.6922875,32 15.414194,31.8140963 15.2960994,31.5299076 C15.1780049,31.2449569 15.2435283,30.9173398 15.4614318,30.6994363 L22.0031071,24.157761 L0.223427242,2.37808108 C-0.0744757472,2.08017809 -0.0744757472,1.59789525 0.223427242,1.30075416 L1.30075416,0.223427242 C1.59865715,-0.0744757472 2.08093999,-0.0744757472 2.37808108,0.223427242 L24.157761,22.0031071 L30.6994363,15.4614318 C30.8449593,15.3151469 31.0400057,15.238195 31.2380998,15.238195 C31.3363849,15.238195 31.4354319,15.2572425 31.5299076,15.2960994 C31.8140963,15.414194 32,15.6922875 32,16.0000952 L32,31.2380998 C32,31.6586687 31.6586687,32 31.2380998,32 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D6E09132-591C-4C55-AC4D-DA75F95B2505</title>
+    <defs>
+        <circle id="payouts-financial-compliance-icon-path-1" cx="31" cy="31" r="31"></circle>
+    </defs>
+    <g id="Product-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bitpay.com/payouts" transform="translate(-917.000000, -962.000000)">
+            <g id="Group-13" transform="translate(917.000000, 962.000000)">
+                <mask id="payouts-financial-compliance-icon-mask-2" fill="white">
+                    <use xlink:href="#payouts-financial-compliance-icon-path-1"></use>
+                </mask>
+                <use  fill="#214497" fill-rule="nonzero" xlink:href="#payouts-financial-compliance-icon-path-1"></use>
+                <g mask="url(#payouts-financial-compliance-icon-mask-2)" id="Group-3">
+                    <g transform="translate(3.000000, 17.000000)">
+                        <ellipse  fill="#BADEFC" fill-rule="nonzero" cx="10.4693878" cy="5.76923077" rx="5.81632653" ry="5.76923077"></ellipse>
+                        <ellipse  fill="#BADEFC" fill-rule="nonzero" cx="46.5306122" cy="5.76923077" rx="5.81632653" ry="5.76923077"></ellipse>
+                        <path d="M26.6962275,28.8981818 C23.5496715,27.176398 20.850248,24.7291165 18.8175892,21.7554545 C16.3426808,18.4336364 13.7840147,15 8.10559503,15 C3.63105605,15.0050101 0.00496344217,18.6652017 0,23.1818182 L0,44.0909091 C0,44.5929861 0.403222056,45 0.90062167,45 L15.3105684,45 C15.807968,45 16.2111901,44.5929861 16.2111901,44.0909091 L16.2111901,27.0227273 C18.6994099,29.3603298 21.5048,31.3282746 24.5428411,32.8672727 C24.8861411,33.0646971 25.2727132,33.172793 25.6677176,33.1818182 C26.7059551,33.1842364 27.6104286,32.4677995 27.8549768,31.4492821 C28.0995249,30.4307647 27.6203599,29.3758359 26.6962275,28.8981818 L26.6962275,28.8981818 Z" id="Path" fill="#BADEFC" fill-rule="nonzero"></path>
+                        <path d="M48.9839025,15 C43.3726342,15 40.837766,18.4336364 38.3901842,21.7554545 C36.5431964,24.452158 34.1651662,26.7257738 31.4081633,28.4309091 C32.2356877,29.8879442 32.2803204,31.6745399 31.5266234,33.1727273 C31.5569064,33.1727273 31.5862988,33.1818182 31.6156911,33.1818182 C32.0063341,33.172793 32.3886379,33.0646971 32.7281473,32.8672727 C35.7326441,31.3282746 38.5070586,29.3603298 40.9678049,27.0227273 L40.9678049,44.0909091 C40.9678049,44.5929861 41.3665748,45 41.8584824,45 L56.1093225,45 C56.6012301,45 57,44.5929861 57,44.0909091 L57,23.1818182 C56.9950914,18.6652017 53.4090361,15.0050101 48.9839025,15 Z" id="Path" fill="#BADEFC" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

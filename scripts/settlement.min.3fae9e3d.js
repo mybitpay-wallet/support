@@ -1,0 +1,2 @@
+"use strict";!function(){function e(){var e=jQuery("#settlementDrop");e.length&&e.on("change",function(){jQuery(".settlementDetails").hide();var e=this.value.split(",");jQuery.each(e,function(e,n){jQuery("#"+n).show()})})}function n(){var e=jQuery("#accordion-controller");e.on("click",function(){jQuery("#all").toggle()})}document.addEventListener("DOMContentLoaded",function(t){e(),n()})}();
+//# sourceMappingURL=/scripts/settlement.min.js.map

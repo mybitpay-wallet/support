@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BitPay - Card</title>
+    <defs>
+        <circle id="card-icon-path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation/Menu/Products-(Business-+-Personal)" transform="translate(-25.000000, -303.000000)">
+            <g id="Components/Navigation/Dropnav/Products-(Business-+-Personal)">
+                <g id="Product-(Billing)-Copy" transform="translate(25.000000, 299.000000)">
+                    <g id="Icons/Large-(50px)/Card" transform="translate(0.000000, 4.000000)">
+                        <g id="Group-2-+-Shape-+-Shape-+-Shape-Mask">
+                            <mask id="card-icon-mask-2" fill="white">
+                                <use xlink:href="#card-icon-path-1"></use>
+                            </mask>
+                            <use  fill="#DFE5FF" xlink:href="#card-icon-path-1"></use>
+                            <g id="credit-card" mask="url(#card-icon-mask-2)">
+                                <g transform="translate(15.000000, 10.000000)">
+                                    <path d="M34.5869565,27 L2.41304348,27 C1.08023913,27 0,25.9335 0,24.6176471 L0,2.38235294 C0,1.0665 1.08023913,0 2.41304348,0 L34.5869565,0 C35.9197609,0 37,1.0665 37,2.38235294 L37,24.6176471 C37,25.9335 35.9197609,27 34.5869565,27 Z" id="Path" fill="#4F6EF7"></path>
+                                    <rect id="Rectangle" fill="#223E49" x="0" y="5" width="37" height="6"></rect>
+                                    <rect id="Rectangle" fill="#A2B1F3" x="5" y="16" width="18" height="3"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,410 @@
+<!-- used by pages--><!DOCTYPE html><html lang="en" ng-csp>
+<!-- Mirrored from bitpay.com/docs/payment-protocol by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jan 2022 14:06:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>JSON Payment Protocol V2 | BitPay Documentation</title><meta name="description" content="Start accepting bitcoin, store and spend bitcoin securely, or get the BitPay Card."><!-- Twitter Card data--><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@BitPay"><meta name="twitter:title" content="BitPay"><meta name="twitter:description" content="Start accepting bitcoin, store and spend bitcoin securely, or get the BitPay Card."><meta name="twitter:image" content="../images/social/bitpay-hero-og.jpg"><!-- Open Graph data (Facebook and Reddit)--><meta property="og:title" content="BitPay"><meta property="og:type" content="article"><meta property="og:url" content="../index.html"><meta property="og:image" content="../images/social/bitpay-hero-og.jpg"><meta property="og:description" content="Start accepting bitcoin, store and spend bitcoin securely, or get the BitPay Card."><meta property="og:site_name" content="BitPay"><!-- Add to homescreen for Chrome on Android--><meta name="mobile-web-app-capable" content="yes"><link rel="icon" sizes="192x192" href="../images/touch/android-chrome-192x192.61659022.png"><!-- Add to homescreen for Safari on iOS--><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="BitPay Website"><link rel="apple-touch-icon" sizes="144x144" href="../images/touch/apple-touch-icon-144x144.6f64a26e.png"><link rel="apple-touch-icon" sizes="152x152" href="../images/touch/apple-touch-icon-152x152.b17759e7.png"><link rel="apple-touch-icon" sizes="180x180" href="../images/touch/apple-touch-icon-180x180.d02e843b.png"><!-- Tile icon for Windows--><meta name="msapplication-TileImage" content="../images/touch/mstile-144x144.c1e37852.png"><meta name="msapplication-square150x150logo" content="../images/touch/mstile-150x150.b17dbca0.png"><meta name="msapplication-wide310x150logo" content="../images/touch/mstile-310x150.20036d39.png"><meta name="msapplication-square310x310logo" content="../images/touch/mstile-310x310.815ff051.png"><meta name="msapplication-TileColor" content="#1D3E92"><meta name="theme-color" content="#1D3E92"><!-- Favicon--><link rel="shortcut icon" href="../favicon.ico"><noscript><script type="application/ld+json">{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "BitPay",
+  "url" : "https://bitpay.com/",
+  "logo" : "https://bitpay.com/images/bitpay-logo-inverse.png",
+  "sameAs" : [
+    "http://www.facebook.com/BitPayOfficial",
+    "http://www.twitter.com/BitPay",
+    "http://plus.google.com/b/103321420256995341273/+BitPay1/posts",
+    "http://www.linkedin.com/company/bitpay-inc-?",
+    "http://www.youtube.com/user/BitPayVideos",
+    "http://angel.co/bitpay"
+  ]
+}
+</script></noscript><meta name="google-site-verification" content="ERpG77x8sqtARiA_nXt5TPjY2fEdjDHocAoWEktHTTw"><link rel="stylesheet" href="../styles/main.d8eebd45.css" data-instant-track><link rel="stylesheet" href="../assets/banner-latest.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700"></head><body class="white-header"><div data-offcanvas class="off-canvas-wrap container"><div class="inner-wrap"><div class="bp-wrap"><div class="sticky bg-blue"><nav data-topbar style="max-width: 90rem !important" class="row top-bar"><div style="display: inline-flex; align-items: center" class="column small-4"><a href="../index.html" style="position: relative; top: 1px;" aria-label="BitPay Homepage" class="bp-logo logo margin-top"><svg width="86" height="30"><title>BitPay</title><path d="M86.1,7.4h-4.4l-2.6,10.8l-0.4,1.5c-0.3,0.1-0.5,0.1-0.8,0.2C77.5,20,77.1,20,76.6,20c-0.6,0-1-0.1-1.4-0.3
+	c-0.3-0.2-0.6-0.4-0.7-0.7c-0.1-0.3-0.2-0.7-0.2-1.1c0-0.4,0.1-0.9,0.2-1.3l1.4-5.6l0.9-3.7h-4.5L70.2,16c-0.3,1.1-0.4,2.1-0.4,2.9
+	c0,1,0.1,1.8,0.4,2.5c0.3,0.7,0.9,1.3,1.7,1.7c0.8,0.4,1.9,0.6,3.2,0.6c1,0,1.9-0.1,2.6-0.3h0.1c-0.2,0.9-0.6,1.6-1.3,2.2
+	c-0.7,0.6-1.6,0.9-2.8,0.9c-0.5,0-1.1,0-1.5-0.1l-0.9,3.6c0.6,0.1,1.3,0.1,2,0.1c1.4,0,2.6-0.2,3.5-0.5c1-0.3,1.9-0.8,2.7-1.4
+	c0.7-0.6,1.4-1.4,1.9-2.4c0.5-1,0.9-2.1,1.2-3.3l3-12.9L86.1,7.4L86.1,7.4z M67.6,16.7c-0.3,1.1-0.4,2.3-0.3,3.4
+	c0.1,1.2,0.6,2.8,1,3.7h-4.3c-0.5-0.9-0.5-1.3-0.6-1.6c-0.6,0.5-1.2,0.8-1.9,1.1c-0.7,0.3-1.4,0.5-2.3,0.5c-1,0-1.9-0.2-2.6-0.5
+	c-0.7-0.3-1.3-0.8-1.8-1.4c-0.5-0.6-0.8-1.3-1-2.1c-0.2-0.8-0.3-1.6-0.3-2.6c0-1.4,0.3-2.7,0.7-3.8c0.5-1.2,1.2-2.3,2.1-3.1
+	c0.9-0.9,2.9-2.9,6.4-2.9h6.9L67.6,16.7L67.6,16.7z M64.4,11.2c-2.1,0-2.5,0-3.3,0.4c-0.6,0.3-1.1,0.8-1.6,1.4
+	c-0.4,0.5-0.8,1.2-1.1,1.9c-0.3,0.7-0.4,1.5-0.4,2.3c0,1,0.2,1.7,0.5,2.3c0.3,0.6,0.9,0.8,1.8,0.8c0.5,0,0.9-0.1,1.3-0.3
+	c0.4-0.2,0.8-0.5,1.2-0.9c0-0.5,0.1-1,0.2-1.6c0.1-0.6,0.2-1.1,0.3-1.5L64.4,11.2 M52.5,13.9c0,1.5-0.3,2.8-0.7,4
+	c-0.5,1.2-1.2,2.3-2,3.1c-0.9,0.9-1.9,1.6-3,2.1c-1.2,0.5-2.5,0.8-3.8,0.8c-0.7,0-1.4-0.1-2.1-0.2l-1.4,5.4h-4.4l5.1-21.6h5.9
+	c1.1,0,2.1,0.2,2.8,0.5c0.8,0.3,1.5,0.8,2,1.4s0.9,1.3,1.2,2.1C52.4,12.2,52.5,13,52.5,13.9L52.5,13.9z M41.6,20
+	c0.3,0.1,0.8,0.1,1.3,0.1c0.8,0,1.5-0.1,2.2-0.4c0.6-0.3,1.2-0.7,1.7-1.2c0.5-0.5,0.8-1.2,1.1-1.9s0.4-1.6,0.4-2.5s-0.2-1.6-0.6-2.2
+	c-0.4-0.6-1.1-0.9-2-0.9h-1.8L41.6,20L41.6,20z M32.4,20c-0.6,0-1-0.1-1.4-0.3c-0.3-0.2-0.6-0.4-0.7-0.7c-0.1-0.3-0.2-0.7-0.2-1.1
+	c0-0.4,0.1-0.9,0.2-1.3l1.4-5.6h5l0.9-3.7h-5.1l1.2-4.7L29,3.4L26,16.1c-0.3,1.1-0.4,2.1-0.4,2.9c0,1,0.1,1.8,0.4,2.5
+	c0.3,0.7,0.9,1.3,1.7,1.7c0.8,0.4,1.9,0.6,3.2,0.6c1,0,1.9-0.1,2.6-0.3c0.1,0,0.2,0,0.3-0.1l0.9-3.8c-0.3,0.1-0.6,0.2-0.9,0.2
+	C33.3,20,32.9,20,32.4,20L32.4,20z M21.1,7.4l-3.9,16.4h4.4l3.9-16.4H21.1z M25.9,5.5l0.7-2.8h-4.4l-0.7,2.8H25.9z M11.3,7.4
+	c1,0,1.8,0.2,2.5,0.5s1.3,0.8,1.8,1.4c0.5,0.6,0.8,1.3,1,2.1c0.2,0.8,0.3,1.6,0.3,2.5c0,1.4-0.3,2.7-0.8,3.9
+	c-0.5,1.2-1.2,2.3-2.1,3.2c-0.9,1-1.9,1.6-3.1,2.2c-1.2,0.5-2.5,0.8-3.8,0.8H6c-0.5,0-1,0-1.6-0.1c-0.6-0.1-1.2-0.2-1.9-0.4
+	s-1.3-0.4-1.9-0.7L5.8,1.1l4.6-0.7L8.5,8.1c0.4-0.2,0.8-0.3,1.2-0.4C10.4,7.4,10.8,7.4,11.3,7.4L11.3,7.4z M7.3,20.2
+	c0.7,0,1.4-0.2,2-0.5s1.2-0.8,1.6-1.4c0.5-0.6,0.8-1.2,1.1-1.9s0.4-1.5,0.4-2.3c0-1-0.2-1.7-0.5-2.3c-0.3-0.5-1-0.8-1.9-0.8
+	c-0.3,0-0.6,0-1,0.1c-0.5,0.1-0.8,0.3-1.2,0.6l-2,8.2c0.6,0.1,0.8,0.1,0.9,0.1C6.9,20.2,7.1,20.2,7.3,20.2z"/></svg>
+</a></div><div class="column small-3 hide-for-large-up margin-top override-show"><a href="javascript:;" aria-label="menu toggle" class="right-off-canvas-toggle menu-icon right"><span></span></a></div></nav><aside class="right-off-canvas-menu"></aside></div><div class="row padding-vertical medium-padding-bottom-most"><div class="column large-3 xlarge-3 hide-for-medium-down"><ul data-accordion="data-accordion" class="side-nav large-border-right-gray padding-right-less"><li class="uppercase h3">Documentation</li><li><a href="index.html" title="Home">Home</a></li><li><a href="getting-started.html" title="Getting Started">Getting Started</a></li><li><a href="settlement.html" title="Banking &amp; Settlements">Banking &amp; Settlements</a></li><li class="divider"></li><li class="uppercase h3">Development</li><li><a href="testing.html" title="Testing">Testing</a></li><li><a href="plugins.html" title="Plugins">Plugins</a></li><li><a href="libraries.html" title="Libraries">Libraries</a></li><li><a href="create-invoice.html" title="Creating Invoices">Creating Invoices</a></li><li><a href="checkout-page.html" title="Checkout Page">Checkout Page</a></li><li><a href="display-invoice.html" title="Displaying Invoices">Displaying Invoices</a></li><li><a href="invoice-webhooks.html" title="Invoice Webhooks">Invoice Webhooks</a></li><li><a href="invoice-states.html" title="Invoice States">Invoice States</a></li><li><a href="../api/index.html" title="API Reference">API Reference</a></li><li class="divider"></li><li class="uppercase h3">Use Cases</li><li><a href="ecommerce.html" title="Ecommerce">Ecommerce</a></li><li><a href="../retail/index.html" title="Retail">Retail</a></li><li><a href="../billing/index.html" title="Cross-Border Billing">Cross-Border Billing</a></li><li><a href="donations.html" title="Donations">Donations</a></li><li class="divider"></li><li class="uppercase h3">Resources</li><li><a href="https://support.bitpay.com/hc/en-us/articles/115003014726-What-is-bitcoin-" title="What is Bitcoin?">What is Bitcoin?</a></li><li><a href="https://support.bitpay.com/hc/en-us/articles/360042264212" title="How to Get Bitcoin">How to Get Bitcoin</a></li><li><a href="https://support.bitpay.com/hc/en-us/articles/360042265412" title="How to Secure Bitcoin">How to Secure Bitcoin</a></li><li><a href="https://support.bitpay.com/hc/en-us/articles/115005559826" title="How to Pay with Bitcoin">How to Pay with Bitcoin</a></li><li><a href="https://brand.bitpay.com/" title="Brand Guide">Brand Guide</a></li><li><a href="../exchange-rates/index.html" title="BitPay Exchange Rate">BitPay Exchange Rate</a></li><li class="divider"></li><li class="uppercase h3">Wallet Integrations</li><li><a href="payment-protocol.html" title="JSON Payment Protocol" class="active">JSON Payment Protocol</a></li><li class="divider"></li></ul></div><div class="column large-9 xlarge-9"><h1 class="header--bottom-border-left h2">JSON Payment Protocol</h1><p class="lead">BitPay invoices support can be paid with wallet supporting the Payment Protocol which dramatically reduces costly payment errors which happen someone pays too much, too little, too late, or their payment does not include a sufficient miner fee, resulting in a delay in confirmation. </p><p>To make it easier for wallet and exchange developers to implement the security and user experience improvements that come with Payment Protocol, we've created our own Payment Protocol interface using JSON. JSON is a more familiar serialization format for API developers, it will make understanding and implementing Payment Protocol significantly simpler for wallets and exchanges.</p><p>This JSON Payment Protocol interface for wallets and exchanges is also currency-agnostic, so it will work seamlessly with other currencies accepted on BitPay invoices in the future.</p><p>Our interface and implementation spec deviates slightly from the <a href="https://github.com/bitcoin/bips/blob/master/bip-0070.mediawiki" target="_blank">BIP-70 implementation</a> of Payment Protocol. The JSON interface provides for direct communication between a wallet and BitPay's servers. If a wallet submits an incorrect payment to BitPay, BitPay's servers will reject the transaction. This prevents any transactions which will result in a failed payment from reaching the Bitcoin blockchain and costing users unnecessary miner fees. We expect that this change will allow us to reduce payment errors to zero.</p><p>Wallet developers and exchanges can download the corresponding library and build support for the BitPay JSON Payment protocol in their wallet which will ensure an optimum payment experience for their consumers when shopping online at merchants supporting BitPay.</p><h3>Getting started</h3><p><code>npm install json-payment-protocol</code></p><p>The corresponding specification is detailed below, the open source code is also available in full on <a href="https://github.com/bitpay/jsonPaymentProtocol" target="_blank">GitHub</a>.</p><br><h2 id="applicationlogic">Application Logic</h2><p><ol><li>(Client) Wallet obtains payment protocol uri</li><li>(Client) Selects a currency from the list of payment-options</li><li>(Client) Fetches payment information from server</li><li>(Server) Verifies invoice exists and is still accepting payments, responds with payment-request</li><li>(Client) Validates payment request hash</li><li>(Client) Validates payment request signature</li><li>(Client) Generates a payment to match instructions on payment-request</li><li>(Client) Submits proposed unsigned transaction (and size of signed transaction for BTC/BCH) to server</li><li>(Server) Validates invoice exists and is still accepting payments</li><li>(Server) Validates payment matches address, amount, and currency of invoice and has a reasonable transaction fee.</li><li>(Server) Notifies client payment will be accepted</li><li>(Client) Sends payment to server and broadcasts to p2p network</li><li>(Server) Validates signed payment and broadcasts payment to network.</li></ol></p><p>In general, the payment should not be broadcast by the client. If at time of verification the payment is rejected by the server<strong> your client must not broadcast the payment</strong>.
+Broadcasting a payment before getting a success notification back from the server will in most cases lead to a failed payment for the sender. The sender will bear the cost of paying transaction fees yet again to get their money back.</p><p><img src="../images/JSON_Paypro-08e02e09.0f900986.svg" alt="payment flow"></p><br><br><h2 id="paymentoptions">Payment Options</h2><hr><br><h3 id="request-1">Request</h3><p>A <strong>GET</strong> request should be made to the payment protocol url:<ul><li><code>/i/&lt;invoiceId&gt;</code></li></ul></p><h4 id="headers-1">Headers</h4><p><ul><li><code>Accept: application/payment-options</code></li><li><code>X-Paypro-Version: 2</code></li></ul></p><br><h3 id="response-1">Response</h3><p>A list of payment options will be returned.</p><pre class="code">{
+  "time":"2021-06-02T14:25:47.205Z",
+  "expires":"2021-06-02T14:40:47.205Z",
+  "memo":"Payment request for BitPay invoice PfCwZLxWctSrdgYcnJM8G8 for merchant Test Organization",
+  "paymentUrl":"https://bitpay.com/i/PfCwZLxWctSrdgYcnJM8G8",
+  "paymentId":"PfCwZLxWctSrdgYcnJM8G8",
+  "paymentOptions":[
+    {
+      "chain":"BTC",
+      "currency":"BTC",
+      "network":"main",
+      "estimatedAmount":33100,
+      "requiredFeeRate":41.915,
+      "minerFee":6500,
+      "decimals":8,
+      "selected":true
+    },
+    {
+      "chain":"BCH",
+      "currency":"BCH",
+      "network":"main",
+      "estimatedAmount":1427800,
+      "requiredFeeRate":1,
+      "minerFee":0,
+      "decimals":8,
+      "selected":false
+    },
+    {
+      "chain":"ETH",
+      "currency":"ETH",
+      "network":"main",
+      "estimatedAmount":3660000000000000,
+      "requiredFeeRate":36500000000,
+      "minerFee":0,
+      "decimals":18,
+      "selected":false
+    },
+    {
+      "chain":"ETH",
+      "currency":"GUSD",
+      "network":"main",
+      "estimatedAmount":1000,
+      "requiredFeeRate":36500000000,
+      "minerFee":0,
+      "decimals":2,
+      "selected":false
+    },
+    {
+      "chain":"ETH",
+      "currency":"PAX",
+      "network":"main",
+      "estimatedAmount":10000000000000000000,
+      "requiredFeeRate":36500000000,
+      "minerFee":0,
+      "decimals":18,
+      "selected":false
+    },
+    {
+      "chain":"ETH",
+      "currency":"BUSD",
+      "network":"main",
+      "estimatedAmount":10000000000000000000,
+      "requiredFeeRate":36500000000,
+      "minerFee":0,
+      "decimals":18,
+      "selected":false
+    },
+    {
+      "chain":"ETH",
+      "currency":"USDC",
+      "network":"main",
+      "estimatedAmount":10000000,
+      "requiredFeeRate":36500000000,
+      "minerFee":0,
+      "decimals":6,
+      "selected":false
+    },
+    {
+      "chain":"XRP",
+      "currency":"XRP",
+      "network":"main",
+      "estimatedAmount":9822618,
+      "requiredFeeRate":12,
+      "minerFee":0,
+      "decimals":6,
+      "selected":false
+    },
+    {
+      "chain":"DOGE",
+      "currency":"DOGE",
+      "network":"main",
+      "estimatedAmount":2412370600,
+      "requiredFeeRate":958724.946,
+      "minerFee":0,
+      "decimals":8,
+      "selected":false
+    },
+    {
+      "chain":"ETH",
+      "currency":"DAI",
+      "network":"main",
+      "estimatedAmount":9990000000000000000,
+      "requiredFeeRate":36500000000,
+      "minerFee":0,
+      "decimals":18,
+      "selected":false
+    },
+    {
+      "chain":"ETH",
+      "currency":"WBTC",
+      "network":"main",
+      "estimatedAmount":26500,
+      "requiredFeeRate":36500000000,
+      "minerFee":0,
+      "decimals":8,
+      "selected":false
+    }
+  ]
+}</pre><br><h4 id="body-1">Body</h4><p><ul><li><code>time</code> - ISO Date format of when the invoice was generated</li><li><code>expires</code> - ISO Date format of when the invoice will expire</li><li><code>memo</code> - A plain text description of the payment request, can be displayed to the user / kept for records</li><li><code>paymentUrl</code> - The url where the payment should be sent</li><li><code>paymentId</code> - The invoice ID, can be kept for records</li><li><code>paymentOptions</code> - An array of payment options. Each option includes the chain and currency</li></ul></p><br><h5 id="paymentoptions">Payment Options</h5><p>Each payment option includes</p><ul><li><code>chain</code> - The chain that the transaction should be valid on</li><li><code>currency</code> - The currency on a given chain that the trasaction should be denominated in</li><li><code>network</code> - The network that the transaction should be valid on</li><li><code>estimatedAmount</code> - Amount of currency units required to pay this invoice</li><li><code>decimals</code> - Number of decimal places the currency uses</li></ul><br><h2 id="paymentrequest">Payment Request</h2><hr><br><h3 id="request-2">Request</h3><p>A <strong>POST</strong> request should be made to the payment protocol url with <code>&lbrace;chain,currency&rbrace;</code>:<ul><li><code>/i/&lt;invoiceId&gt;</code></li></ul></p><h4 id="headers-2">Headers</h4><p><ul><li><code>Content-Type: application/payment-request</code></li><li><code>X-Paypro-Version: 2</code></li></ul></p><p><strong>Note:</strong><ul><li>Do <strong>NOT</strong> use the standard <code>Content-Type: application/json</code></li><li> Do <strong>NOT</strong> include an <code>Accept</code> property</li></ul></p><h4 id="body-2">Body</h4><p><ul><li><code>chain</code> - a chain that was present in the payment-options response</li><li><code>currency</code> - Optional, the particular currency on the chain you will pay with. Defaults to chain</li></ul></p><pre class="code">{
+  "chain": "&lt;chain 3 letter code&gt;",
+  "currency": "&lt;optional (ERC20) 3 letter code&gt;",
+}</pre><br><h3 id="response-2">Response</h3><br><h4 id="btcresponse">BTC Response</h4><pre class="code">{
+  "time": "2019-06-13T18:34:09.010Z",
+  "expires": "2019-06-13T18:49:09.010Z",
+  "memo": "Payment request for BitPay invoice PfCwZLxWctSrdgYcnJM8G8 for merchant Test Account",
+  "paymentUrl": "https://test.bitpay.com/i/PfCwZLxWctSrdgYcnJM8G8",
+  "paymentId": "PfCwZLxWctSrdgYcnJM8G8",
+  "chain": "BTC",
+  "network": "test",
+  "instructions": [
+    {
+      "type": "transaction",
+      "requiredFeeRate": 20,
+      "outputs": [
+        {
+          "amount": 15100,
+          "address": "my6aWcW2r3WiXpnK2MMWHfGgQ1VFmA2LLv"
+        }
+      ]
+    }
+  ]
+}</pre><br><h4 id="bchresponse">BCH Response</h4><pre class="code">{
+  "time": "2019-06-13T18:35:19.138Z",
+  "expires": "2019-06-13T18:50:19.138Z",
+  "memo": "Payment request for BitPay invoice TiXuyEmcJRCcinoFoY3Cym for merchant Test Account",
+  "paymentUrl": "https://test.bitpay.com/i/TiXuyEmcJRCcinoFoY3Cym",
+  "paymentId": "TiXuyEmcJRCcinoFoY3Cym",
+  "chain": "BCH",
+  "network": "test",
+  "instructions": [
+    {
+      "type": "transaction",
+      "requiredFeeRate": 1,
+      "outputs": [
+        {
+          "amount": 239200,
+          "address": "n3YaQSkTXrpbQyAns1kQQRxsECMn9ifx5n"
+        }
+      ]
+    }
+  ]
+}</pre><br><h4 id="ethresponse">ETH Response</h4><pre class="code">{
+  "time": "2019-06-13T18:33:00.827Z",
+  "expires": "2019-06-13T18:48:00.827Z",
+  "memo": "Payment request for BitPay invoice S6cxqqUNUcMV41dfBS8XHn for merchant Test Account",
+  "paymentUrl": "https://test.bitpay.com/i/S6cxqqUNUcMV41dfBS8XHn",
+  "paymentId": "S6cxqqUNUcMV41dfBS8XHn",
+  "chain": "ETH",
+  "network": "test",
+  "instructions": [
+    {
+      "type": "transaction",
+      "value": 3836000000000000,
+      "to": "0x37d7B3bBD88EFdE6a93cF74D2F5b0385D3E3B08A",
+      "data": "0xb6b4af05000000000000000000000000000000000000000000000000000da0d2595bc000000000000000000000000000000000000000000000000000000000174876e8000000000000000000000000000000000000000000000000000000016b55554827c63ba4a65dfaf06093315d08f3240fdd0724409e09ea250226f656964dcb44d17a565f7590c67cdb3241eb969f1c24db402ef5714e822a574afa8b6802a2a4ca000000000000000000000000000000000000000000000000000000000000001c456e391b0b2ef6d8d130fdff97085189eecc10f3f78f2b5cdaed24609ca89fd42aafed00dccb025ba383d4afecbf136b6a2e480620bb2c30f8d5a3e71d7f88090000000000000000000000000000000000000000000000000000000000000000",
+      "gasPrice": 100000000000
+    }
+  ]
+}</pre><br><h4 id="ethgusdresponse-1">ETH GUSD Response</h4><pre class="code">{
+  "time": "2019-06-13T18:31:47.350Z",
+  "expires": "2019-06-13T18:46:47.350Z",
+  "memo": "Payment request for BitPay invoice U6V72eVXTBsF5VQbTxVamu for merchant Test Account",
+  "paymentUrl": "https://test.bitpay.com/i/U6V72eVXTBsF5VQbTxVamu",
+  "paymentId": "U6V72eVXTBsF5VQbTxVamu",
+  "chain": "ETH",
+  "network": "test",
+  "currency": "GUSD",
+  "instructions": [
+    {
+      "type": "transaction",
+      "value": 0,
+      "to": "0xFEb423814D0208e9e2a3F5B0F0171e97376E20Bc",
+      "data": "0x095ea7b300000000000000000000000037d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a0000000000000000000000000000000000000000000000000000000000000064",
+      "gasPrice": 100000000000
+    },
+    {
+      "type": "transaction",
+      "value": 0,
+      "to": "0x37d7B3bBD88EFdE6a93cF74D2F5b0385D3E3B08A",
+      "data": "0xb6b4af050000000000000000000000000000000000000000000000000000000000000064000000000000000000000000000000000000000000000000000000174876e8000000000000000000000000000000000000000000000000000000016b5554293eea9865f7c52cfb4af7b4aa755d2d339ae61a2c2713fcc467e6f4dcd5149114d627c1ade24c1c22b4e4b87de860524acb1696dfacb31e5fd299e98e3ec9b692d8000000000000000000000000000000000000000000000000000000000000001bf0aa17a43365bc04a43b166f642aaf8e99f59972e52de08ad25e54ac5f57110571378ecd381ff0275ac73f2030fe6f93a330a2d6860d433707ca95ae2f1dd1c8000000000000000000000000feb423814d0208e9e2a3f5b0f0171e97376e20bc",
+      "gasPrice": 100000000000
+    }
+  ]
+}</pre><br><h4 id="Headers">Headers</h4><p>On a successful request, the response will contain the following headers.<ul><li><code>digest</code> - A SHA256 hash of the JSON response string, should be verified by the client before proceeding</li><li><code>x-identity</code> - An identifier to represent which public key should be used to verify the signature. For example for BitPay's ECC keys we will include the public key hash in this header.  Implementations should <strong>NOT</strong> include the public key here directly.</li><li><code>x-signature-type</code> - The signature format used to sign the payload. For the foreseeable future BitPay will always use <code>ECC</code>. However, we wanted to grant some flexibility to the specification.</li><li><code>x-signature</code> - A cryptographic signature of the SHA256 hash of the payload. This is to prove that the payment request was not tampered with before being received by the wallet.</li></ul></p><br><h4 id="body-3">Body</h4><ul><li><code>time</code> - ISO Date format of when the invoice was generated</li><li><code>expires</code> - ISO Date format of when the invoice will expire</li><li><code>memo</code> - A plain text description of the payment request, can be displayed to the user / kept for records</li><li><code>paymentUrl</code> - The url where the payment should be sent</li><li><code>paymentId</code> - The invoice ID, can be kept for records</li><li><code>chain</code> - Three letter code for the chain these instructions are valid for</li><li><code>currency</code> - Optional, Three letter code for the token these instructions are valid for</li><li><code>instructions</code> - An array of instructions that can be used to construct transactions that will fufill this payment</li></ul><br><br><h2 id="paymentverification">Payment Verification</h2><hr><p>Our next step is to generate a funded transaction and send the unsigned version as well as the weighted size to the server, to make sure the payment is valid and will be accepted.</p><h3 id="request-3">Request</h3><p>A <strong>POST</strong> request should be made to the payment protocol url:<ul><li><code>/i/&lt;invoiceId&gt;</code></li></ul></p><h4 id="headers-3">Headers</h4><p><ul><li><code>Content-Type: application/payment-verification</code></li><li><code>X-Paypro-Version: 2</code></li></ul></p><h4 id="body-4">Body</h4><p><ul><li><code>chain</code> - a chain that was present in the payment-options response</li><li><code>transaction</code> - array contening the unsigned transaction as well as the weighted size</li><li><code>currency</code> - Optional, the particular currency on the chain you will pay with (for ERC20 tokens)</li></ul></p><pre class="code">{
+  "chain": "&lt;chain 3 letter code&gt;",
+  "transactions": "&lt;{tx: string, weightedSize?: number}&gt;",
+  "currency": "&lt;optional (ERC20) 3 letter code&gt;",
+}</pre><br><p><ul><li> <code>weightedSize</code> is the length of the signed transaction in bytes, or the transaction "weight" in the Bitcoin blockchain.</li><li><code>tx</code> is the hex-encoded unsigned transaction. In Bitcoin-family cryptocurrencies, "unsigned" means that the input script has length 0</li></ul></p><br><h5>Success</h5><p>A 200 return code means that the transaction is valid. Additional fields are available for display and analysis as described in the example section.</p><h5>Troubleshooting</h5><p>400 Read a detailed problem description from the http error stream</p><br><h4 id="ethgusdbody-1">ETH - GUSD Body</h4><pre class="code">{
+  "chain": "ETH",
+  "currency": "GUSD",
+  "transactions": [
+    {
+      "tx": "0xf8aa3c85174876e800830493e094feb423814d0208e9e2a3f5b0f0171e97376e20bc80b844095ea7b300000000000000000000000037d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a00000000000000000000000000000000000000000000000000000000000000641ca01c389df7ea8e3bfb2b2d5f18677cf06924796ad051185032970e7905cd212998a01244f5b7bd0ed69eb79c78f67cb9be3b3f976d7546dd0fa172fa3a31a2a12a3a"
+    },
+    {
+      "tx": "0xf9018b3d85174876e800830493e09437d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a80b90124b6b4af050000000000000000000000000000000000000000000000000000000000000064000000000000000000000000000000000000000000000000000000174876e8000000000000000000000000000000000000000000000000000000016b5589330e6aafc7133617b0a196c9a74c030d8a6b0582313f87f551eece47c62c8f12fb097a8f09c5964f8875471d788b6543bc98bbfe1601de04279d67b05bb172a2870d000000000000000000000000000000000000000000000000000000000000001b2f6df07a001e20d8fddd8ff7941540afe9d414bff0122664d769901ab5f496c15b7ad8c6092c7fba6877ffd1c37167c66494f5e6995e4431bebf1d8608ee8ab5000000000000000000000000feb423814d0208e9e2a3f5b0f0171e97376e20bc1ba06caeb6eec8aa7abbf761e755233f6cefb5d92d05107b00cc3e7799e449088003a046a6f3d863b81faa7a82a8c67b433ef449346745038443bfd6015b617ea3a58e"
+    }
+  ]
+}</pre><br><h4 id="ethgusdresponse-2">ETH - GUSD Response</h4><pre class="code">{
+  "payment": {
+    "currency": "GUSD",
+    "chain": "ETH",
+    "transactions": [
+      {
+        "tx": "0xf8aa3c85174876e800830493e094feb423814d0208e9e2a3f5b0f0171e97376e20bc80b844095ea7b300000000000000000000000037d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a00000000000000000000000000000000000000000000000000000000000000641ca01c389df7ea8e3bfb2b2d5f18677cf06924796ad051185032970e7905cd212998a01244f5b7bd0ed69eb79c78f67cb9be3b3f976d7546dd0fa172fa3a31a2a12a3a"
+      },
+      {
+        "tx": "0xf9018b3d85174876e800830493e09437d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a80b90124b6b4af050000000000000000000000000000000000000000000000000000000000000064000000000000000000000000000000000000000000000000000000174876e8000000000000000000000000000000000000000000000000000000016b5589330e6aafc7133617b0a196c9a74c030d8a6b0582313f87f551eece47c62c8f12fb097a8f09c5964f8875471d788b6543bc98bbfe1601de04279d67b05bb172a2870d000000000000000000000000000000000000000000000000000000000000001b2f6df07a001e20d8fddd8ff7941540afe9d414bff0122664d769901ab5f496c15b7ad8c6092c7fba6877ffd1c37167c66494f5e6995e4431bebf1d8608ee8ab5000000000000000000000000feb423814d0208e9e2a3f5b0f0171e97376e20bc1ba06caeb6eec8aa7abbf761e755233f6cefb5d92d05107b00cc3e7799e449088003a046a6f3d863b81faa7a82a8c67b433ef449346745038443bfd6015b617ea3a58e"
+      }
+    ]
+  },
+  "memo": "Payment appears valid"
+}</pre><br><h4 id="xrpbody-1">XRP Body</h4><pre class="code">{
+  "chain": "XRP",
+  "currency": "XRP",
+  "transactions": [
+    {
+      "tx": "120000228000000024000000095011F6751F266C7E664CB3CDAE77D091ED73E3D365591D8FA769BEA9F694C5C4A5DF614000000000448E1768400000000000000C81148FF291E50F16A206B96D383E1F86CC47E21727DA8314C5B8A782192BFF4D8FF629A88BEEB417A4D9EEB2"
+    }
+  ]
+}</pre><br><h4 id="xrpresponse-1">XRP Response</h4><pre class="code">{
+  "payment": {
+    "currency": "XRP",
+    "chain": "XRP",
+    "transactions": [
+      {
+        "tx": "120000228000000024000000095011F6751F266C7E664CB3CDAE77D091ED73E3D365591D8FA769BEA9F694C5C4A5DF614000000000448E1768400000000000000C81148FF291E50F16A206B96D383E1F86CC47E21727DA8314C5B8A782192BFF4D8FF629A88BEEB417A4D9EEB2"
+      }
+    ]
+  },
+  "memo": "Payment appears valid"
+}</pre><br><h2 id="payment">Payment</h2><hr><p>Now that the server has told us our payment is acceptable, we can send the fully signed transaction.</p><h3 id="request-4">Request</h3><p>A <strong>POST</strong> request should be made to the payment protocol url with <code>&lbrace;chain,transactions,currency&rbrace;</code>:<ul><li><code>/i/&lt;invoiceId&gt;</code></li></ul></p><h4 id="headers-4">Headers</h4><p><ul><li><code>Content-Type: application/payment</code></li><li><code>X-Paypro-Version: 2</code></li></ul></p><h4 id="body-5">Body</h4><p><ul><li><code>chain</code> - a chain that was present in the payment-options response</li><li><code>transaction</code> - array contening the signed transaction as well as the weighted size</li><li><code>currency</code> - Optional, the particular currency on the chain you will pay with (for ERC20 tokens)</li></ul></p><pre class="code">{
+  "chain": "&lt;chain 3 letter code&gt;",
+  "transactions": "&lt;{tx: string, weightedSize?: number}&gt;",
+  "currency": "&lt;optional (ERC20) 3 letter code&gt;",
+}</pre><br><h4 id="ethgusdbody-2">ETH - GUSD Request Body</h4><pre class="code">{
+  "chain": "ETH",
+  "currency": "GUSD",
+  "transactions": [
+    {
+      "tx": "0xf8aa3c85174876e800830493e094feb423814d0208e9e2a3f5b0f0171e97376e20bc80b844095ea7b300000000000000000000000037d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a00000000000000000000000000000000000000000000000000000000000000641ca01c389df7ea8e3bfb2b2d5f18677cf06924796ad051185032970e7905cd212998a01244f5b7bd0ed69eb79c78f67cb9be3b3f976d7546dd0fa172fa3a31a2a12a3a"
+    },
+    {
+      "tx": "0xf9018b3d85174876e800830493e09437d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a80b90124b6b4af050000000000000000000000000000000000000000000000000000000000000064000000000000000000000000000000000000000000000000000000174876e8000000000000000000000000000000000000000000000000000000016b55a4b42732524f761ed693a9be3b8410aa0a15207c32490f8a46cb0dff405a292529d435d26be7a653ff1c90c7b67a8472506d2bb71e167096f90a1c6f125a25f156dc28000000000000000000000000000000000000000000000000000000000000001bbba3e08a7eb0f11c89ef605655095854f2043e8530072884d678d49ec513fb385bc35d61b78124add7615bde2c2858179ef2e092c9c9d42164055ea853e72926000000000000000000000000feb423814d0208e9e2a3f5b0f0171e97376e20bc1ba083ac15f2263f0120768fcf9693b8fedb041f7157594fdef379f18435917ba334a04384d86b055a97d55555ef6653c41b03609d6f16a9f82abceae4fdb54bdcb35c"
+    }
+  ]
+}</pre><br><h4 id="xrpbody-2">XRP Request Body</h4><pre class="code">{
+  "chain": "XRP",
+  "currency": "XRP",
+  "transactions": [
+    {
+      "tx": "120000228000000024000000095011F6751F266C7E664CB3CDAE77D091ED73E3D365591D8FA769BEA9F694C5C4A5DF614000000000448E1768400000000000000C7321030834A2B07BD552337FEA00C32E8DDDDB541BC7353DA7E982B4C191BFE432D3BE74473045022100A2D1E2A0B0E01EAAA36F67F650463391E4390F9F540D4C7553E1698F866A16E002201C5CB68137805ECC73F2D4459E7840842C255065A716475CDDFCA007EA570A1581148FF291E50F16A206B96D383E1F86CC47E21727DA8314C5B8A782192BFF4D8FF629A88BEEB417A4D9EEB2"
+    }
+  ]
+}</pre><br><h3 id="response-3">Response</h3><p>The response will be a JSON format payload containing the original payment body and a memo field which should be displayed to the user.</p><br><h4 id="ethgusdresponse-3">ETH - GUSD Response</h4><pre class="code">{
+  "payment": {
+    "transactions": [
+      {
+        "tx": "0xf8aa3c85174876e800830493e094feb423814d0208e9e2a3f5b0f0171e97376e20bc80b844095ea7b300000000000000000000000037d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a00000000000000000000000000000000000000000000000000000000000000641ca01c389df7ea8e3bfb2b2d5f18677cf06924796ad051185032970e7905cd212998a01244f5b7bd0ed69eb79c78f67cb9be3b3f976d7546dd0fa172fa3a31a2a12a3a"
+      },
+      {
+        "tx": "0xf9018b3d85174876e800830493e09437d7b3bbd88efde6a93cf74d2f5b0385d3e3b08a80b90124b6b4af050000000000000000000000000000000000000000000000000000000000000064000000000000000000000000000000000000000000000000000000174876e8000000000000000000000000000000000000000000000000000000016b55a4b42732524f761ed693a9be3b8410aa0a15207c32490f8a46cb0dff405a292529d435d26be7a653ff1c90c7b67a8472506d2bb71e167096f90a1c6f125a25f156dc28000000000000000000000000000000000000000000000000000000000000001bbba3e08a7eb0f11c89ef605655095854f2043e8530072884d678d49ec513fb385bc35d61b78124add7615bde2c2858179ef2e092c9c9d42164055ea853e72926000000000000000000000000feb423814d0208e9e2a3f5b0f0171e97376e20bc1ba083ac15f2263f0120768fcf9693b8fedb041f7157594fdef379f18435917ba334a04384d86b055a97d55555ef6653c41b03609d6f16a9f82abceae4fdb54bdcb35c"
+      }
+    ]
+  },
+  "memo": "Transaction received by BitPay. Invoice will be marked as paid if the transaction is confirmed."
+}</pre><br><h4 id="xrpresponse-2">XRP Response</h4><pre class="code">{
+  "payment": {
+    "transactions": [
+      {
+        "tx": "120000228000000024000000095011F6751F266C7E664CB3CDAE77D091ED73E3D365591D8FA769BEA9F694C5C4A5DF614000000000448E1768400000000000000C7321030834A2B07BD552337FEA00C32E8DDDDB541BC7353DA7E982B4C191BFE432D3BE74473045022100A2D1E2A0B0E01EAAA36F67F650463391E4390F9F540D4C7553E1698F866A16E002201C5CB68137805ECC73F2D4459E7840842C255065A716475CDDFCA007EA570A1581148FF291E50F16A206B96D383E1F86CC47E21727DA8314C5B8A782192BFF4D8FF629A88BEEB417A4D9EEB2"
+      }
+    ]
+  },
+  "memo": "Transaction received by BitPay. Invoice will be marked as paid if the transaction is confirmed."
+}</pre><br><br><h2 id="signatures">Signatures</h2><hr><p> 
+Many wallet developers have voiced complaints about needing to use x509 PKI in order to verify payments, so here we're attempting to provide an answer. We will ensure payload integrity for all payment requests via an ECDSA signature. For those unaware, this is the exact same method all bitcoin transactions are authenticated. This should make it much easier for wallets to implement since they already have code to do this. We will distribute public keys which can be used to verify the signatures. How you choose to store the keys for verifying providers is up to you as a wallet developer, but we do make some recommendations below.</p><p>Since there will potentially be multiple providers using this system each with multiple keys, the payment request will include a <code>x-identity</code> header which will contain a unique identifier to indicate which public key was used to sign the payload. In the case of ECSDA signatures we will provide the RIPEMD160+SHA256 hash of the public key in this header (same format as a bitcoin address). We have chosen not to send the public key itself here as that would lead to the possibility of wallet developers naively trusting whatever public key was sent via the header and verifying against that. By only sending a hash of the public key the wallet developer is required to follow best practices of retrieving the public keys from a trusted source.</p><br><h3 id="keydistribution">Key Distribution</h3><p>The JSON payment protocol provider will make keys available via the route:</p><ul><li> <code>[paymentRequestDomain]/signingKeys/paymentProtocol.json</code></li></ul><p>This route will serve a JSON payload which conforms to the format:</p><pre class="code">{
+  "owner": "Company name that may be displayed to the user",
+  "expirationDate": "ISO format date when these keys expire",
+  "validDomains": [
+    "myDomain.com",
+    "payments.myDomain.com"
+  ],
+  "publicKeys": [
+    "hexadecimalEncodedPublicKeyHere"
+  ]
+}</pre><br><p>An example of this fully completed:</p><pre class="code">{
+  "owner": "BitPay, Inc.",
+  "expirationDate": "2018-06-01T00:00:00.000Z",
+  "validDomains": [
+    "test.bitpay.com"
+  ],
+  "publicKeys": [
+    "03361b5c0d5d2fec5c9313ab79b82266c576254697546a4868d860423557f3a52f"
+  ]
+}</pre><br><h3 id="keysignaturedistribution">Key Signature Distribution</h3><p>The JSON payment protocol provider will distribute PGP signatures of the distributed keys available via:</p><ul><li> <code>[paymentRequestDomain]/signatures/[sha256HashOfKeyPayload].json</code></li></ul><p>The SHA256 should be performed on the raw body of the keys sent down by the server.</p><p>This ensures that even if the provider's SSL certificate is compromised that the attacker cannot forge payment requests.</p><p>This route will server a JSON payload which conforms to the format:</p><pre class="code">{
+  "keyHash": "SHA256 hash of key payload",
+  "signatures": [
+    {
+      "created": "ISO Date when this signature was created",
+      "identifier": "GPG fingerprint",
+      "signature": "hexadecimal encoded detached GPG signature of key payload"
+    }
+  ]
+}</pre><br><p>An example of this fully completed:</p><pre class="code">{
+  "keyHash": "622c5dc05501b848221a9e0b2e9a84c0869cdb7604d785a0486fe817c9c34fe1",
+  "signatures": [
+    {
+      "created": "2018-03-07T01:46:39.310Z",
+      "identifier": "3c936ad8b8fa8de3290bc45cae7eefda5240818d",
+      "signature": "2d2d2d2d2d424547494e20504750205349474e41545552452d2d2d2d2d0a436f6d6d656e743a20475047546f6f6c73202d2068747470733a2f2f677067746f6f6c732e6f72670a0a6951497a424141424367416446694545504a4e71324c6a366a654d7043385263726e3776326c4a4167593046416c714d62574d4143676b51726e3776326c4a410a6759306c73672f2b4e7839486577622b31527631347038676e7a4c563763536c6f4f422f5262586b694136426a76336a4166735a55623175484d6e617a3644370a736e6c306e47775233497966554c6d3254647536444e3043314e767549367374442f7362666473572b6c726a72666d6d6b377a2f36726c593169684a6d5061330a6758344f4d63577061352f4e56636a436f432b546b51434b4d77684237424b7030344a363679326f78382f583736574c6d685544366b6b6155565979656637520a79566666784c6d766747627a476d7433445958316a59524a766d4e6b6f5749466f30557254576d7a55457961505538457950386d415075347a413749453834650a546f57634e38714b576564797879396e615147493679376a5149445a72454a30315a56785371326b6352506e464d694432772f6c69704b6b504a4e577556764e0a3834644f4372324859302b584769726c74744c673167363077314a5333455354714938374a786766716f53695257666c4d4f736667712f6e302b7243337057620a535030397245457a307069705376374d5a723944436142435261544142333156567a6f4c48536e67452b4a4f5264615a4a2f7274796f315366634c5a75314d320a4241735178786c7142306449617174534830386b50496e6a5a746776346358766142556443507178774d6f444c664d643152324330705033337453465533534b0a4e6b786b4d326744536a41392b2b5754625267553543556c3642725942516a62415836773673715354775a42796e736e6270366c6d6f6f6c4b314341762b55500a7144444d4c6e6a696a62465861324476326833495650456246786178336a73303367557448496e4141552f4c4b4b4948583730664d644b45566c735845482b4b0a53395238446c4c355854467a38435175693175692f394f484f77523549672b5436532f5a3678504f51594d4d69562f6e6a48553d0a3d62357a450a2d2d2d2d2d454e4420504750205349474e41545552452d2d2d2d2d"
+    },
+    {
+      "created": "2018-03-07T01:46:39.310Z",
+      "identifier": "3c936ad8b8fa8de3290bc45cae7eefda5240818d",
+      "signature": "2d2d2d2d2d424547494e20504750205349474e41545552452d2d2d2d2d0a436f6d6d656e743a20475047546f6f6c73202d2068747470733a2f2f677067746f6f6c732e6f72670a0a6951497a424141424367416446694545504a4e71324c6a366a654d7043385263726e3776326c4a4167593046416c714d62574d4143676b51726e3776326c4a410a6759306c73672f2b4e7839486577622b31527631347038676e7a4c563763536c6f4f422f5262586b694136426a76336a4166735a55623175484d6e617a3644370a736e6c306e47775233497966554c6d3254647536444e3043314e767549367374442f7362666473572b6c726a72666d6d6b377a2f36726c593169684a6d5061330a6758344f4d63577061352f4e56636a436f432b546b51434b4d77684237424b7030344a363679326f78382f583736574c6d685544366b6b6155565979656637520a79566666784c6d766747627a476d7433445958316a59524a766d4e6b6f5749466f30557254576d7a55457961505538457950386d415075347a413749453834650a546f57634e38714b576564797879396e615147493679376a5149445a72454a30315a56785371326b6352506e464d694432772f6c69704b6b504a4e577556764e0a3834644f4372324859302b584769726c74744c673167363077314a5333455354714938374a786766716f53695257666c4d4f736667712f6e302b7243337057620a535030397245457a307069705376374d5a723944436142435261544142333156567a6f4c48536e67452b4a4f5264615a4a2f7274796f315366634c5a75314d320a4241735178786c7142306449617174534830386b50496e6a5a746776346358766142556443507178774d6f444c664d643152324330705033337453465533534b0a4e6b786b4d326744536a41392b2b5754625267553543556c3642725942516a62415836773673715354775a42796e736e6270366c6d6f6f6c4b314341762b55500a7144444d4c6e6a696a62465861324476326833495650456246786178336a73303367557448496e4141552f4c4b4b4948583730664d644b45566c735845482b4b0a53395238446c4c355854467a38435175693175692f394f484f77523549672b5436532f5a3678504f51594d4d69562f6e6a48553d0a3d62357a450a2d2d2d2d2d454e4420504750205349474e41545552452d2d2d2d2d"
+    }
+  ]
+}</pre><br><p>Please note that these example signatures may not match the example key payload, don't use them for testing</p><br><h3 id="pgpkeydistribution">PGP Key Distribution</h3><p>It is ultimately up to the JSON payment protocol provider as to how they will distribute the PGP public keys used to sign their payment protocol signing keys. We recommend using multiple distribution paths, at least one of which should not be on the same domain as the payment requests.</p><br><h3 id="bitpayspecificsignaturedetails">BitPay Specific Signature Details</h3><h4 id="signing">Signing</h4><p>For the foreseeable future all of BitPay's payment requests will be signed via ECDSA using the SECP 256 k1 curve (the same as used in Bitcoin itself). This is to allow very simple compatibility with wallets, as every wallet should already be fully able to verify ECC signatures of bitcoin transactions.</p><h4 id="pgpkeydistribution-1">PGP Key Distribution</h4><p>BitPay will make its PGP keys available via the following resources:</p><ul><li> 
+<a href="https://github.com/bitpay/pgp-keys">https://github.com/bitpay/pgp-keys</a></li><li> 
+<a href="../pgp-keys/index.html">https://bitpay.com/pgp-keys</a> (or in JSON format <a href="../pgp-keys.json">https://bitpay.com/pgp-keys.json</a>)</li></ul><p>Please take time to verify the keys in both places.</p><h4 id="keystoringsuggestions">Key-storing suggestions</h4><p>Some wallets may not be sure about the best way to store the ECC public keys for JSON payment protocol providers. There are likely to be two or three common approaches. Regardless of your approach, we recommend keeping in mind that keys can be compromised and therefore may require being changed relatively quickly. It also may also be reasonable for advanced users to want to add their own keys for development purposes, but keep in mind that less advanced users may be tricked into doing this if appropriate warnings are not provided. Remember you will always need to store the domains and the owner for each key so that you can prevent a key from being used on the wrong domain, and so that the user knows who owns the key.</p><h5 id="approachone">Approach one</h5><p>The simplest approach would be to simply verify all the keys we've distributed locally and then directly bake them into your wallet code. This has the advantage of being quite secure, however the direct disadvantage is that if a key is revoked or the keys change for any reason your user is stuck until you release an update.</p><h5 id="pros">Pros:</h5><ul><li> <Wallet>signature logic is very simple</Wallet></li></ul><h5 id="cons">Cons:</h5><ul><li><Key>revocation may result in needing to push emergency updates to your wallet (remember Apple App store can be slow to accept updates)</Key></li></ul><h5 id="approachtwo">Approach two</h5><p>The second approach would be to generate your own ECC key pair and hard code it's public key into your app. You would then verify our (and others) keys in your development environment and if valid publish them to your own API, signed by your own ECC key. Wallets would then verify against the keys from
+your API each time they wanted to verify a payment request. This allows for relatively quick changing of which keys are considered valid by simply updating your own API.</p><h5 id="pros-1">Pros:</h5><ul><li>Usable across multiple providers</li><li>Pretty reasonable key update time</li></ul><h5 id="cons-1">Cons:</h5><ul><li>Still have cases where keys could be out of date for hours (or days for some wallets)</li></ul><h5 id="approachthree">Approach three</h5><p>The third approach is to bake our PGP keys into your wallet. On first boot the wallet would retrieve our signing keys and their signatures and verify them. Once verified the app would store the SHA256 hash of the keys. The wallet could then periodically retrieve our key list and only re-validate them
+if the SHA256 hash is different than the one previously stored.</p><h5 id="pros-2">Pros:</h5><ul><li>Always up to date</li></ul><h5 id="cons-2">Cons:</h5><ul><li> <Potentially>need a specific implementation per-provider</Potentially></li></ul><br><br><h2 id="errors">Errors</h2><hr><br><p>All errors are communicated in plaintext with an appropriate status code.</p><br><h3 id="exampleerror">Example Error</h3><pre class="code">curl -v https://test.bitpay.com/i/48gZau8ao76bqAoEwAKSwx -H 'Accept: application/payment-request'
+*   Trying 104.17.68.20...
+* TCP_NODELAY set
+* Connected to test.bitpay.com (104.17.68.20) port 443 (#0)
+* TLS 1.2 connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+> GET /i/48gZau8ao76bqAoEwAKSwx HTTP/1.1
+> Host: test.bitpay.com
+> User-Agent: curl/7.54.0
+> Accept: application/payment-request
+>
+< HTTP/1.1 400 Bad Request
+< Date: Fri, 26 Jan 2018 01:54:03 GMT
+< Content-Type: text/html; charset=utf-8
+< Content-Length: 44
+< Connection: keep-alive
+< Strict-Transport-Security: max-age=31536000
+< X-Download-Options: noopen
+< X-Content-Type-Options: nosniff
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Methods: GET, POST, OPTIONS
+< Access-Control-Allow-Headers: Host, Connection, Content-Length, Accept, Origin, User-Agent, Content-Type, Accept-Encoding, Accept-Language
+<
+* Connection #0 to host test.bitpay.com left intact
+This invoice is no longer accepting payments</pre><br><h3 id="commonerrors">Common Errors</h3><table><thead><tr><th>Http Status Code</th><th>Response</th><th>Cause</th></tr></thead><tbody><tr><td><strong>404</strong></td><td>This invoice was not found or has been archived</td><td>Invalid invoiceId, or invoice has been archived (current TTL is 3 days)</td></tr><tr><td><strong>400</strong></td><td>Unsupported Content-Type for payment</td><td>Your Content-Type header was not valid</td></tr><tr><td><strong>400</strong></td><td>Invoice no longer accepting payments</td><td>Invoice is either paid or has expired</td></tr><tr><td><strong>400</strong></td><td>We were unable to parse your payment. Please try again or contact your wallet provider</td><td>Request body could not be parsed / empty body</td></tr><tr><td><strong>400</strong></td><td>Request must include exactly one (1) transaction</td><td>Included no transaction in body / Included multiple transactions in body</td></tr><tr><td><strong>400</strong></td><td>Your transaction was an in an invalid format, it must be a hexadecimal string</td><td>Make sure you're sending the raw hex string format of your signed transaction</td></tr><tr><td><strong>400</strong></td><td>We were unable to parse the transaction you sent. Please try again or contact your wallet provider</td><td>Transaction was hex, but it contained invalid transaction data or was in the wrong format</td></tr><tr><td><strong>400</strong></td><td>The transaction you sent does not have any output to the bitcoin address on the invoice</td><td>The transaction you sent does not pay to the address listed on the invoice</td></tr><tr><td><strong>400</strong></td><td>The amount on the transaction (X BTC) does not match the amount requested (Y BTC). This payment will not be accepted.</td><td>Payout amount to address does not match amount that was requested</td></tr><tr><td><strong>400</strong></td><td>Transaction fee (X sat/kb) is below the current minimum threshold (Y sat/kb)</td><td>Your fee must be at least the amount sent in the payment request as <code>requiredFeePerByte</code></td></tr><tr><td><strong>400</strong></td><td>This invoice is priced in BTC, not BCH. Please try with a BTC wallet instead</td><td>Your transaction currency did not match the one on the invoice</td></tr><tr><td><strong>422</strong></td><td>One or more input transactions for your transaction were not found on the blockchain. Make sure you're not trying to use unconfirmed change</td><td>Spending outputs which have not yet been broadcast to the network</td></tr><tr><td><strong>422</strong></td><td>One or more input transactions for your transactions are not yet confirmed in at least one block. Make sure you're not trying to use unconfirmed change</td><td>Spending outputs which have not yet confirmed in at least one block on the network</td></tr><tr><td><strong>500</strong></td><td>Error broadcasting payment to network</td><td>Our Bitcoin node returned an error when attempting to broadcast your transaction to the network. This could mean our node is experiencing an outage or your transaction is a double spend.</td></tr></tbody></table><p><Another>issue you may see is that you are being redirected to <code>bitpay.com/invoice?id=xxx</code> instead of being sent a payment-request. In that case you are missing the <code>X-Paypro-Version</code> header or not setting the <code>Accept</code> header to a valid value and we assume you are a browser or other unknown requester.</Another></p><br><br><h2 id="mimetypes">MIME Types</h2><hr><br><table><thead><tr><th>Mime</th><th>Description</th></tr></thead><tbody><tr><td><code>application/payment-options</code></td><td>Retrieve the options that the invoice can be paid with, this is specified with the <code>Accept</code> header.</td></tr><tr><td><code>application/payment-request</code></td><td>Associated with the server's payment request, this specified on the client <code>Accept</code> header when retrieving the payment request</td></tr><tr><td><code>application/payment-verification</code></td><td> 
+Used by the client when sending their proposed unsigned payment transaction payload</td></tr><tr><td><code>application/payment</code></td><td>Used by the client when sending their proposed payment transaction payload</td></tr></tbody></table></div><div class="column large-3 xlarge-3 show-for-medium-down"><ul data-accordion class="side-nav large-border-right-gray padding-right-less accordion"><li class="accordion-navigation"><a href="#documentation" class="accordion-item uppercase arrow-blue">Documentation</a><ul id="documentation" class="content accordion-content"><li><a href="index.html" title="Home">Home</a></li><li><a href="getting-started.html" title="Getting Started">Getting Started</a></li><li><a href="settlement.html" title="Banking &amp; Settlements">Banking &amp; Settlements</a></li></ul></li><li class="divider-mobile"></li><li class="accordion-navigation"><a href="#development" class="accordion-item uppercase arrow-blue">Development</a><ul id="development" class="content accordion-content"><li><a href="testing.html" title="Testing">Testing</a></li><li><a href="plugins.html" title="Plugins">Plugins</a></li><li><a href="libraries.html" title="Libraries">Libraries</a></li><li><a href="create-invoice.html" title="Creating Invoices">Creating Invoices</a></li><li><a href="checkout-page.html" title="Checkout Page">Checkout Page</a></li><li><a href="display-invoice.html" title="Displaying Invoices">Displaying Invoices</a></li><li><a href="invoice-webhooks.html" title="Invoice Webhooks">Invoice Webhooks</a></li><li><a href="invoice-states.html" title="Invoice States">Invoice States</a></li><li><a href="../api/index.html" title="API Reference">API Reference</a></li></ul></li><li class="divider-mobile"></li><li class="accordion-navigation"><a href="#use-cases" class="accordion-item uppercase arrow-blue">Use Cases</a><ul id="use-cases" class="content accordion-content"><li><a href="ecommerce.html" title="Ecommerce">Ecommerce</a></li><li><a href="../retail/index.html" title="Retail">Retail</a></li><li><a href="../billing/index.html" title="Cross-Border Billing">Cross-Border Billing</a></li><li><a href="donations.html" title="Donations">Donations</a></li></ul></li><li class="divider-mobile"></li><li class="accordion-navigation"><a href="#resources" class="accordion-item uppercase arrow-blue">Resources</a><ul id="resources" class="content accordion-content"><li><a href="https://support.bitpay.com/hc/en-us/articles/115003014726-What-is-bitcoin-" title="What is Bitcoin?">What is Bitcoin?</a></li><li><a href="https://support.bitpay.com/hc/en-us/articles/360042264212" title="How to Get Bitcoin">How to Get Bitcoin</a></li><li><a href="https://support.bitpay.com/hc/en-us/articles/360042265412" title="How to Secure Bitcoin">How to Secure Bitcoin</a></li><li><a href="https://support.bitpay.com/hc/en-us/articles/115005559826" title="How to Pay with Bitcoin">How to Pay with Bitcoin</a></li><li><a href="https://brand.bitpay.com/" title="Brand Guide">Brand Guide</a></li><li><a href="../exchange-rates/index.html" title="BitPay Exchange Rate">BitPay Exchange Rate</a></li></ul></li><li class="divider-mobile"></li><li class="accordion-navigation"><a href="#wallet-integrations" class="accordion-item uppercase arrow-blue">Wallet Integrations</a><ul id="wallet-integrations" class="content accordion-content"><li><a href="payment-protocol.html" title="JSON Payment Protocol" class="active">JSON Payment Protocol</a></li></ul></li><li class="divider-mobile"></li></ul></div></div></div><a class="exit-off-canvas"></a></div></div></body><script src="../scripts/main.min.16707520.js" data-no-instant="data-no-instant"></script><script src="../track/banner.min.js"></script>
+<!-- Mirrored from bitpay.com/docs/payment-protocol by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jan 2022 14:06:47 GMT -->
+</html>

@@ -1,0 +1,934 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 372.47 368.7">
+  <defs>
+    <style>
+      .cls-1{fill:url(#linear-gradient);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{fill:#17388d;}.cls-4{fill:#1f489b;}.cls-5{fill:#4d69fb;}.cls-6{fill:#496cb2;}.cls-7{fill:#6998f7;}.cls-8{fill:#779dfc;}.cls-9{fill:#1e4282;}.cls-10{fill:#0b2347;}.cls-11{fill:#ffa900;}.cls-12{fill:#fbcb23;}.cls-13,.cls-15{fill:#eb9304;}.cls-14{fill:#ffe203;}.cls-15,.cls-16,.cls-17,.cls-18,.cls-19,.cls-20,.cls-21,.cls-22,.cls-23,.cls-24,.cls-25,.cls-26,.cls-27,.cls-28,.cls-29,.cls-30,.cls-31,.cls-32,.cls-33,.cls-34,.cls-35,.cls-36,.cls-37,.cls-38,.cls-39,.cls-40,.cls-41,.cls-42,.cls-43,.cls-44,.cls-45,.cls-46,.cls-47,.cls-59,.cls-60,.cls-61,.cls-62,.cls-63,.cls-64,.cls-65,.cls-66,.cls-67,.cls-68,.cls-69,.cls-70,.cls-71,.cls-72,.cls-73,.cls-74,.cls-75,.cls-76,.cls-77,.cls-78,.cls-79,.cls-80,.cls-81,.cls-82,.cls-83,.cls-84,.cls-85,.cls-86,.cls-87,.cls-88,.cls-89,.cls-90,.cls-91,.cls-92,.cls-93,.cls-94{fill-rule:evenodd;}.cls-16{fill:url(#linear-gradient-3);}.cls-17{fill:url(#linear-gradient-4);}.cls-18{fill:url(#linear-gradient-5);}.cls-19{fill:url(#linear-gradient-6);}.cls-20{fill:url(#linear-gradient-7);}.cls-21{fill:url(#linear-gradient-8);}.cls-22{fill:url(#linear-gradient-9);}.cls-23{fill:url(#linear-gradient-10);}.cls-24{fill:url(#linear-gradient-11);}.cls-25{fill:url(#linear-gradient-12);}.cls-26{fill:url(#linear-gradient-13);}.cls-27{fill:url(#linear-gradient-14);}.cls-28{fill:url(#linear-gradient-15);}.cls-29{fill:url(#linear-gradient-16);}.cls-30{fill:url(#linear-gradient-17);}.cls-31{fill:url(#linear-gradient-18);}.cls-32{fill:url(#linear-gradient-19);}.cls-33{fill:url(#linear-gradient-20);}.cls-34{fill:url(#linear-gradient-21);}.cls-35{fill:url(#linear-gradient-22);}.cls-36{fill:url(#linear-gradient-23);}.cls-37{fill:url(#linear-gradient-24);}.cls-38{fill:url(#linear-gradient-25);}.cls-39{fill:url(#linear-gradient-26);}.cls-40{fill:url(#linear-gradient-27);}.cls-41{fill:url(#linear-gradient-28);}.cls-42{fill:url(#linear-gradient-29);}.cls-43{fill:url(#linear-gradient-30);}.cls-44{fill:url(#linear-gradient-31);}.cls-45{fill:url(#linear-gradient-32);}.cls-46{fill:url(#linear-gradient-33);}.cls-47{fill:url(#linear-gradient-34);}.cls-48{fill:#4267b2;}.cls-49{fill:#759bfc;}.cls-50{fill:#5a7ef2;}.cls-51{fill:#778ff7;}.cls-52{fill:#2b52f7;}.cls-53{fill:#4a78ff;}.cls-54{fill:#7ba2ff;}.cls-104,.cls-55{fill:none;}.cls-55{stroke:#7ba3ff;stroke-width:0.5px;}.cls-56{fill:#7ba3ff;}.cls-57{fill:#0a41ef;}.cls-58{fill:#132f6a;}.cls-59{fill:url(#linear-gradient-35);}.cls-60{fill:url(#linear-gradient-36);}.cls-61{fill:url(#linear-gradient-37);}.cls-62{fill:url(#linear-gradient-38);}.cls-63{fill:url(#linear-gradient-39);}.cls-64{fill:url(#linear-gradient-40);}.cls-65{fill:url(#linear-gradient-41);}.cls-66{fill:url(#linear-gradient-42);}.cls-67{fill:url(#linear-gradient-43);}.cls-68{fill:url(#linear-gradient-44);}.cls-69{fill:url(#linear-gradient-45);}.cls-70{fill:url(#linear-gradient-46);}.cls-71{fill:url(#linear-gradient-47);}.cls-72{fill:url(#linear-gradient-48);}.cls-73{fill:url(#linear-gradient-49);}.cls-74{fill:url(#linear-gradient-50);}.cls-75{fill:url(#linear-gradient-51);}.cls-76{fill:url(#linear-gradient-52);}.cls-77{fill:url(#linear-gradient-53);}.cls-78{fill:url(#linear-gradient-54);}.cls-79{fill:url(#linear-gradient-55);}.cls-80{fill:url(#linear-gradient-56);}.cls-81{fill:url(#linear-gradient-57);}.cls-82{fill:url(#linear-gradient-58);}.cls-83{fill:url(#linear-gradient-59);}.cls-84{fill:url(#linear-gradient-60);}.cls-85{fill:url(#linear-gradient-61);}.cls-86{fill:url(#linear-gradient-62);}.cls-87{fill:url(#linear-gradient-63);}.cls-88{fill:url(#linear-gradient-64);}.cls-89{fill:url(#linear-gradient-65);}.cls-90{fill:url(#linear-gradient-66);}.cls-91{fill:url(#linear-gradient-67);}.cls-92{fill:url(#linear-gradient-68);}.cls-93{fill:url(#linear-gradient-69);}.cls-94{fill:url(#linear-gradient-70);}.cls-95{fill:url(#linear-gradient-71);}.cls-96{fill:url(#linear-gradient-72);}.cls-97{fill:#002984;}.cls-98{fill:#e6e6e6;}.cls-99{fill:#fff;}.cls-100{fill:url(#linear-gradient-73);}.cls-101{fill:url(#linear-gradient-74);}.cls-102,.cls-106{isolation:isolate;opacity:0.5;}.cls-102{fill:url(#linear-gradient-75);}.cls-103{fill:url(#linear-gradient-76);}.cls-104{stroke:#1a3b8b;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8px;stroke-dasharray:3.2;}.cls-105{fill:url(#linear-gradient-77);}.cls-106{fill:url(#linear-gradient-78);}.cls-107{fill:url(#linear-gradient-79);}
+    </style>
+    <linearGradient id="linear-gradient" x1="294.66" y1="717.2" x2="284.35" y2="544.7"
+                    gradientTransform="matrix(1, 0, 0, -1, 0, 778.33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#008e68"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.01"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="338.66" y1="708.45" x2="349.43" y2="555.91"
+                    gradientTransform="matrix(1, 0, 0, -1, 0, 778.33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2fcfa4"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.01"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="311.08" y1="715.48" x2="313" y2="715.48"
+                    gradientTransform="matrix(1, 0, 0, -1, 0, 778.33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff191"/>
+      <stop offset="1" stop-color="#fded5b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="310.69" y1="716.26" x2="312.62" y2="716.26"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-5" x1="311.27" y1="717.41" x2="313.19" y2="717.41"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-6" x1="311.08" y1="718.38" x2="313" y2="718.38"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-7" x1="311.66" y1="719.15" x2="313.59" y2="719.15"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-8" x1="311.08" y1="720.31" x2="313" y2="720.31"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-9" x1="311.46" y1="721.08" x2="313.39" y2="721.08"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-10" x1="311.08" y1="722.04" x2="313" y2="722.04"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-11" x1="311.27" y1="722.82" x2="313.2" y2="722.82"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-12" x1="311.85" y1="723.59" x2="313.78" y2="723.59"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-13" x1="310.89" y1="724.54" x2="312.81" y2="724.54"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-14" x1="311.46" y1="724.93" x2="313.39" y2="724.93"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-15" x1="314.36" y1="713.36" x2="316.28" y2="713.36"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-16" x1="313.97" y1="714.13" x2="315.9" y2="714.13"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-17" x1="314.55" y1="715.29" x2="316.48" y2="715.29"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-18" x1="314.36" y1="716.25" x2="316.29" y2="716.25"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-19" x1="314.94" y1="717.03" x2="316.87" y2="717.03"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-20" x1="314.36" y1="718.18" x2="316.29" y2="718.18"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-21" x1="314.75" y1="718.95" x2="316.67" y2="718.95"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-22" x1="314.36" y1="719.92" x2="316.28" y2="719.92"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-23" x1="317.06" y1="708.15" x2="318.99" y2="708.15"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-24" x1="316.67" y1="708.92" x2="318.6" y2="708.92"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-25" x1="317.25" y1="710.08" x2="319.18" y2="710.08"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-26" x1="317.06" y1="711.05" x2="318.99" y2="711.05"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-27" x1="317.64" y1="711.82" x2="319.57" y2="711.82"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-28" x1="317.06" y1="712.98" x2="318.99" y2="712.98"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-29" x1="317.45" y1="713.75" x2="319.38" y2="713.75"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-30" x1="317.06" y1="714.71" x2="318.99" y2="714.71"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-31" x1="317.25" y1="715.48" x2="319.18" y2="715.48"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-32" x1="317.83" y1="716.26" x2="319.76" y2="716.26"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-33" x1="316.87" y1="717.22" x2="318.79" y2="717.22"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-34" x1="317.45" y1="717.6" x2="319.38" y2="717.6"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-35" x1="336.55" y1="699.27" x2="338.48" y2="699.27"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-36" x1="336.16" y1="700.05" x2="338.09" y2="700.05"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-37" x1="336.74" y1="701.21" x2="338.67" y2="701.21"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-38" x1="336.55" y1="702.17" x2="338.47" y2="702.17"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-39" x1="337.13" y1="702.94" x2="339.05" y2="702.94"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-40" x1="336.55" y1="704.1" x2="338.47" y2="704.1"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-41" x1="336.93" y1="704.87" x2="338.86" y2="704.87"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-42" x1="336.55" y1="705.84" x2="338.47" y2="705.84"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-43" x1="336.74" y1="706.61" x2="338.67" y2="706.61"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-44" x1="337.32" y1="707.38" x2="339.25" y2="707.38"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-45" x1="336.36" y1="708.34" x2="338.28" y2="708.34"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-46" x1="336.93" y1="708.73" x2="338.86" y2="708.73"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-47" x1="340.21" y1="696.36" x2="342.14" y2="696.36"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-48" x1="339.83" y1="697.15" x2="341.76" y2="697.15"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-49" x1="340.41" y1="698.31" x2="342.33" y2="698.31"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-50" x1="340.21" y1="699.27" x2="342.14" y2="699.27"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-51" x1="340.79" y1="700.05" x2="342.72" y2="700.05"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-52" x1="340.21" y1="701.21" x2="342.14" y2="701.21"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-53" x1="340.6" y1="701.98" x2="342.53" y2="701.98"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-54" x1="329.6" y1="695.6" x2="331.53" y2="695.6"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-55" x1="329.22" y1="696.36" x2="331.14" y2="696.36"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-56" x1="329.8" y1="697.54" x2="331.72" y2="697.54"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-57" x1="329.6" y1="698.5" x2="331.53" y2="698.5"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-58" x1="330.18" y1="699.27" x2="332.11" y2="699.27"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-59" x1="329.6" y1="700.43" x2="331.53" y2="700.43"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-60" x1="288.5" y1="699.47" x2="290.43" y2="699.47"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-61" x1="288.12" y1="700.24" x2="290.04" y2="700.24"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-62" x1="288.7" y1="701.39" x2="290.62" y2="701.39"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-63" x1="288.5" y1="702.36" x2="290.43" y2="702.36"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-64" x1="289.08" y1="703.13" x2="291.01" y2="703.13"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-65" x1="284.45" y1="697.93" x2="286.38" y2="697.93"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-66" x1="284.07" y1="698.7" x2="285.99" y2="698.7"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-67" x1="284.64" y1="699.86" x2="286.57" y2="699.86"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-68" x1="326.13" y1="688.66" x2="328.06" y2="688.66"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-69" x1="289.86" y1="694.64" x2="291.78" y2="694.64"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-70" x1="336.36" y1="691.94" x2="338.28" y2="691.94"
+                    xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-71" x1="199.69" y1="658.45" x2="199.69" y2="470.26"
+                    gradientTransform="matrix(1, 0, 0, -1, 0, 778.33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6278dc"/>
+      <stop offset="0.76" stop-color="#fdfdff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-72" x1="247.98" y1="660.95" x2="247.98" y2="527.02"
+                    gradientTransform="matrix(1, 0, 0, -1, 0, 778.33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b6c0ef"/>
+      <stop offset="0.76" stop-color="#fdfdff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-73" x1="214.9" y1="741.9" x2="228.78" y2="669.35"
+                    gradientTransform="matrix(1, 0, 0, -1, 0, 778.33)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7ba3ff"/>
+      <stop offset="0.97" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-74" x1="24.01" y1="621.36" x2="24.01" y2="458.2"
+                    xlink:href="#linear-gradient-71"/>
+    <linearGradient id="linear-gradient-75" x1="71.83" y1="620.39" x2="71.83" y2="470.5"
+                    xlink:href="#linear-gradient-71"/>
+    <linearGradient id="linear-gradient-76" x1="27.5" y1="578.72" x2="13.62" y2="506.17"
+                    xlink:href="#linear-gradient-73"/>
+    <linearGradient id="linear-gradient-77" x1="104.71" y1="676.15" x2="104.71" y2="410.28"
+                    xlink:href="#linear-gradient-71"/>
+    <linearGradient id="linear-gradient-78" x1="152.47" y1="682.28" x2="152.47" y2="483.13"
+                    xlink:href="#linear-gradient-71"/>
+    <linearGradient id="linear-gradient-79" x1="102.06" y1="614.9" x2="88.18" y2="542.35"
+                    xlink:href="#linear-gradient-73"/>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="f17d18a">
+        <path id="Path" class="cls-1" d="M317.5,243.1l-55.56-32.83L260.43,69.66,316,102.13Z"/>
+        <path id="Path_2" data-name="Path 2" class="cls-2" d="M372.47,193.27l-55.93,29.8-.48-124.24L371.63,70.3Z"/>
+        <path id="Path_3" data-name="Path 3" class="cls-3" d="M371.62,70.3v4L316.06,107.4,260.49,74.09V69.58Z"/>
+        <path id="Path_4" data-name="Path 4" class="cls-4" d="M316.06,107.47,371.63,75V70.3L316.06,99.17Z"/>
+        <path id="Path_5" data-name="Path 5" class="cls-5" d="M260.49,69.58l55.93-31.75,55.2,32.47-55.56,32.12Z"/>
+        <path id="Path_6" data-name="Path 6" class="cls-6" d="M321.42,51.59V86.71L291.71,69.34V34Z"/>
+        <path id="Path_7" data-name="Path 7" class="cls-7" d="M342.26,74.55,321.42,86.71V34.61l20.84,5.21Z"/>
+        <path id="Path_8" data-name="Path 8" class="cls-8" d="M291.71,34l21-11.59,29.52,17.37L321.42,51.59Z"/>
+        <path id="Path_9" data-name="Path 9" class="cls-9" d="M318.92,53.34l0,29.23-24.5-14.3V38.88Z"/>
+        <path id="Path_10" data-name="Path 10" class="cls-10" d="M312.94,56.6l6,4V82.65l-16.87-9.92-.88-19.6Z"/>
+        <path id="Path_11" data-name="Path 11" class="cls-11"
+              d="M309.81,62.87s.22-.58,2.38-.58,2.22.58,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval" class="cls-12" cx="312.15" cy="62.97" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_2" data-name="Oval 2" class="cls-13" cx="312.15" cy="62.9" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_3" data-name="Oval 3" class="cls-14" cx="312.15" cy="62.9" rx="1.91" ry="0.77"/>
+        <path id="Shape" class="cls-15"
+              d="M313,62.52a.2.2,0,0,0-.08,0l-.24,0,.14-.2h-.2l-.13.19h-.15l.14-.19h-.2l-.14.19h-.39l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.44l-.15.19h.21l.14-.19h.16l-.14.19H312l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.05-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.25.25,0,0,0,.13-.14A.09.09,0,0,0,313,62.52Zm-.55.53a.44.44,0,0,1-.19.1,3.46,3.46,0,0,1-.46,0l.19-.25h.31l.14,0a.05.05,0,0,1,0,0s0,0,0,0Zm-.38-.24a1.24,1.24,0,0,0,.47-.06h0c.12-.08.08-.14,0-.16a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_2" data-name="Shape 2" class="cls-16"
+              d="M313,62.49l-.07,0-.25,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.17l-.14.19h-.38l-.08.13h.17c.06,0,0,.05,0,.05l-.39.5a.13.13,0,0,1-.12.06h-.14l-.15.13h.41l-.15.2h.17l.14-.2h.16l-.14.2h.23l.12-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0,0-.05-.08l-.13,0a.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,313,62.49Zm-.55.53a.44.44,0,0,1-.19.1l-.45,0,.18-.25h.31l.14,0A.06.06,0,0,1,312.43,63Zm-.37-.24a1.22,1.22,0,0,0,.46-.06c.15-.08.09-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_12" data-name="Path 12" class="cls-11"
+              d="M309.43,62.1s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_4" data-name="Oval 4" class="cls-12" cx="311.76" cy="62.2" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_5" data-name="Oval 5" class="cls-13" cx="311.77" cy="62.13" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_6" data-name="Oval 6" class="cls-14" cx="311.77" cy="62.13" rx="1.91" ry="0.77"/>
+        <path id="Shape_3" data-name="Shape 3" class="cls-15"
+              d="M312.62,61.76l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.13.19H312l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.39.5a.11.11,0,0,1-.12,0h-.14l-.15.15h.43l-.15.19h.21l.14-.19h.16l-.14.19h.21l.13-.18H312a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14.12.12,0,0,0-.06-.08l-.13,0,.18-.06a.25.25,0,0,0,.13-.14.1.1,0,0,0,0-.07S312.65,61.77,312.62,61.76Zm-.55.52a.32.32,0,0,1-.19.1l-.45,0,.18-.25h.32l.13,0S312.11,62.23,312.07,62.28ZM311.7,62a.94.94,0,0,0,.47-.06c.12-.07.08-.13,0-.16a.91.91,0,0,0-.33,0Z"/>
+        <path id="Shape_4" data-name="Shape 4" class="cls-17"
+              d="M312.6,61.72l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.17l-.14.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.39.49a.11.11,0,0,1-.12.06h-.14l-.15.14h.41l-.15.19h.17l.14-.19h.16l-.14.19h.22l.13-.17h.26a.91.91,0,0,0,.38-.13l.13-.1a.17.17,0,0,0,.07-.13s0-.05-.06-.08a.28.28,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14A.09.09,0,0,0,312.6,61.72Zm-.56.52a.27.27,0,0,1-.18.1,3.55,3.55,0,0,1-.46,0l.19-.25h.31l.14,0S312.08,62.19,312,62.24Zm-.37-.24a.94.94,0,0,0,.47-.06c.15-.08.08-.13,0-.16a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_13" data-name="Path 13" class="cls-11"
+              d="M310,61s.21-.59,2.37-.59,2.23.59,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_7" data-name="Oval 7" class="cls-12" cx="312.35" cy="61.04" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_8" data-name="Oval 8" class="cls-13" cx="312.34" cy="60.97" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_9" data-name="Oval 9" class="cls-14" cx="312.34" cy="60.97" rx="1.91" ry="0.77"/>
+        <path id="Shape_5" data-name="Shape 5" class="cls-15"
+              d="M313.2,60.62l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19H312l-.08.13h.16c.08,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.41l-.15.2h.2l.16-.23h.16l-.14.19h.21l.13-.17h.25a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14A.1.1,0,0,0,313,61a.19.19,0,0,0-.12,0l.17-.06a.29.29,0,0,0,.13-.14A.08.08,0,0,0,313.2,60.62Zm-.53.51a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0A.08.08,0,0,1,312.67,61.13Zm-.38-.24a1.24,1.24,0,0,0,.47-.06h0c.13-.08.09-.13.05-.17h-.33Z"/>
+        <path id="Shape_6" data-name="Shape 6" class="cls-18"
+              d="M313.17,60.56l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.15-.19h-.2l-.14.19h-.38l-.08.13H312c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.13h.41l-.15.2h.2l.14-.2H312l-.15.2h.21l.13-.18.25,0a.81.81,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.13.15.15,0,0,0-.06-.09l-.12,0,.17,0a.37.37,0,0,0,.13-.15A.08.08,0,0,0,313.17,60.56Zm-.55.53a.39.39,0,0,1-.19.1l-.45,0,.19-.25h.31l.13,0S312.67,61,312.62,61.09Zm-.37-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.08-.13,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_14" data-name="Path 14" class="cls-11"
+              d="M309.81,60s.22-.58,2.38-.58,2.22.58,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_10" data-name="Oval 10" class="cls-12" cx="312.15" cy="60.08" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_11" data-name="Oval 11" class="cls-13" cx="312.15" cy="60" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_12" data-name="Oval 12" class="cls-14" cx="312.15" cy="60" rx="1.91" ry="0.77"/>
+        <path id="Shape_7" data-name="Shape 7" class="cls-15"
+              d="M313,59.64a.2.2,0,0,0-.08,0,1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.2l-.14.19h-.39l-.08.13h.17c.07,0,0,.05,0,.05l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.44l-.15.19h.21l.14-.19h.16l-.14.19H312l.13-.18.25,0a1,1,0,0,0,.38-.11l.13-.1a.21.21,0,0,0,.07-.14.1.1,0,0,0-.06-.08.28.28,0,0,0-.12,0l.17-.06a.25.25,0,0,0,.13-.14A.09.09,0,0,0,313,59.64Zm-.55.52a.3.3,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0L312,60h.31l.14,0S312.5,60.11,312.46,60.16Zm-.38-.23a1.08,1.08,0,0,0,.47-.07h0c.12-.06.08-.11,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_8" data-name="Shape 8" class="cls-19"
+              d="M313,59.59l-.07,0-.25,0,.14-.2h-.19l-.14.18h-.15l.14-.18h-.17l-.14.18h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.14l-.15.14h.41l-.15.19h.17l.14-.19h.16l-.14.19h.23l.12-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.13s0,0-.05-.08a.22.22,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14A.11.11,0,0,0,313,59.59Zm-.55.53a.35.35,0,0,1-.19.1l-.45,0L312,60h.31l.14,0A.05.05,0,0,1,312.43,60.12Zm-.37-.23a1.22,1.22,0,0,0,.46-.06c.15-.08.09-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_15" data-name="Path 15" class="cls-11"
+              d="M310.38,59.21s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_13" data-name="Oval 13" class="cls-12" cx="312.73" cy="59.31" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_14" data-name="Oval 14" class="cls-13" cx="312.73" cy="59.23" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_15" data-name="Oval 15" class="cls-14" cx="312.73" cy="59.23" rx="1.91" ry="0.77"/>
+        <path id="Shape_9" data-name="Shape 9" class="cls-15"
+              d="M313.59,58.86l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.09.12h.17c.07,0,0,.05,0,.05l-.38.5a.11.11,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.25a1,1,0,0,0,.38-.11l0,0,.11-.08a.27.27,0,0,0,.07-.14s0,0-.06-.09a.5.5,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14A.1.1,0,0,0,313.59,58.86Zm-.54.53a.35.35,0,0,1-.19.1l-.45,0,.18-.25h.31l.14,0A.08.08,0,0,1,313.05,59.39Zm-.37-.23a1.22,1.22,0,0,0,.46-.06h0c.13-.07.08-.12.05-.14a1,1,0,0,0-.34,0Z"/>
+        <path id="Shape_10" data-name="Shape 10" class="cls-20"
+              d="M313.57,58.83l-.08,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.15-.19h-.19l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.17l-.15.19h.21l.13-.17.25,0a.81.81,0,0,0,.38-.12.45.45,0,0,0,.13-.1.18.18,0,0,0,.08-.14.16.16,0,0,0-.06-.08l-.13,0,.18,0a.35.35,0,0,0,.13-.14A.09.09,0,0,0,313.57,58.83Zm-.56.52a.35.35,0,0,1-.19.1l-.45,0,.18-.25h.31l.14,0S313.05,59.3,313,59.35Zm-.37-.24a1,1,0,0,0,.46,0c.13-.08.09-.14,0-.17a1,1,0,0,0-.34,0Z"/>
+        <path id="Path_16" data-name="Path 16" class="cls-11"
+              d="M309.81,58.05s.22-.59,2.38-.59,2.22.59,2.29.7v.57s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_16" data-name="Oval 16" class="cls-12" cx="312.15" cy="58.15" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_17" data-name="Oval 17" class="cls-13" cx="312.15" cy="58.08" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_18" data-name="Oval 18" class="cls-14" cx="312.15" cy="58.08" rx="1.91" ry="0.77"/>
+        <path id="Shape_11" data-name="Shape 11" class="cls-15"
+              d="M313,57.7l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.18h-.15l.14-.18h-.2l-.14.18h-.39l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.44l-.15.19h.21l.14-.19h.16l-.14.19H312l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.12,0,.17-.06a.35.35,0,0,0,.13-.14.1.1,0,0,0,0-.07A.16.16,0,0,0,313,57.7Zm-.55.53a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0S312.5,58.18,312.46,58.23Zm-.38-.24a.94.94,0,0,0,.47-.06h0c.12-.09.08-.14,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_12" data-name="Shape 12" class="cls-21"
+              d="M313,57.67l-.07,0-.25,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.17l-.14.19h-.38l-.08.13h.17c.06,0,0,.05,0,.05l-.39.49a.1.1,0,0,1-.12.06h-.14l-.15.14h.41l-.15.19h.17l.14-.19h.16l-.14.19h.23l.12-.18h.25a.94.94,0,0,0,.38-.11l.13-.1a.17.17,0,0,0,.07-.14s0,0-.05-.08a.33.33,0,0,0-.13,0,.85.85,0,0,0,.17-.06.32.32,0,0,0,.14-.14.08.08,0,0,0,0-.07A.09.09,0,0,0,313,57.67Zm-.55.53a.44.44,0,0,1-.19.1,3.39,3.39,0,0,1-.45,0l.18-.25h.31l.14,0A.06.06,0,0,1,312.43,58.2Zm-.37-.24a1.22,1.22,0,0,0,.46-.06c.15-.08.09-.14,0-.15a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_17" data-name="Path 17" class="cls-11"
+              d="M310.2,57.28s.22-.59,2.38-.59,2.22.59,2.29.71V58s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_19" data-name="Oval 19" class="cls-12" cx="312.54" cy="57.38" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_20" data-name="Oval 20" class="cls-13" cx="312.54" cy="57.3" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_21" data-name="Oval 21" class="cls-14" cx="312.54" cy="57.3" rx="1.91" ry="0.77"/>
+        <path id="Shape_13" data-name="Shape 13" class="cls-15"
+              d="M313.39,56.93l-.07,0a1,1,0,0,0-.24,0l.13-.2H313l-.13.18h-.16l.14-.18h-.18l-.14.18h-.39l-.08.13h.17c.07,0,0,.05,0,.05l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.42l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.17.25,0a.85.85,0,0,0,.38-.12l.13-.1a.19.19,0,0,0,.07-.14s0,0-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.1.1,0,0,0,313.39,56.93Zm-.54.53a.47.47,0,0,1-.2.1,3.4,3.4,0,0,1-.45,0l.18-.25a1.71,1.71,0,0,1,.32,0l.13,0S312.88,57.41,312.85,57.46Zm-.38-.24a1.17,1.17,0,0,0,.46-.06v0c.12-.1.09-.15,0-.19a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_14" data-name="Shape 14" class="cls-22"
+              d="M313.37,56.9a.12.12,0,0,0-.08,0l-.24,0,.14-.2H313l-.14.19h-.15l.14-.19h-.18l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.49a.11.11,0,0,1-.12.06h-.13l-.17.14h.41l-.15.19h.21l.14-.19h.16l-.14.19h.2l.13-.18h.25a.89.89,0,0,0,.38-.12.6.6,0,0,0,.13-.09.21.21,0,0,0,.07-.15.11.11,0,0,0-.06-.07.28.28,0,0,0-.13,0l.18-.06a.25.25,0,0,0,.13-.14.09.09,0,0,0,0-.07A.07.07,0,0,0,313.37,56.9Zm-.55.52a.35.35,0,0,1-.19.1l-.45,0,.18-.25h.31l.14,0A.06.06,0,0,1,312.82,57.42Zm-.37-.24a1.22,1.22,0,0,0,.46-.06c.14-.07.09-.13,0-.17a1.82,1.82,0,0,0-.33,0Z"/>
+        <path id="Path_18" data-name="Path 18" class="cls-11"
+              d="M309.81,56.32s.22-.59,2.38-.59,2.22.59,2.29.7V57s-.2.95-2.32.95-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_22" data-name="Oval 22" class="cls-12" cx="312.15" cy="56.42" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_23" data-name="Oval 23" class="cls-13" cx="312.15" cy="56.34" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_24" data-name="Oval 24" class="cls-14" cx="312.15" cy="56.34" rx="1.91" ry="0.77"/>
+        <path id="Shape_15" data-name="Shape 15" class="cls-15"
+              d="M313,56l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.2l-.14.19h-.39l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.13h.44l-.15.2h.21l.14-.2h.16l-.14.2H312l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.05-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.29.29,0,0,0,.13-.14.08.08,0,0,0,0-.07S313,56,313,56Zm-.55.53a.44.44,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25a1.61,1.61,0,0,1,.31,0l.14,0S312.5,56.45,312.46,56.5Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.12-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_16" data-name="Shape 16" class="cls-23"
+              d="M313,55.93l-.07,0-.25,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.17l-.14.19h-.38l-.08.13h.17c.06,0,0,.05,0,.05l-.39.49a.12.12,0,0,1-.12.07h-.14l-.15.13h.41l-.15.2h.17l.14-.2h.16l-.14.2h.22l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.13,0a.49.49,0,0,0,.17-.06A.32.32,0,0,0,313,56,.08.08,0,0,0,313,55.93Zm-.55.52a.35.35,0,0,1-.19.1,1.71,1.71,0,0,1-.45,0l.18-.24a1.6,1.6,0,0,1,.31,0l.14,0S312.47,56.41,312.43,56.45Zm-.37-.24a1,1,0,0,0,.46-.05c.15-.08.09-.13,0-.15a.73.73,0,0,0-.33,0Z"/>
+        <path id="Path_19" data-name="Path 19" class="cls-11"
+              d="M310,55.54s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_25" data-name="Oval 25" class="cls-12" cx="312.35" cy="55.64" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_26" data-name="Oval 26" class="cls-13" cx="312.34" cy="55.57" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_27" data-name="Oval 27" class="cls-14" cx="312.34" cy="55.57" rx="1.91" ry="0.77"/>
+        <path id="Shape_17" data-name="Shape 17" class="cls-15"
+              d="M313.2,55.2l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19H312l-.08.13h.16c.08,0,0,0,0,0l-.38.49a.17.17,0,0,1-.13.07h-.13l-.16.13h.41l-.15.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.23.23,0,0,0,.08-.14.1.1,0,0,0-.07-.08.21.21,0,0,0-.12,0,.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,313.2,55.2Zm-.53.52a.3.3,0,0,1-.19.1,1.71,1.71,0,0,1-.45,0l.18-.24h.31a.35.35,0,0,1,.14,0h0A.07.07,0,0,1,312.67,55.72Zm-.38-.23a1.24,1.24,0,0,0,.47-.06h0c.13-.08.09-.14.05-.17a.91.91,0,0,0-.33,0Z"/>
+        <path id="Shape_18" data-name="Shape 18" class="cls-24"
+              d="M313.18,55.16l-.08,0-.24,0,.14-.2h-.2l-.13.19h-.15l.15-.19h-.19l-.14.19H312l-.09.13H312c.07,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.2l.14-.19H312l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.13.1.1,0,0,0-.06-.08.31.31,0,0,0-.12-.05l.17,0a.29.29,0,0,0,.13-.14A.1.1,0,0,0,313.18,55.16Zm-.56.53a.39.39,0,0,1-.19.1,3.39,3.39,0,0,1-.45,0l.19-.25h.31l.13,0S312.67,55.65,312.62,55.69Zm-.37-.25a1.07,1.07,0,0,0,.47,0c.13-.08.08-.12,0-.15a.93.93,0,0,0-.33,0Z"/>
+        <path id="Path_20" data-name="Path 20" class="cls-11"
+              d="M310.59,54.77s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_28" data-name="Oval 28" class="cls-12" cx="312.92" cy="54.87" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_29" data-name="Oval 29" class="cls-13" cx="312.92" cy="54.79" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_30" data-name="Oval 30" class="cls-14" cx="312.92" cy="54.79" rx="1.91" ry="0.77"/>
+        <path id="Shape_19" data-name="Shape 19" class="cls-15"
+              d="M313.78,54.43a.2.2,0,0,0-.08,0,1,1,0,0,0-.24,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,.05,0,.05l-.38.49a.14.14,0,0,1-.13.06H312l-.16.14h.42l-.15.2h.2l.14-.2h.16l-.14.2h.21l.13-.18.25,0a.81.81,0,0,0,.38-.12.45.45,0,0,0,.13-.1.18.18,0,0,0,.08-.14.16.16,0,0,0-.06-.08l-.13,0,.18-.06a.4.4,0,0,0,.13-.13A.11.11,0,0,0,313.78,54.43Zm-.55.53a.34.34,0,0,1-.19.09,2.28,2.28,0,0,1-.45,0l.18-.25a1.71,1.71,0,0,1,.32,0l.13,0v0S313.26,54.9,313.23,55Zm-.37-.25a1,1,0,0,0,.46-.05c.13-.08.09-.15,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_20" data-name="Shape 20" class="cls-25"
+              d="M313.75,54.39l-.07,0-.24,0,.13-.2h-.19l-.13.2h-.16l.14-.2h-.18l-.14.2h-.38l-.08.13h.17c.06,0,0,.05,0,.05l-.39.49a.13.13,0,0,1-.12.06H312l-.15.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.2l.13-.18.25,0a.89.89,0,0,0,.38-.12.41.41,0,0,0,.13-.1.17.17,0,0,0,.07-.14.11.11,0,0,0-.06-.07.28.28,0,0,0-.13,0l.18-.06a.29.29,0,0,0,.13-.14A.08.08,0,0,0,313.75,54.39Zm-.55.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S313.24,54.86,313.2,54.91Zm-.37-.24a.89.89,0,0,0,.46-.06c.14-.07.09-.13,0-.17H313Z"/>
+        <path id="Path_21" data-name="Path 21" class="cls-11"
+              d="M309.62,53.81s.21-.59,2.37-.59,2.23.59,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_31" data-name="Oval 31" class="cls-12" cx="311.96" cy="53.91" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_32" data-name="Oval 32" class="cls-13" cx="311.96" cy="53.83" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_33" data-name="Oval 33" class="cls-14" cx="311.96" cy="53.83" rx="1.91" ry="0.77"/>
+        <path id="Shape_21" data-name="Shape 21" class="cls-15"
+              d="M312.82,53.46l-.08,0-.24,0,.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.09.13h.17c.07,0,0,.05,0,.05l-.38.5a.14.14,0,0,1-.12.06h-.14l-.15.13h.4l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.29.29,0,0,0,.13-.14A.11.11,0,0,0,312.82,53.46Zm-.56.52a.27.27,0,0,1-.19.1,1.71,1.71,0,0,1-.45,0l.19-.24h.31a.28.28,0,0,1,.13,0S312.29,53.93,312.26,54Zm-.35-.24a1.38,1.38,0,0,0,.45-.05c.13-.08.08-.14.05-.18a1,1,0,0,0-.34,0Z"/>
+        <path id="Shape_22" data-name="Shape 22" class="cls-26"
+              d="M312.79,53.42a.11.11,0,0,1-.07,0,1.07,1.07,0,0,0-.25,0l.14-.2h-.19l-.13.21h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.08,0,0,0,0,0l-.38.5a.13.13,0,0,1-.13.05h-.13l-.16.14h.41l-.15.2h.2l.14-.2h.16l-.14.2h.21l.13-.18.25,0a.81.81,0,0,0,.38-.12l.13-.1a.22.22,0,0,0,.08-.13.11.11,0,0,0-.07-.08.26.26,0,0,0-.12,0l.17,0a.4.4,0,0,0,.14-.15.14.14,0,0,0,0-.07A.21.21,0,0,0,312.79,53.42Zm-.55.53a.35.35,0,0,1-.19.1,2.36,2.36,0,0,1-.46,0l.19-.24h.31l.14,0S312.29,53.9,312.24,54Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.09-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_22" data-name="Path 22" class="cls-11"
+              d="M310.2,53.42s.22-.59,2.38-.59,2.22.59,2.29.71v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_34" data-name="Oval 34" class="cls-12" cx="312.54" cy="53.52" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_35" data-name="Oval 35" class="cls-13" cx="312.54" cy="53.44" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_36" data-name="Oval 36" class="cls-14" cx="312.54" cy="53.44" rx="1.91" ry="0.77"/>
+        <path id="Shape_23" data-name="Shape 23" class="cls-15"
+              d="M313.39,53.07l-.07,0-.24,0,.13-.19H313l-.13.18h-.16l.14-.18h-.18l-.14.18h-.39l-.08.13h.17c.07,0,0,.05,0,.05l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.42l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.05-.06-.08l-.12,0,.17-.07a.29.29,0,0,0,.14-.13.09.09,0,0,0,0-.07A.1.1,0,0,0,313.39,53.07Zm-.54.53a.47.47,0,0,1-.2.1l-.45,0,.18-.25h.32l.13,0S312.88,53.55,312.85,53.6Zm-.38-.24a.89.89,0,0,0,.46-.06c.12-.08.09-.13,0-.17a1.82,1.82,0,0,0-.33,0Z"/>
+        <path id="Shape_24" data-name="Shape 24" class="cls-27"
+              d="M313.37,53l-.08,0h-.24l.14-.2H313l-.14.19h-.15l.14-.19h-.18l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.49a.11.11,0,0,1-.12.06h-.13l-.17.14h.41l-.15.19h.21l.14-.19h.16l-.14.19h.2l.13-.18h.25a1,1,0,0,0,.38-.11l.13-.1a.21.21,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.13,0l.18-.06a.25.25,0,0,0,.13-.14.13.13,0,0,0,0-.07S313.39,53.05,313.37,53Zm-.55.52a.3.3,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0a.05.05,0,0,1,0,.05Zm-.37-.23a1.22,1.22,0,0,0,.46-.06c.14-.08.09-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_23" data-name="Path 23" class="cls-11"
+              d="M313.1,65s.21-.59,2.37-.59,2.23.59,2.29.7v.56s-.2,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_37" data-name="Oval 37" class="cls-12" cx="315.43" cy="65.1" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_38" data-name="Oval 38" class="cls-13" cx="315.43" cy="65.02" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_39" data-name="Oval 39" class="cls-14" cx="315.43" cy="65.02" rx="1.91" ry="0.77"/>
+        <path id="Shape_25" data-name="Shape 25" class="cls-15"
+              d="M316.29,64.65l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.14-.19h-.18l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.13.19h.21l.13-.18.24,0a.81.81,0,0,0,.38-.12.45.45,0,0,0,.13-.1.18.18,0,0,0,.08-.14.16.16,0,0,0-.06-.08L316,65l.18,0a.47.47,0,0,0,.13-.15A.09.09,0,0,0,316.29,64.65Zm-.56.55a.34.34,0,0,1-.19.09,1.78,1.78,0,0,1-.46,0l.19-.24h.31a.35.35,0,0,1,.14,0S315.78,65.13,315.73,65.2Zm-.38-.24a1.24,1.24,0,0,0,.47-.06v0c.13-.07.09-.13,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_26" data-name="Shape 26" class="cls-28"
+              d="M316.26,64.61l-.08,0-.24,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19H315l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.13h.41l-.15.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0,0-.06-.08a.42.42,0,0,0-.12,0,.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,316.26,64.61Zm-.54.53a.34.34,0,0,1-.19.09,2.28,2.28,0,0,1-.45,0l.18-.25h.31a.32.32,0,0,1,.14,0A.07.07,0,0,1,315.72,65.14Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.13-.08.09-.13,0-.15a1.13,1.13,0,0,0-.32,0Z"/>
+        <path id="Path_24" data-name="Path 24" class="cls-11"
+              d="M312.71,64.23s.21-.59,2.37-.59,2.23.59,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_40" data-name="Oval 40" class="cls-12" cx="315.04" cy="64.33" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_41" data-name="Oval 41" class="cls-13" cx="315.04" cy="64.25" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_42" data-name="Oval 42" class="cls-14" cx="315.04" cy="64.25" rx="1.91" ry="0.77"/>
+        <path id="Shape_27" data-name="Shape 27" class="cls-15"
+              d="M315.91,63.88l-.08,0-.24,0,.14-.2h-.2l-.13.2h-.16l.15-.2h-.19l-.14.2h-.38l-.08.12h.16c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.19l.15-.19h.16l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12.86.86,0,0,0,.14-.13.2.2,0,0,0,.06-.15.08.08,0,0,0-.05-.07.28.28,0,0,0-.13,0l.18-.07a.24.24,0,0,0,.13-.13A.12.12,0,0,0,315.91,63.88Zm-.57.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S315.39,64.36,315.34,64.41Zm-.37-.24a1.24,1.24,0,0,0,.47-.06h0c.13-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_28" data-name="Shape 28" class="cls-29"
+              d="M315.88,63.84l-.08,0-.24,0,.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.13l-.17.14h.41l-.15.19h.21l.14-.19h.16l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.05-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,315.88,63.84Zm-.54.53a.34.34,0,0,1-.19.09,1.71,1.71,0,0,1-.45,0l.18-.24a1.61,1.61,0,0,1,.31,0,.35.35,0,0,1,.14,0S315.36,64.32,315.34,64.37Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.13-.08.08-.13,0-.17a.86.86,0,0,0-.32,0Z"/>
+        <path id="Path_25" data-name="Path 25" class="cls-11"
+              d="M313.29,63.07s.21-.59,2.37-.59,2.23.59,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_43" data-name="Oval 43" class="cls-12" cx="315.62" cy="63.17" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_44" data-name="Oval 44" class="cls-13" cx="315.62" cy="63.09" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_45" data-name="Oval 45" class="cls-14" cx="315.62" cy="63.09" rx="1.91" ry="0.77"/>
+        <path id="Shape_29" data-name="Shape 29" class="cls-15"
+              d="M316.49,62.72l-.08,0-.24,0,.14-.2h-.2l-.14.18h-.15l.14-.18h-.19l-.14.18h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.14l-.16.14H315l-.15.19H315l.13-.19h.17l-.14.19h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0-.05-.05-.08a.31.31,0,0,0-.13,0l.17-.07a.29.29,0,0,0,.14-.13A.11.11,0,0,0,316.49,62.72Zm-.56.53a.32.32,0,0,1-.18.1,3.55,3.55,0,0,1-.46,0l.18-.25h.32l.13,0s.05,0,0,.09Zm-.37-.23A1,1,0,0,0,316,63h0c.13-.08.08-.13,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_30" data-name="Shape 30" class="cls-30"
+              d="M316.46,62.68l-.08,0-.24,0,.14-.2h-.2l-.13.18h-.15l.14-.18h-.19l-.14.18h-.39l-.08.13h.17c.07,0,0,.05,0,.05l-.38.5a.14.14,0,0,1-.12.06h-.14l-.15.14H315l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.25a1,1,0,0,0,.38-.11l.13-.1a.27.27,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.13,0l.18-.06a.35.35,0,0,0,.13-.14.07.07,0,0,0,0-.07A.09.09,0,0,0,316.46,62.68Zm-.55.53a.39.39,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.13,0S315.94,63.16,315.91,63.21Zm-.38-.24a1.17,1.17,0,0,0,.46-.06h0c.13-.08.09-.13,0-.14a.93.93,0,0,0-.33,0Z"/>
+        <path id="Path_26" data-name="Path 26" class="cls-11"
+              d="M313.1,62.1s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.2,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_46" data-name="Oval 46" class="cls-12" cx="315.43" cy="62.2" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_47" data-name="Oval 47" class="cls-13" cx="315.43" cy="62.13" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_48" data-name="Oval 48" class="cls-14" cx="315.43" cy="62.13" rx="1.91" ry="0.77"/>
+        <path id="Shape_31" data-name="Shape 31" class="cls-15"
+              d="M316.29,61.76l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.14-.19h-.18l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.13.13,0,0,1-.13,0h-.13l-.16.15h.41l-.15.19h.2l.14-.19h.16l-.13.19h.21l.13-.18h.24a.81.81,0,0,0,.38-.12.45.45,0,0,0,.13-.1.23.23,0,0,0,.08-.14.12.12,0,0,0-.06-.08.33.33,0,0,0-.13,0l.18-.06a.35.35,0,0,0,.13-.14.08.08,0,0,0,0-.07A.09.09,0,0,0,316.29,61.76Zm-.56.52a.35.35,0,0,1-.19.1,3.55,3.55,0,0,1-.46,0l.19-.25h.31l.14,0S315.78,62.23,315.73,62.28Zm-.38-.24a.94.94,0,0,0,.47-.06h0c.13-.07.09-.13,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_32" data-name="Shape 32" class="cls-31"
+              d="M316.26,61.72l-.07,0a1,1,0,0,0-.24,0l.13-.2h-.19l-.14.19h-.15l.14-.19h-.18l-.14.19H315l-.07.12h.17c.07,0,0,.05,0,.05l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.41l-.15.2h.2l.14-.18h.16l-.14.2h.21l.15-.2h.25a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0,0-.06-.08L316,62a.49.49,0,0,0,.17-.06.35.35,0,0,0,.14-.13A.1.1,0,0,0,316.26,61.72Zm-.54.52a.32.32,0,0,1-.19.1l-.45,0,.18-.25h.32l.13,0S315.75,62.19,315.72,62.24Zm-.37-.24a.94.94,0,0,0,.47-.06h0c.13-.08.08-.13,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_27" data-name="Path 27" class="cls-11"
+              d="M313.67,61.33s.22-.58,2.37-.58,2.23.58,2.3.7V62s-.2,1-2.32,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_49" data-name="Oval 49" class="cls-12" cx="316.01" cy="61.43" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_50" data-name="Oval 50" class="cls-13" cx="316.01" cy="61.36" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_51" data-name="Oval 51" class="cls-14" cx="316.01" cy="61.35" rx="1.91" ry="0.77"/>
+        <path id="Shape_33" data-name="Shape 33" class="cls-15"
+              d="M316.87,61l-.08,0-.24,0,.14-.2h-.2l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.12h.17c.07,0,0,.05,0,.05l-.39.5a.11.11,0,0,1-.12.06h-.14l-.15.14h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.26a1,1,0,0,0,.38-.11l.13-.1a.21.21,0,0,0,.07-.14s0-.05-.06-.08a.28.28,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14A.09.09,0,0,0,316.87,61Zm-.55.52a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0s0,0,0,.08Zm-.37-.23a1.22,1.22,0,0,0,.46-.06v0c.13-.08.08-.13,0-.13a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_34" data-name="Shape 34" class="cls-32"
+              d="M316.84,61l-.07,0a1.07,1.07,0,0,0-.25,0l.14-.2h-.17l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.39l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18.25,0a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0-.05-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.08.08,0,0,0,316.84,61Zm-.55.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0A.06.06,0,0,1,316.29,61.47Zm-.37-.24a.9.9,0,0,0,.46-.06c.13-.08.11-.13.06-.18a1.82,1.82,0,0,0-.33,0Z"/>
+        <path id="Path_28" data-name="Path 28" class="cls-11"
+              d="M313.1,60.17s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.2,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_52" data-name="Oval 52" class="cls-12" cx="315.43" cy="60.27" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_53" data-name="Oval 53" class="cls-13" cx="315.43" cy="60.2" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_54" data-name="Oval 54" class="cls-14" cx="315.43" cy="60.2" rx="1.91" ry="0.77"/>
+        <path id="Shape_35" data-name="Shape 35" class="cls-15"
+              d="M316.29,59.83l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.14-.19h-.18l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.41l-.15.2h.2l.14-.2h.16l-.13.2h.21l.13-.18h.24a.72.72,0,0,0,.38-.13.43.43,0,0,0,.13-.09.23.23,0,0,0,.08-.14.1.1,0,0,0-.06-.08.33.33,0,0,0-.13,0l.18-.06a.35.35,0,0,0,.13-.14A.09.09,0,0,0,316.29,59.83Zm-.56.53a.5.5,0,0,1-.19.1,3.55,3.55,0,0,1-.46,0l.19-.25a1.61,1.61,0,0,1,.31,0,.35.35,0,0,1,.14,0S315.78,60.31,315.73,60.36Zm-.38-.24a1.24,1.24,0,0,0,.47-.06h0c.13-.08.09-.14,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_36" data-name="Shape 36" class="cls-33"
+              d="M316.26,59.79l-.07,0a1,1,0,0,0-.24,0l.13-.2h-.19l-.14.19h-.15l.14-.19h-.18l-.14.19H315l-.07.14h.17c.07,0,0,0,0,0l-.38.5a.13.13,0,0,1-.13.05h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.17h.25a.81.81,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08a.25.25,0,0,0-.12,0,.85.85,0,0,0,.17-.06.32.32,0,0,0,.14-.14.07.07,0,0,0,0-.07A.07.07,0,0,0,316.26,59.79Zm-.54.53a.31.31,0,0,1-.19.09,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0A.08.08,0,0,1,315.72,60.32Zm-.37-.24a1.24,1.24,0,0,0,.47-.06h0c.13-.08.08-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_29" data-name="Path 29" class="cls-11"
+              d="M313.48,59.4s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_55" data-name="Oval 55" class="cls-12" cx="315.82" cy="59.5" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_56" data-name="Oval 56" class="cls-13" cx="315.82" cy="59.42" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_57" data-name="Oval 57" class="cls-14" cx="315.82" cy="59.42" rx="1.91" ry="0.77"/>
+        <path id="Shape_37" data-name="Shape 37" class="cls-15"
+              d="M316.67,59.06a.11.11,0,0,1-.07,0l-.24,0,.14-.2h-.2l-.13.19H316l.14-.19H316l-.14.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.4L315,60h.2l.14-.19h.16l-.14.19h.21l.12-.19.25,0a.81.81,0,0,0,.38-.12l.13-.1a.18.18,0,0,0,.08-.14.16.16,0,0,0-.06-.08l-.13,0a.49.49,0,0,0,.17-.06.35.35,0,0,0,.14-.13A.09.09,0,0,0,316.67,59.06Zm-.55.52a.35.35,0,0,1-.19.1l-.45,0,.18-.25H316l.13,0S316.16,59.53,316.12,59.58Zm-.37-.24a1.07,1.07,0,0,0,.47-.05c.13-.08.08-.14,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_38" data-name="Shape 38" class="cls-34"
+              d="M316.65,59a.2.2,0,0,0-.08,0,1,1,0,0,0-.24,0l.14-.2h-.19l-.14.19H316l.14-.19h-.19l-.14.19h-.38l-.08.15h.17c.07,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.41L315,60h.21l.13-.19h.16l-.13.19h.21l.13-.18H316a.88.88,0,0,0,.39-.11l.13-.1a.21.21,0,0,0,.07-.15.11.11,0,0,0-.06-.07.28.28,0,0,0-.13,0l.18-.06a.29.29,0,0,0,.13-.14.08.08,0,0,0,0-.08A.08.08,0,0,0,316.65,59Zm-.54.52a.3.3,0,0,1-.19.1l-.46,0,.18-.25H316l.15,0S316.14,59.49,316.11,59.54Zm-.38-.23a1.08,1.08,0,0,0,.47-.07h0c.13-.07.09-.12,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_30" data-name="Path 30" class="cls-11"
+              d="M313.1,58.44s.21-.59,2.37-.59,2.23.59,2.29.7v.56s-.2,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_58" data-name="Oval 58" class="cls-12" cx="315.43" cy="58.54" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_59" data-name="Oval 59" class="cls-13" cx="315.43" cy="58.46" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_60" data-name="Oval 60" class="cls-14" cx="315.43" cy="58.46" rx="1.91" ry="0.77"/>
+        <path id="Shape_39" data-name="Shape 39" class="cls-15"
+              d="M316.29,58.09l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.14-.19h-.18l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0s-.32.43-.38.49a.15.15,0,0,1-.13.07h-.13l-.16.13h.41l-.15.2h.2l.14-.2h.16l-.13.2h.21l.13-.18h.24a.81.81,0,0,0,.38-.12.45.45,0,0,0,.13-.1.23.23,0,0,0,.08-.14.16.16,0,0,0-.06-.08l-.13,0,.18-.06a.35.35,0,0,0,.13-.14A.09.09,0,0,0,316.29,58.09Zm-.56.52a.32.32,0,0,1-.19.1,1.78,1.78,0,0,1-.46,0l.19-.24h.31a.35.35,0,0,1,.14,0S315.78,58.56,315.73,58.61Zm-.38-.23a1.24,1.24,0,0,0,.47-.06h0c.13-.08.09-.14,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_40" data-name="Shape 40" class="cls-35"
+              d="M316.26,58.05l-.08,0-.24,0,.14-.2h-.19l-.14.18h-.15l.14-.18h-.19l-.14.18H315l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16L315,59h.21l.13-.18h.25a.71.71,0,0,0,.38-.12.6.6,0,0,0,.13-.09.17.17,0,0,0,.07-.14s0,0-.06-.08a.25.25,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14.1.1,0,0,0,0-.07A.09.09,0,0,0,316.26,58.05Zm-.54.53a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0A.07.07,0,0,1,315.72,58.58Zm-.38-.25a1.24,1.24,0,0,0,.47,0h0c.13-.08.09-.13,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_31" data-name="Path 31" class="cls-11"
+              d="M315.8,70.21s.21-.59,2.37-.59,2.23.59,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_61" data-name="Oval 61" class="cls-12" cx="318.13" cy="70.31" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_62" data-name="Oval 62" class="cls-13" cx="318.13" cy="70.23" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_63" data-name="Oval 63" class="cls-14" cx="318.13" cy="70.23" rx="1.91" ry="0.77"/>
+        <path id="Shape_41" data-name="Shape 41" class="cls-15"
+              d="M319,69.86l-.08,0-.24,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.12l-.16.13h.41l-.15.2h.21l.13-.2h.17l-.14.2h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.13,0a.64.64,0,0,0,.18-.06A.35.35,0,0,0,319,70a.08.08,0,0,0,0-.07S319,69.88,319,69.86Zm-.55.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0A.06.06,0,0,1,318.44,70.39Zm-.37-.24a1.19,1.19,0,0,0,.46-.06c.13-.08.09-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_42" data-name="Shape 42" class="cls-36"
+              d="M319,69.82l-.08,0-.25,0,.15-.19h-.2l-.13.18h-.15l.14-.18h-.19l-.15.18h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.14l-.16.14h.41l-.15.19h.2l.14-.19h.17l-.14.19h.21l.12-.17.25,0a.94.94,0,0,0,.38-.11l.13-.1a.17.17,0,0,0,.07-.14s0-.05-.06-.08a.28.28,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14A.11.11,0,0,0,319,69.82Zm-.57.53a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S318.45,70.3,318.4,70.35Zm-.37-.24a1.22,1.22,0,0,0,.46-.06h0c.13-.08.09-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_32" data-name="Path 32" class="cls-11"
+              d="M315.41,69.44s.22-.59,2.37-.59,2.23.59,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_64" data-name="Oval 64" class="cls-12" cx="317.75" cy="69.54" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_65" data-name="Oval 65" class="cls-13" cx="317.75" cy="69.46" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_66" data-name="Oval 66" class="cls-14" cx="317.75" cy="69.46" rx="1.91" ry="0.77"/>
+        <path id="Shape_43" data-name="Shape 43" class="cls-15"
+              d="M318.6,69.09l-.07,0-.25,0,.15-.2h-.2l-.13.19h-.16l.15-.19h-.2l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.12.06h-.12l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.05-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.32.32,0,0,0,.14-.14.08.08,0,0,0,0-.07A.07.07,0,0,0,318.6,69.09Zm-.55.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25a1.71,1.71,0,0,1,.32,0,.31.31,0,0,1,.13,0S318.09,69.57,318.05,69.62Zm-.37-.24a1.17,1.17,0,0,0,.46-.06c.13-.08.09-.13,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_44" data-name="Shape 44" class="cls-37"
+              d="M318.58,69.05l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.09.13h.17c.07,0,0,.05,0,.05l-.38.5a.11.11,0,0,1-.12,0h-.14l-.15.15h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14s0,0-.06-.08l-.13,0a.64.64,0,0,0,.18-.06.35.35,0,0,0,.13-.14.09.09,0,0,0,0-.06A.09.09,0,0,0,318.58,69.05Zm-.57.53a.32.32,0,0,1-.18.1,3.55,3.55,0,0,1-.46,0l.19-.25h.31l.13,0S318.06,69.53,318,69.58Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.13-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_33" data-name="Path 33" class="cls-11"
+              d="M316,68.28s.22-.59,2.37-.59,2.23.59,2.29.71V69s-.19,1-2.31,1S316,69,316,69Z"/>
+        <ellipse id="Oval_67" data-name="Oval 67" class="cls-12" cx="318.33" cy="68.38" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_68" data-name="Oval 68" class="cls-13" cx="318.33" cy="68.3" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_69" data-name="Oval 69" class="cls-14" cx="318.33" cy="68.3" rx="1.91" ry="0.77"/>
+        <path id="Shape_45" data-name="Shape 45" class="cls-15"
+              d="M319.18,67.93a.11.11,0,0,1-.07,0l-.24,0,.14-.19h-.2l-.14.18h-.14l.13-.18h-.18l-.14.18H318l-.08.13H318c.07,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.2l.14-.19H318l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12.41.41,0,0,0,.13-.1.17.17,0,0,0,.07-.13.1.1,0,0,0-.06-.08.28.28,0,0,0-.12,0l.17-.06a.25.25,0,0,0,.13-.14.11.11,0,0,0,0-.07A.1.1,0,0,0,319.18,67.93Zm-.55.53a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0S318.67,68.41,318.63,68.46Zm-.37-.24a1.19,1.19,0,0,0,.46-.06c.13-.08.09-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_46" data-name="Shape 46" class="cls-38"
+              d="M319.16,67.89l-.07,0-.25,0,.14-.2h-.2l-.14.2h-.15l.14-.2h-.19l-.14.2h-.38l-.08.12H318c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.4l-.14.19h.2l.14-.19H318l-.13.19h.21l.13-.18h.24a.89.89,0,0,0,.39-.12l.13-.1a.21.21,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.13,0a.64.64,0,0,0,.18-.06.27.27,0,0,0,.13-.13A.11.11,0,0,0,319.16,67.89Zm-.55.53a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0s0,0,0,.09Zm-.38-.24a.94.94,0,0,0,.47-.06h0c.13-.08.08-.13,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_34" data-name="Path 34" class="cls-11"
+              d="M315.8,67.31s.21-.58,2.37-.58,2.23.58,2.29.7V68s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_70" data-name="Oval 70" class="cls-12" cx="318.13" cy="67.42" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_71" data-name="Oval 71" class="cls-13" cx="318.13" cy="67.34" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_72" data-name="Oval 72" class="cls-14" cx="318.13" cy="67.34" rx="1.91" ry="0.77"/>
+        <path id="Shape_47" data-name="Shape 47" class="cls-15"
+              d="M319,67l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.49a.11.11,0,0,1-.12.06h-.12l-.16.14h.41l-.15.2h.21l.13-.2h.17l-.14.2h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.13,0,1.27,1.27,0,0,0,.18-.06.35.35,0,0,0,.13-.14.08.08,0,0,0,0-.07A.07.07,0,0,0,319,67Zm-.55.52a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25a1.6,1.6,0,0,1,.31,0,.32.32,0,0,1,.14,0A.06.06,0,0,1,318.44,67.49Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.13-.1.09-.14,0-.18a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_48" data-name="Shape 48" class="cls-39"
+              d="M319,66.93l-.08,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.13.13,0,0,1-.12.06h-.14l-.16.14h.41l-.15.19h.2l.14-.19h.17l-.14.19h.21l.12-.18h.25a.94.94,0,0,0,.38-.11l.14-.13a.27.27,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.13,0l.18-.06A.35.35,0,0,0,319,67,.09.09,0,0,0,319,66.93Zm-.57.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S318.45,67.4,318.4,67.45Zm-.37-.24a1.22,1.22,0,0,0,.46-.06h0c.13-.08.09-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_35" data-name="Path 35" class="cls-11"
+              d="M316.38,66.54s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_73" data-name="Oval 73" class="cls-12" cx="318.71" cy="66.64" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_74" data-name="Oval 74" class="cls-13" cx="318.71" cy="66.56" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_75" data-name="Oval 75" class="cls-14" cx="318.71" cy="66.56" rx="1.91" ry="0.77"/>
+        <path id="Shape_49" data-name="Shape 49" class="cls-15"
+              d="M319.57,66.19l-.07,0a1.07,1.07,0,0,0-.25,0l.14-.2h-.19l-.14.18h-.15l.14-.18h-.19l-.14.18h-.38l-.08.13h.16c.08,0,0,.05,0,.05l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.17.25,0a.7.7,0,0,0,.38-.11l.13-.1a.17.17,0,0,0,.07-.14.09.09,0,0,0-.06-.08.42.42,0,0,0-.12,0,.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.11.11,0,0,0,319.57,66.19Zm-.55.53a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0S319.06,66.67,319,66.72Zm-.37-.24a1.22,1.22,0,0,0,.46-.06c.13-.08.09-.13,0-.17a1.93,1.93,0,0,0-.34,0Z"/>
+        <path id="Shape_50" data-name="Shape 50" class="cls-40"
+              d="M319.54,66.16a.18.18,0,0,0-.07,0l-.24,0,.14-.2h-.21l-.14.2h-.14l.13-.2h-.18l-.15.2h-.38l-.08.13h.18c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.12.06h-.14l-.16.14H318l-.15.19h.21l.13-.19h.17l-.14.19h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12.57.57,0,0,0,.13-.1.17.17,0,0,0,.07-.14.11.11,0,0,0-.06-.07l-.12-.05.17,0a.29.29,0,0,0,.13-.14A.09.09,0,0,0,319.54,66.16Zm-.55.52a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25h.31l.13,0S319,66.63,319,66.68Zm-.37-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.07-.13,0-.17h-.33Z"/>
+        <path id="Path_36" data-name="Path 36" class="cls-11"
+              d="M315.8,65.38s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_76" data-name="Oval 76" class="cls-12" cx="318.13" cy="65.48" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_77" data-name="Oval 77" class="cls-13" cx="318.13" cy="65.41" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_78" data-name="Oval 78" class="cls-14" cx="318.13" cy="65.41" rx="1.91" ry="0.77"/>
+        <path id="Shape_51" data-name="Shape 51" class="cls-15"
+              d="M319,65a.2.2,0,0,0-.08,0l-.24,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.49a.11.11,0,0,1-.12.06h-.12l-.16.14h.41l-.15.19h.21l.13-.19h.17l-.14.19h.21l.13-.18h.25a1,1,0,0,0,.38-.11l.13-.1a.21.21,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.13,0l.18-.06a.29.29,0,0,0,.13-.14.1.1,0,0,0,0-.07A.07.07,0,0,0,319,65Zm-.55.54a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0A.06.06,0,0,1,318.44,65.58Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.13-.07.09-.13,0-.14a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_52" data-name="Shape 52" class="cls-41"
+              d="M319,65l-.08,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.12.12,0,0,1-.12.06h-.14l-.16.14h.41l-.15.2h.2l.14-.2h.17l-.14.2h.21l.12-.18h.25a.81.81,0,0,0,.38-.12l0,0,.1-.08a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.12,0,.17-.06a.32.32,0,0,0,.14-.14A.1.1,0,0,0,319,65Zm-.57.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S318.45,65.47,318.4,65.52Zm-.37-.23a1.22,1.22,0,0,0,.46-.06h0c.13-.08.09-.14,0-.17a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_37" data-name="Path 37" class="cls-11"
+              d="M316.18,64.61s.22-.58,2.37-.58,2.23.58,2.3.7v.56s-.2,1-2.32,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_79" data-name="Oval 79" class="cls-12" cx="318.52" cy="64.71" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_80" data-name="Oval 80" class="cls-13" cx="318.52" cy="64.63" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_81" data-name="Oval 81" class="cls-14" cx="318.52" cy="64.63" rx="1.91" ry="0.77"/>
+        <path id="Shape_53" data-name="Shape 53" class="cls-15"
+              d="M319.38,64.27l-.08,0a1,1,0,0,0-.24,0l.14-.2H319l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,.05,0,.05s-.33.42-.38.5a.13.13,0,0,1-.13,0h-.13l-.15.14h.41l-.15.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.06-.06-.08l-.12,0,.17-.06a.32.32,0,0,0,.14-.14.08.08,0,0,0,0-.07A.09.09,0,0,0,319.38,64.27Zm-.56.52a.25.25,0,0,1-.18.1,1.75,1.75,0,0,1-.46,0l.19-.24h.31a.35.35,0,0,1,.14,0S318.86,64.74,318.82,64.79Zm-.36-.23a1.22,1.22,0,0,0,.46-.06c.13-.06.09-.13,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_54" data-name="Shape 54" class="cls-42"
+              d="M319.35,64.23l-.07,0a1.07,1.07,0,0,0-.25,0l.14-.2H319l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.4l-.14.19h.2L318,65h.16l-.14.19h.21l.13-.17h.25a1.06,1.06,0,0,0,.39-.13l.13-.1a.16.16,0,0,0,.06-.13s0-.05-.05-.08a.33.33,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14A.09.09,0,0,0,319.35,64.23Zm-.55.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S318.84,64.7,318.8,64.75Zm-.37-.23a1.19,1.19,0,0,0,.46-.06c.13-.08.09-.14,0-.17a.86.86,0,0,0-.32,0Z"/>
+        <path id="Path_38" data-name="Path 38" class="cls-11"
+              d="M315.8,63.65s.21-.59,2.37-.59,2.23.59,2.29.7v.57s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_82" data-name="Oval 82" class="cls-12" cx="318.13" cy="63.75" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_83" data-name="Oval 83" class="cls-13" cx="318.13" cy="63.67" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_84" data-name="Oval 84" class="cls-14" cx="318.13" cy="63.67" rx="1.91" ry="0.77"/>
+        <path id="Shape_55" data-name="Shape 55" class="cls-15"
+              d="M319,63.29l-.08,0-.24,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.49a.13.13,0,0,1-.12.06h-.12l-.16.14h.41l-.15.2h.21l.13-.2h.17l-.14.2h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.13,0a.64.64,0,0,0,.18-.06.29.29,0,0,0,.13-.14A.07.07,0,0,0,319,63.29Zm-.55.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0s.05.06,0,.11Zm-.37-.24a1.19,1.19,0,0,0,.46-.06v0c.13-.08.09-.14,0-.17a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_56" data-name="Shape 56" class="cls-43"
+              d="M319,63.26l-.08,0-.25,0,.15-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.14l-.16.14h.41l-.15.19h.2l.14-.19h.17l-.14.19h.21l.12-.2.25,0a.81.81,0,0,0,.38-.12l0,0h0a.31.31,0,0,0,.1-.08.15.15,0,0,0,.07-.14s0-.05-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.29.29,0,0,0,.14-.13A.12.12,0,0,0,319,63.26Zm-.57.53a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S318.45,63.74,318.4,63.79Zm-.37-.24a1,1,0,0,0,.46-.06h0c.13-.08.09-.13,0-.17h-.33Z"/>
+        <path id="Path_39" data-name="Path 39" class="cls-11"
+              d="M316,62.87s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_85" data-name="Oval 85" class="cls-12" cx="318.33" cy="62.97" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_86" data-name="Oval 86" class="cls-13" cx="318.33" cy="62.9" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_87" data-name="Oval 87" class="cls-14" cx="318.33" cy="62.9" rx="1.91" ry="0.77"/>
+        <path id="Shape_57" data-name="Shape 57" class="cls-15"
+              d="M319.18,62.52l-.07,0-.24,0,.14-.2h-.2l-.14.19h-.14l.13-.19h-.18l-.14.19H318l-.08.13H318c.07,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.2l.14-.19H318l-.14.19h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.25.25,0,0,0,.13-.14A.08.08,0,0,0,319.18,62.52Zm-.55.53a.44.44,0,0,1-.19.1,3.39,3.39,0,0,1-.45,0l.18-.25h.32l.13,0a.06.06,0,0,1,0,.1Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.13-.08.09-.14,0-.16a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_58" data-name="Shape 58" class="cls-44"
+              d="M319.16,62.49l-.07,0a1.07,1.07,0,0,0-.25,0l.14-.2h-.2l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13H318c.07,0,0,.05,0,.05l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.4l-.14.19h.2l.14-.19H318l-.13.19h.21l.13-.18h.24a.89.89,0,0,0,.39-.12l.13-.09a.26.26,0,0,0,.07-.15.16.16,0,0,0-.06-.08.28.28,0,0,0-.13,0l.18-.07a.24.24,0,0,0,.13-.13.07.07,0,0,0,0-.07A.09.09,0,0,0,319.16,62.49Zm-.55.53a.44.44,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0s0,0,0,.09Zm-.38-.24a1.24,1.24,0,0,0,.47-.06h0c.13-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_40" data-name="Path 40" class="cls-11"
+              d="M316.57,62.1s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_88" data-name="Oval 88" class="cls-12" cx="318.9" cy="62.2" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_89" data-name="Oval 89" class="cls-13" cx="318.91" cy="62.13" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_90" data-name="Oval 90" class="cls-14" cx="318.9" cy="62.13" rx="1.91" ry="0.77"/>
+        <path id="Shape_59" data-name="Shape 59" class="cls-15"
+              d="M319.76,61.76l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.13.19h-.16l.15-.19h-.2l-.13.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.38.5a.11.11,0,0,1-.12,0H318l-.16.15h.41l-.15.19h.2l.14-.19h.16l-.14.19h.22l.13-.18h.24a.89.89,0,0,0,.39-.12l.13-.1a.2.2,0,0,0,.06-.14.09.09,0,0,0,0-.08l-.13,0a.85.85,0,0,0,.17-.06.32.32,0,0,0,.14-.14.08.08,0,0,0,0-.07S319.78,61.78,319.76,61.76Zm-.55.52a.32.32,0,0,1-.19.1l-.45,0,.18-.25h.32l.13,0A.06.06,0,0,1,319.21,62.28Zm-.37-.24a.94.94,0,0,0,.47-.06c.13-.07.08-.13,0-.16a.91.91,0,0,0-.33,0Z"/>
+        <path id="Shape_60" data-name="Shape 60" class="cls-45"
+              d="M319.74,61.72l-.08,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.13.19h-.16l.15-.19H319l-.14.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.38.49a.11.11,0,0,1-.12.06H318l-.15.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.12-.18H319a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.44.44,0,0,0,.14-.13A.1.1,0,0,0,319.74,61.72Zm-.56.52a.27.27,0,0,1-.18.1,3.55,3.55,0,0,1-.46,0l.18-.25H319l.14,0S319.22,62.19,319.18,62.24Zm-.37-.24a.94.94,0,0,0,.47-.06c.13-.08.08-.13,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_41" data-name="Path 41" class="cls-11"
+              d="M315.61,61.14s.21-.59,2.37-.59,2.23.59,2.29.7v.57s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_91" data-name="Oval 91" class="cls-12" cx="317.94" cy="61.24" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_92" data-name="Oval 92" class="cls-13" cx="317.94" cy="61.16" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_93" data-name="Oval 93" class="cls-14" cx="317.94" cy="61.16" rx="1.91" ry="0.77"/>
+        <path id="Shape_61" data-name="Shape 61" class="cls-15"
+              d="M318.8,60.79a.11.11,0,0,1-.07,0l-.25,0,.14-.2h-.19l-.14.18h-.15l.14-.18h-.19l-.14.18h-.38l-.08.13h.17c.06,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.13.19h.2l.13-.18h.25a.8.8,0,0,0,.38-.11l.13-.1a.23.23,0,0,0,.08-.14.12.12,0,0,0-.06-.08.33.33,0,0,0-.13,0l.18-.06a.35.35,0,0,0,.13-.14.1.1,0,0,0,0-.07A.09.09,0,0,0,318.8,60.79Zm-.55.53a.39.39,0,0,1-.19.1,3.55,3.55,0,0,1-.46,0l.18-.25h.32l.14,0S318.28,61.27,318.25,61.32Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_62" data-name="Shape 62" class="cls-46"
+              d="M318.78,60.75l-.08,0-.24,0,.14-.19h-.2l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.12h.17c.07,0,0,.05,0,.05l-.38.5a.14.14,0,0,1-.12.06H317l-.15.14h.4l-.15.19h.2l.14-.19h.17l-.13.19h.21l.13-.18h.24a.89.89,0,0,0,.39-.12.53.53,0,0,0,.12-.1.18.18,0,0,0,.08-.14.16.16,0,0,0-.06-.08.31.31,0,0,0-.13,0l.18-.07a.33.33,0,0,0,.13-.13A.11.11,0,0,0,318.78,60.75Zm-.55.53a.39.39,0,0,1-.19.1,3.55,3.55,0,0,1-.46,0l.19-.25h.31l.14,0s0,0,0,.09Zm-.38-.24a.94.94,0,0,0,.47-.06v0c.13-.1.08-.15,0-.18a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_42" data-name="Path 42" class="cls-11"
+              d="M316.18,60.75s.22-.58,2.37-.58,2.23.58,2.3.7v.56s-.2,1-2.32,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_94" data-name="Oval 94" class="cls-12" cx="318.52" cy="60.85" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_95" data-name="Oval 95" class="cls-13" cx="318.52" cy="60.77" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_96" data-name="Oval 96" class="cls-14" cx="318.52" cy="60.77" rx="1.91" ry="0.77"/>
+        <path id="Shape_63" data-name="Shape 63" class="cls-15"
+              d="M319.38,60.41l-.08,0-.24,0,.14-.2H319l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.12.12,0,0,1-.13.06h-.13l-.15.14h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.25a.8.8,0,0,0,.38-.11l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14.09.09,0,0,0,0-.07A.07.07,0,0,0,319.38,60.41Zm-.56.53a.4.4,0,0,1-.18.1,3.46,3.46,0,0,1-.46,0l.19-.25h.31l.14,0A.08.08,0,0,1,318.82,60.94Zm-.36-.25a1,1,0,0,0,.46,0c.13-.08.09-.14,0-.15a.93.93,0,0,0-.33,0Z"/>
+        <path id="Shape_64" data-name="Shape 64" class="cls-47"
+              d="M319.35,60.37l-.07,0a1.07,1.07,0,0,0-.25,0l.14-.2H319l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.12.12,0,0,1-.13.06h-.13l-.16.14h.4l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.89.89,0,0,0,.39-.12l.13-.1a.18.18,0,0,0,.06-.14s0,0-.05-.08l-.13,0a.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,319.35,60.37Zm-.55.53a.34.34,0,0,1-.19.09,2.28,2.28,0,0,1-.45,0l.18-.25h.31a.32.32,0,0,1,.14,0S318.84,60.85,318.8,60.9Zm-.37-.24a1.19,1.19,0,0,0,.46-.06v0c.13-.1.09-.16,0-.19a.86.86,0,0,0-.32,0Z"/>
+        <path id="Path_43" data-name="Path 43" class="cls-48" d="M318.92,53.33l2.5-1.74V86.7l-2.53-1.54Z"/>
+        <path id="Path_44" data-name="Path 44" class="cls-49"
+              d="M314.67,58.73l-1.54,25.85L296.25,67.25l-1.84-28.4,4.83,2.9Z"/>
+        <path id="Path_45" data-name="Path 45" class="cls-50" d="M312.16,59.69v27L294.22,68.18l.19-29.33Z"/>
+        <path id="Path_46" data-name="Path 46" class="cls-51" d="M312.16,59.69l2.51-1V85.55l-2.51,1Z"/>
+        <path id="Path_47" data-name="Path 47" class="cls-52"
+              d="M306.56,60c-.43,3.13-3,3.55-5.22,1.58a8.25,8.25,0,0,1-2.56-6.3c.17-2.13,1.6-3.5,3.52-2.9C304.8,53.11,307,56.69,306.56,60Z"/>
+        <path id="Path_48" data-name="Path 48" class="cls-3"
+              d="M306,59.62c-.38,2.71-2.6,3.16-4.54,1.48a7.27,7.27,0,0,1-2.35-5.66c.17-1.91,1.48-3.12,3.21-2.52C304.52,53.68,306.4,56.8,306,59.62Z"/>
+        <path id="Path_49" data-name="Path 49" class="cls-5"
+              d="M304.21,58.52a1.47,1.47,0,0,1-2.56,1.06A4.36,4.36,0,0,1,300.12,56c.12-1.25,1-1.91,2.07-1.44A4.1,4.1,0,0,1,304.21,58.52Z"/>
+        <path id="Path_50" data-name="Path 50" class="cls-53"
+              d="M303.23,58.22c-.13,1.06-.94,1.38-1.74.79a3.11,3.11,0,0,1-1.15-2.57c.09-.91.73-1.37,1.5-1A2.94,2.94,0,0,1,303.23,58.22Z"/>
+        <path id="Path_51" data-name="Path 51" class="cls-54"
+              d="M302.61,58.19c-.1.84-.73,1.11-1.36.64a2.57,2.57,0,0,1-.92-2.1c.07-.76.6-1.11,1.21-.76A2.44,2.44,0,0,1,302.61,58.19Z"/>
+        <path id="Path_52" data-name="Path 52" class="cls-55"
+              d="M305.13,59.14c-.28,2.17-2,2.63-3.61,1.32a6,6,0,0,1-2-4.75c.15-1.63,1.27-2.59,2.72-2A5.51,5.51,0,0,1,305.13,59.14Z"/>
+        <path id="Path_53" data-name="Path 53" class="cls-56"
+              d="M300.63,53.27c.08.22.14.43.21.65s.2.06.17,0l-.21-.66C300.76,53.12,300.6,53.16,300.63,53.27Z"/>
+        <path id="Path_54" data-name="Path 54" class="cls-56"
+              d="M301.62,53.15l0,.77c0,.11.17.11.18,0l0-.77C301.8,53.05,301.63,53.05,301.62,53.15Z"/>
+        <path id="Path_55" data-name="Path 55" class="cls-56"
+              d="M302.88,53.6a5.16,5.16,0,0,0-.2.67c0,.11.15.15.17,0a5.61,5.61,0,0,1,.19-.67C303.08,53.54,302.91,53.49,302.88,53.6Z"/>
+        <path id="Path_56" data-name="Path 56" class="cls-56"
+              d="M303.89,55.73a3.8,3.8,0,0,0,.82-.08c.1,0,.06-.19,0-.16a3.91,3.91,0,0,1-.76.07.1.1,0,0,0-.07.09.08.08,0,0,0,.07.08Z"/>
+        <path id="Path_57" data-name="Path 57" class="cls-56"
+              d="M304.54,57.08a2.75,2.75,0,0,1,.69.21c.1,0,.19-.11.09-.15a2.66,2.66,0,0,0-.74-.23C304.48,56.91,304.43,57.06,304.54,57.08Z"/>
+        <path id="Path_58" data-name="Path 58" class="cls-56"
+              d="M304.87,58.33a6.64,6.64,0,0,1,.6.38c.08.06.17-.08.08-.15s-.38-.26-.59-.38-.18.1-.09.15Z"/>
+        <path id="Path_59" data-name="Path 59" class="cls-56"
+              d="M304.65,59.44s.17.15.2.18l.2.15.41.35c.09.07.21,0,.13-.12l-.56-.46c-.09-.08-.24-.27-.38-.27a.1.1,0,0,0-.07.09A.08.08,0,0,0,304.65,59.44Z"/>
+        <path id="Path_60" data-name="Path 60" class="cls-56"
+              d="M304.24,60.18a4.52,4.52,0,0,0,.5.85c.06.09.21,0,.14-.08a5.51,5.51,0,0,1-.49-.85C304.35,60,304.2,60.1,304.24,60.18Z"/>
+        <path id="Path_61" data-name="Path 61" class="cls-56"
+              d="M303.58,60.68l.36.9c0,.1.2.06.16,0l-.35-.91C303.71,60.53,303.55,60.57,303.58,60.68Z"/>
+        <path id="Path_62" data-name="Path 62" class="cls-56"
+              d="M303,60.74a7.09,7.09,0,0,0,.12.91.09.09,0,0,0,.17,0,5.06,5.06,0,0,1-.11-.86A.09.09,0,0,0,303,60.74Z"/>
+        <path id="Path_63" data-name="Path 63" class="cls-56"
+              d="M301.94,60.48c0,.2,0,.4,0,.61a.09.09,0,0,0,.18,0,4.09,4.09,0,0,1,0-.61A.09.09,0,1,0,301.94,60.48Z"/>
+        <path id="Path_64" data-name="Path 64" class="cls-56"
+              d="M300.88,59.6a.64.64,0,0,1-.15.25c-.07.08,0,.2.12.12a.8.8,0,0,0,.19-.32C301.08,59.55,300.92,59.5,300.88,59.6Z"/>
+        <path id="Path_65" data-name="Path 65" class="cls-56"
+              d="M300.24,58.68,300,59c-.07.09.08.18.14.09l.21-.3C300.45,58.68,300.3,58.59,300.24,58.68Z"/>
+        <path id="Path_66" data-name="Path 66" class="cls-56"
+              d="M299.93,57.63h-.33c-.11,0-.11.17,0,.18H300c.11,0,.06-.18-.05-.17Z"/>
+        <path id="Path_67" data-name="Path 67" class="cls-56"
+              d="M299.77,56.8a1.25,1.25,0,0,1-.3-.12c-.1,0-.18.1-.09.15a1.14,1.14,0,0,0,.35.13C299.83,57,299.88,56.82,299.77,56.8Z"/>
+        <path id="Path_68" data-name="Path 68" class="cls-56"
+              d="M299.75,55.69a4,4,0,0,0-.29-.29c-.09-.06-.21.06-.12.13a2,2,0,0,1,.29.29C299.7,55.9,299.82,55.78,299.75,55.69Z"/>
+        <path id="Path_69" data-name="Path 69" class="cls-56"
+              d="M300,54.84c-.09-.15-.17-.3-.27-.45s-.21,0-.15.09.19.3.27.45S300,54.93,300,54.84Z"/>
+        <path id="Path_70" data-name="Path 70" class="cls-56"
+              d="M300.43,54.19c-.06-.19-.12-.39-.17-.58a.11.11,0,0,0-.07-.06.08.08,0,0,0-.08,0,.08.08,0,0,0,0,.08c.05.2.11.39.17.59A.09.09,0,0,0,300.43,54.19Z"/>
+        <path id="Path_71" data-name="Path 71" class="cls-56"
+              d="M303.77,54.43a4.06,4.06,0,0,0-.5.43.11.11,0,0,0,0,.08.12.12,0,0,0,.06.06.1.1,0,0,0,.09,0,2.82,2.82,0,0,1,.46-.38c.09-.07,0-.21-.09-.15Z"/>
+        <path id="Path_72" data-name="Path 72" class="cls-3"
+              d="M304.29,68.38c-.24,1.65-1.35,2.51-2.61,1.91s-2.5-2.86-2.32-4.92,1.66-3,3.12-1.86A5.64,5.64,0,0,1,304.29,68.38Z"/>
+        <path id="Path_73" data-name="Path 73" class="cls-57" d="M296.78,61.63s-1.53-1.39-1.44.1l5.34,5,.79-1Z"/>
+        <path id="Path_74" data-name="Path 74" class="cls-57" d="M301.28,68.32l.76,7.55a.6.6,0,0,0,.88-.07l-.76-8.24Z"/>
+        <path id="Path_75" data-name="Path 75" class="cls-58"
+              d="M302.74,64.87l-2.18.82s-.92.29-.36,2,1.69.72,1.69.72l1.78-.92A2,2,0,0,0,302.74,64.87Z"/>
+        <path id="Path_76" data-name="Path 76" class="cls-57"
+              d="M301.93,65.73a1.26,1.26,0,0,0,.73,1.55l4.12-3.34a1.14,1.14,0,0,0-.4-1.36Z"/>
+        <path id="Path_77" data-name="Path 77" class="cls-11"
+              d="M335.29,79.08s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_97" data-name="Oval 97" class="cls-12" cx="337.62" cy="79.18" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_98" data-name="Oval 98" class="cls-13" cx="337.62" cy="79.11" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_99" data-name="Oval 99" class="cls-14" cx="337.62" cy="79.11" rx="1.91" ry="0.77"/>
+        <path id="Shape_65" data-name="Shape 65" class="cls-15"
+              d="M338.48,78.74l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.09.13h.17c.07,0,0,0,0,0l-.39.49a.11.11,0,0,1-.12.06h-.14l-.16.14H337l-.15.2H337l.13-.2h.17l-.14.2h.21l.13-.18.24,0a.89.89,0,0,0,.39-.12l.13-.1a.21.21,0,0,0,.07-.14.1.1,0,0,0-.06-.08.28.28,0,0,0-.12,0l.17-.06a.35.35,0,0,0,.13-.14A.11.11,0,0,0,338.48,78.74Zm-.55.52a.3.3,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.24a1.61,1.61,0,0,1,.31,0,.35.35,0,0,1,.14,0S338,79.21,337.93,79.26Zm-.38-.23A1.24,1.24,0,0,0,338,79c.13-.09.09-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_66" data-name="Shape 66" class="cls-59"
+              d="M338.45,78.7l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.13.13,0,0,1-.13,0h-.11l-.16.14H337l-.15.2H337l.13-.2h.17l-.14.2h.21l.13-.18.24,0a.89.89,0,0,0,.39-.12l.13-.1a.21.21,0,0,0,.07-.13.1.1,0,0,0-.06-.08.31.31,0,0,0-.12,0l.17-.05a.37.37,0,0,0,.13-.15A.08.08,0,0,0,338.45,78.7Zm-.55.53a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25h.31l.13,0S337.94,79.18,337.9,79.23Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.13-.09.09-.14,0-.16a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_78" data-name="Path 78" class="cls-11"
+              d="M334.9,78.31s.21-.59,2.37-.59,2.23.59,2.29.71V79s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_100" data-name="Oval 100" class="cls-12" cx="337.24" cy="78.41" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_101" data-name="Oval 101" class="cls-13" cx="337.24" cy="78.33" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_102" data-name="Oval 102" class="cls-14" cx="337.24" cy="78.33" rx="1.91" ry="0.77"/>
+        <path id="Shape_67" data-name="Shape 67" class="cls-15"
+              d="M338.09,78a.13.13,0,0,1-.07,0,1,1,0,0,0-.25,0l.15-.2h-.2l-.14.18h-.15l.14-.18h-.19l-.14.18h-.38l-.08.13H337c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19H337l-.15.19H337l.13-.17.25,0a.7.7,0,0,0,.38-.11l.13-.1a.23.23,0,0,0,.08-.14.16.16,0,0,0-.06-.08.28.28,0,0,0-.13,0,.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.11.11,0,0,0,338.09,78Zm-.55.53a.3.3,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0S337.58,78.44,337.54,78.49Zm-.37-.24a1,1,0,0,0,.46,0c.13-.08.09-.14,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_68" data-name="Shape 68" class="cls-60"
+              d="M338.06,77.93a.18.18,0,0,0-.07-.05l-.24,0,.14-.19h-.2l-.13.19h-.15l.13-.19h-.18l-.14.19h-.39l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.16.16,0,0,1-.13.06h-.11l-.16.14h.41l-.15.19h.2l.14-.19H337l-.15.19H337l.13-.18h.25a.81.81,0,0,0,.38-.12.41.41,0,0,0,.13-.1.18.18,0,0,0,.08-.14.11.11,0,0,0-.06-.07.33.33,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14.11.11,0,0,0,0-.08A.08.08,0,0,0,338.06,77.93Zm-.54.52a.38.38,0,0,1-.2.1,3.4,3.4,0,0,1-.45,0l.19-.25h.31l.13,0S337.55,78.4,337.52,78.45Zm-.38-.24a.89.89,0,0,0,.46-.06c.13-.07.09-.13,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_79" data-name="Path 79" class="cls-11"
+              d="M335.48,77.15s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_103" data-name="Oval 103" class="cls-12" cx="337.82" cy="77.25" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_104" data-name="Oval 104" class="cls-13" cx="337.81" cy="77.18" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_105" data-name="Oval 105" class="cls-14" cx="337.82" cy="77.18" rx="1.91" ry="0.77"/>
+        <path id="Shape_69" data-name="Shape 69" class="cls-15"
+              d="M338.67,76.81l-.07,0a1,1,0,0,0-.24,0l.13-.2h-.19l-.14.19H338l.14-.19H338l-.14.19h-.39l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.13.13,0,0,1-.13,0h-.13l-.16.14h.41l-.15.2h.2l.14-.2h.16l-.13.2h.21l.13-.18.24,0a.89.89,0,0,0,.39-.12l.13-.1a.16.16,0,0,0,.06-.13s0,0-.05-.09l-.13,0,.18-.05a.47.47,0,0,0,.13-.15A.09.09,0,0,0,338.67,76.81Zm-.55.52a.32.32,0,0,1-.19.1l-.45,0,.18-.25H338l.13,0a.05.05,0,0,1,0,0S338.14,77.32,338.12,77.33Zm-.37-.24a1.19,1.19,0,0,0,.46,0h0c.13-.07.09-.13,0-.14a.85.85,0,0,0-.32,0Z"/>
+        <path id="Shape_70" data-name="Shape 70" class="cls-61"
+              d="M338.63,76.77l-.07,0-.25,0,.14-.2h-.19l-.14.19H338l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,.05,0,.05l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.41l-.15.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.05-.08l-.13,0,.17-.06a.32.32,0,0,0,.14-.14A.09.09,0,0,0,338.63,76.77Zm-.55.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0s.06,0,0,.09Zm-.37-.23a1.19,1.19,0,0,0,.46-.06h0c.13-.08.08-.14,0-.15a1.15,1.15,0,0,0-.32,0Z"/>
+        <path id="Path_80" data-name="Path 80" class="cls-11"
+              d="M335.29,76.19s.21-.59,2.37-.59,2.23.59,2.29.71v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_106" data-name="Oval 106" class="cls-12" cx="337.62" cy="76.29" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_107" data-name="Oval 107" class="cls-13" cx="337.62" cy="76.21" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_108" data-name="Oval 108" class="cls-14" cx="337.62" cy="76.21" rx="1.91" ry="0.77"/>
+        <path id="Shape_71" data-name="Shape 71" class="cls-15"
+              d="M338.48,75.84l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.19l-.14.18h-.15l.14-.18h-.19l-.14.18h-.38l-.09.13h.17c.07,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.14l-.16.14H337l-.15.19H337l.13-.19h.17l-.14.19h.21l.13-.18.24,0a.89.89,0,0,0,.39-.12.57.57,0,0,0,.13-.1.17.17,0,0,0,.07-.13.1.1,0,0,0-.06-.08.19.19,0,0,0-.12,0l.17-.06a.35.35,0,0,0,.13-.14A.13.13,0,0,0,338.48,75.84Zm-.55.53a.3.3,0,0,1-.19.1,1.71,1.71,0,0,1-.45,0l.19-.23h.32l.13,0S338,76.32,337.93,76.37Zm-.38-.24a1.07,1.07,0,0,0,.47,0c.13-.08.09-.14,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_72" data-name="Shape 72" class="cls-62"
+              d="M338.45,75.8l-.07,0a1.9,1.9,0,0,0-.25,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,.05,0,.05l-.38.5a.16.16,0,0,1-.13.06h-.11l-.16.14H337l-.15.19H337l.13-.19h.17l-.14.19h.21l.13-.18h.24a.89.89,0,0,0,.39-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.12,0,.17-.06a.29.29,0,0,0,.13-.14.06.06,0,0,0,0-.07S338.47,75.82,338.45,75.8Zm-.55.53a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25h.31l.13,0h0S337.93,76.28,337.9,76.33Zm-.37-.24A1.19,1.19,0,0,0,338,76c.13-.08.09-.15,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_81" data-name="Path 81" class="cls-11"
+              d="M335.86,75.42s.22-.59,2.38-.59,2.22.59,2.29.7v.57s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_109" data-name="Oval 109" class="cls-12" cx="338.2" cy="75.52" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_110" data-name="Oval 110" class="cls-13" cx="338.2" cy="75.44" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_111" data-name="Oval 111" class="cls-14" cx="338.2" cy="75.44" rx="1.91" ry="0.77"/>
+        <path id="Shape_73" data-name="Shape 73" class="cls-15"
+              d="M339.06,75.07,339,75l-.24,0,.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.13l-.16.14h.4l-.14.19h.2l.14-.19h.16l-.14.19H338l.13-.18.25,0a.89.89,0,0,0,.38-.12.41.41,0,0,0,.13-.1.17.17,0,0,0,.07-.13s0-.05-.06-.08a.28.28,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14A.1.1,0,0,0,339.06,75.07Zm-.55.53a.5.5,0,0,1-.19.1,3.55,3.55,0,0,1-.46,0l.18-.25a1.71,1.71,0,0,1,.32,0l.14,0S338.54,75.55,338.51,75.6Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_74" data-name="Shape 74" class="cls-63"
+              d="M339,75,339,75a2,2,0,0,0-.24,0l.13-.2h-.19l-.14.19h-.15l.14-.19h-.18l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.13.19H338l.13-.18.24,0a.89.89,0,0,0,.39-.12l.12-.1a.15.15,0,0,0,.07-.14.08.08,0,0,0-.05-.07.35.35,0,0,0-.13,0l.18,0a.47.47,0,0,0,.13-.15A.09.09,0,0,0,339,75Zm-.55.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31a.7.7,0,0,1,.14,0A.06.06,0,0,1,338.48,75.56Zm-.37-.24a1.22,1.22,0,0,0,.46-.06c.13-.08.09-.14,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_82" data-name="Path 82" class="cls-11"
+              d="M335.29,74.26s.21-.59,2.37-.59,2.23.59,2.29.71v.55s-.17.95-2.31.95-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_112" data-name="Oval 112" class="cls-12" cx="337.62" cy="74.36" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_113" data-name="Oval 113" class="cls-13" cx="337.62" cy="74.28" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_114" data-name="Oval 114" class="cls-14" cx="337.62" cy="74.28" rx="1.91" ry="0.77"/>
+        <path id="Shape_75" data-name="Shape 75" class="cls-15"
+              d="M338.48,73.92l-.08,0-.24,0,.14-.2h-.19l-.14.2h-.15l.14-.2h-.19l-.14.2h-.38l-.09.12h.17c.07,0,0,.05,0,.05l-.39.5a.13.13,0,0,1-.12.06h-.14l-.16.14H337l-.15.19H337l.13-.19h.17l-.14.19h.21l.13-.18.24,0a.89.89,0,0,0,.39-.12.57.57,0,0,0,.13-.1.17.17,0,0,0,.07-.14.11.11,0,0,0-.06-.07.31.31,0,0,0-.12,0l.17,0a.29.29,0,0,0,.13-.14A.11.11,0,0,0,338.48,73.92Zm-.55.52a.35.35,0,0,1-.19.1l-.45,0,.18-.25h.31l.14,0S338,74.39,337.93,74.44Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.13-.07.09-.13,0-.17a1.82,1.82,0,0,0-.33,0Z"/>
+        <path id="Shape_76" data-name="Shape 76" class="cls-64"
+              d="M338.45,73.87l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.14.18h-.15l.14-.18h-.19l-.14.18h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.11l-.16.14H337l-.15.19H337l.13-.19h.17l-.14.19h.21l.13-.18.24,0a.78.78,0,0,0,.39-.12l.13-.1a.21.21,0,0,0,.07-.13.1.1,0,0,0-.06-.08.19.19,0,0,0-.12,0l.17-.06a.44.44,0,0,0,.13-.14A.1.1,0,0,0,338.45,73.87Zm-.55.53a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25h.31l.13,0S337.94,74.36,337.9,74.4Zm-.37-.24a1.19,1.19,0,0,0,.46-.06c.13-.08.09-.12,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_83" data-name="Path 83" class="cls-11"
+              d="M335.67,73.49s.22-.59,2.37-.59,2.23.59,2.3.7v.56s-.18,1-2.32,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_115" data-name="Oval 115" class="cls-12" cx="338.01" cy="73.59" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_116" data-name="Oval 116" class="cls-13" cx="338.01" cy="73.51" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_117" data-name="Oval 117" class="cls-14" cx="338.01" cy="73.51" rx="1.91" ry="0.77"/>
+        <path id="Shape_77" data-name="Shape 77" class="cls-15"
+              d="M338.87,73.14l-.08,0-.24,0,.14-.2h-.2l-.14.19h-.14l.14-.19h-.19l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.15l-.15.14h.4l-.14.19h.2l.13-.19h.17l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.29.29,0,0,0,.13-.14A.09.09,0,0,0,338.87,73.14Zm-.56.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32a.31.31,0,0,1,.13,0S338.35,73.62,338.31,73.67Zm-.37-.24a1.07,1.07,0,0,0,.47-.06c.13-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_78" data-name="Shape 78" class="cls-65"
+              d="M338.84,73.1l-.08,0-.24,0,.14-.19h-.2l-.13.18h-.15l.14-.18h-.19L338,73h-.38l-.09.13h.17c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.12l-.15.14h.4l-.14.19h.2l.13-.19h.17l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.33.33,0,0,0,.13-.13A.11.11,0,0,0,338.84,73.1Zm-.55.53a.38.38,0,0,1-.2.1,3.29,3.29,0,0,1-.45,0l.19-.25h.31l.13,0A.06.06,0,0,1,338.29,73.63Zm-.38-.24a1.07,1.07,0,0,0,.47,0c.13-.08.08-.12,0-.17h0a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_84" data-name="Path 84" class="cls-11"
+              d="M335.29,72.52s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_118" data-name="Oval 118" class="cls-12" cx="337.62" cy="72.62" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_119" data-name="Oval 119" class="cls-13" cx="337.62" cy="72.54" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_120" data-name="Oval 120" class="cls-14" cx="337.62" cy="72.55" rx="1.91" ry="0.77"/>
+        <path id="Shape_79" data-name="Shape 79" class="cls-15"
+              d="M338.48,72.18l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.09.13h.17c.07,0,0,0,0,0l-.39.49a.11.11,0,0,1-.12.06h-.14l-.16.14H337l-.15.2H337l.13-.2h.17l-.14.2h.21l.13-.18h.24a.89.89,0,0,0,.39-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.12,0,.17-.06a.29.29,0,0,0,.13-.14A.09.09,0,0,0,338.48,72.18Zm-.55.53a.44.44,0,0,1-.19.1l-.45,0,.18-.25h.31l.14,0A.06.06,0,0,1,337.93,72.71Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.09-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_80" data-name="Shape 80" class="cls-66"
+              d="M338.45,72.14l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.11l-.16.14H337l-.15.19H337l.13-.19h.17l-.14.19h.21l.13-.17h.24a.89.89,0,0,0,.39-.12l.13-.1a.21.21,0,0,0,.07-.14.1.1,0,0,0-.06-.08.28.28,0,0,0-.12,0l.17-.06a.29.29,0,0,0,.13-.14.06.06,0,0,0,0-.07A.07.07,0,0,0,338.45,72.14Zm-.55.52a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25h.31l.13,0S337.94,72.61,337.9,72.66Zm-.37-.23a1,1,0,0,0,.46-.07c.13-.08.09-.13,0-.16a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_85" data-name="Path 85" class="cls-11"
+              d="M335.48,71.75s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_121" data-name="Oval 121" class="cls-12" cx="337.82" cy="71.85" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_122" data-name="Oval 122" class="cls-13" cx="337.81" cy="71.77" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_123" data-name="Oval 123" class="cls-14" cx="337.82" cy="71.77" rx="1.91" ry="0.77"/>
+        <path id="Shape_81" data-name="Shape 81" class="cls-15"
+              d="M338.67,71.41l-.07,0a1,1,0,0,0-.24,0l.13-.2h-.19l-.14.19H338l.14-.19H338l-.14.19h-.39l-.08.13h.17c.07,0,0,.05,0,.05l-.38.49a.12.12,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.13.19h.21l.13-.18H338a.89.89,0,0,0,.39-.12l.13-.1a.2.2,0,0,0,.06-.14.09.09,0,0,0-.05-.08l-.13,0,.18-.06a.35.35,0,0,0,.13-.14A.09.09,0,0,0,338.67,71.41Zm-.55.52a.27.27,0,0,1-.19.1,2.12,2.12,0,0,1-.44,0l.18-.25H338l.14,0S338.16,71.88,338.12,71.93Zm-.37-.23a1.19,1.19,0,0,0,.46-.06c.13-.08.09-.13,0-.15a.85.85,0,0,0-.32,0Z"/>
+        <path id="Shape_82" data-name="Shape 82" class="cls-67"
+              d="M338.63,71.36l-.07,0-.25,0,.14-.2h-.19l-.14.18H338l.14-.18h-.19l-.14.18h-.38l-.08.13h.17c.06,0,0,0,0,0l-.38.5A.16.16,0,0,1,337,72h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18.25,0a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.13s0,0-.05-.08a.22.22,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14A.11.11,0,0,0,338.63,71.36Zm-.55.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0s.06,0,0,.09Zm-.37-.24a.9.9,0,0,0,.46-.06h0c.13-.08.08-.13,0-.15a1.15,1.15,0,0,0-.32,0Z"/>
+        <path id="Path_86" data-name="Path 86" class="cls-11"
+              d="M336.06,71s.21-.58,2.37-.58,2.23.58,2.29.69v.57s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_124" data-name="Oval 124" class="cls-12" cx="338.39" cy="71.08" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_125" data-name="Oval 125" class="cls-13" cx="338.39" cy="71" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_126" data-name="Oval 126" class="cls-14" cx="338.4" cy="71" rx="1.91" ry="0.77"/>
+        <path id="Shape_83" data-name="Shape 83" class="cls-15"
+              d="M339.25,70.63l-.08,0-.24,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19H338l-.08.12h.16c.07,0,0,0,0,0l-.39.5a.11.11,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12h0l.1-.08a.21.21,0,0,0,.07-.15s0,0-.06-.08a.27.27,0,0,0-.12,0l.17-.06a.35.35,0,0,0,.13-.14A.1.1,0,0,0,339.25,70.63Zm-.55.53a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.13,0S338.73,71.11,338.7,71.16Zm-.37-.24a1,1,0,0,0,.46-.06c.13-.08.09-.13,0-.17h-.33Z"/>
+        <path id="Shape_84" data-name="Shape 84" class="cls-68"
+              d="M339.23,70.6l-.08,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.14l.14-.19h-.19l-.15.19H338l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.12.12,0,0,1-.12.06h-.13l-.15.14h.4l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.06-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.33.33,0,0,0,.13-.13A.09.09,0,0,0,339.23,70.6Zm-.56.52a.32.32,0,0,1-.18.1,3.55,3.55,0,0,1-.46,0l.18-.25h.32l.13,0S338.71,71.07,338.67,71.12Zm-.37-.24a.94.94,0,0,0,.47-.06c.13-.08.08-.13,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_87" data-name="Path 87" class="cls-11"
+              d="M335.09,70s.22-.58,2.38-.58,2.22.58,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_127" data-name="Oval 127" class="cls-12" cx="337.43" cy="70.11" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_128" data-name="Oval 128" class="cls-13" cx="337.43" cy="70.04" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_129" data-name="Oval 129" class="cls-14" cx="337.43" cy="70.04" rx="1.91" ry="0.77"/>
+        <path id="Shape_85" data-name="Shape 85" class="cls-15"
+              d="M338.29,69.67l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.39.49a.1.1,0,0,1-.12.06h-.14l-.15.14h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18h.25a.94.94,0,0,0,.38-.11l.13-.1a.17.17,0,0,0,.07-.14s0-.05-.06-.08a.28.28,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14.14.14,0,0,0,0-.07A.11.11,0,0,0,338.29,69.67Zm-.55.53a.5.5,0,0,1-.19.1l-.46,0,.18-.25h.32l.13,0S337.77,70.16,337.74,70.2Zm-.38-.25a1.07,1.07,0,0,0,.47,0c.13-.08.08-.13,0-.15a.93.93,0,0,0-.33,0Z"/>
+        <path id="Shape_86" data-name="Shape 86" class="cls-69"
+              d="M338.25,69.63l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19H337l-.08.13h.16c.07,0,0,0,0,0l-.38.49a.1.1,0,0,1-.12.06h-.14l-.15.14h.4l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.89.89,0,0,0,.39-.12l.13-.1a.18.18,0,0,0,.06-.14s0,0-.05-.08L338,70a.85.85,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,338.25,69.63Zm-.54.53a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25a1.61,1.61,0,0,1,.31,0l.14,0S337.74,70.1,337.71,70.16Zm-.37-.24a.92.92,0,0,0,.46-.06h0c.13-.08.09-.13,0-.16a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_88" data-name="Path 88" class="cls-11"
+              d="M335.67,69.63S335.89,69,338,69s2.23.59,2.3.71v.55s-.2,1-2.32,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_130" data-name="Oval 130" class="cls-12" cx="338.01" cy="69.73" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_131" data-name="Oval 131" class="cls-13" cx="338.01" cy="69.65" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_132" data-name="Oval 132" class="cls-14" cx="338.01" cy="69.65" rx="1.91" ry="0.77"/>
+        <path id="Shape_87" data-name="Shape 87" class="cls-15"
+              d="M338.87,69.28l-.08,0-.24,0,.14-.2h-.2l-.14.19h-.14l.14-.19h-.19l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.15l-.15.14h.4l-.14.19h.2l.13-.19h.17l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.12,0,.17,0a.37.37,0,0,0,.13-.15.07.07,0,0,0,0-.06A.19.19,0,0,0,338.87,69.28Zm-.56.53a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0S338.35,69.78,338.31,69.81Zm-.37-.24a1.24,1.24,0,0,0,.47-.06c.12-.08.09-.11,0-.17h0a.91.91,0,0,0-.33,0Z"/>
+        <path id="Shape_88" data-name="Shape 88" class="cls-70"
+              d="M338.84,69.24l-.08,0-.24,0,.14-.19h-.2l-.13.18h-.15l.14-.18h-.19l-.14.18h-.38l-.09.13h.17c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.12L337,70h.4l-.14.19h.2l.13-.19h.17l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08.27.27,0,0,0-.12,0l.17-.07a.33.33,0,0,0,.13-.13A.11.11,0,0,0,338.84,69.24Zm-.55.54a.38.38,0,0,1-.2.1,3.29,3.29,0,0,1-.45,0l.19-.25h.31l.13,0S338.32,69.72,338.29,69.78Zm-.38-.24a1.07,1.07,0,0,0,.47-.06h0c.13-.07.08-.13,0-.16a1.82,1.82,0,0,0-.33,0Z"/>
+        <path id="Path_89" data-name="Path 89" class="cls-11"
+              d="M339,82s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_133" data-name="Oval 133" class="cls-12" cx="341.29" cy="82.08" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_134" data-name="Oval 134" class="cls-13" cx="341.29" cy="82" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_135" data-name="Oval 135" class="cls-14" cx="341.29" cy="82" rx="1.91" ry="0.77"/>
+        <path id="Shape_89" data-name="Shape 89" class="cls-15"
+              d="M342.15,81.63l-.08,0-.24,0,.14-.2h-.2l-.13.2h-.15l.14-.2h-.19l-.14.2h-.39l-.08.12H341c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.14l-.16.14h.41l-.15.19h.21l.13-.19H341l-.14.19h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.12,0,.17-.06a.24.24,0,0,0,.13-.13A.1.1,0,0,0,342.15,81.63Zm-.56.53a.39.39,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25a1.71,1.71,0,0,1,.32,0l.13,0A.06.06,0,0,1,341.59,82.16Zm-.37-.24a1.17,1.17,0,0,0,.46-.06c.13-.08.09-.14,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_90" data-name="Shape 90" class="cls-71"
+              d="M342.12,81.61l-.08,0-.24,0,.14-.19h-.2l-.13.18h-.15l.14-.18h-.19l-.14.18h-.39l-.08.13H341c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.14l-.15.14h.4l-.15.19h.21l.13-.19H341l-.14.19H341l.13-.17.25,0a.89.89,0,0,0,.38-.12l.13-.09a.27.27,0,0,0,.07-.14s0,0-.07-.08a.21.21,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14A.09.09,0,0,0,342.12,81.61Zm-.55.53a.44.44,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.13,0s.05,0,0,.07Zm-.37-.24a1.22,1.22,0,0,0,.46-.06v0c.13-.08.09-.13,0-.15a1.82,1.82,0,0,0-.33,0Z"/>
+        <path id="Path_90" data-name="Path 90" class="cls-11"
+              d="M338.56,81.2s.22-.58,2.38-.58,2.22.58,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_136" data-name="Oval 136" class="cls-12" cx="340.9" cy="81.3" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_137" data-name="Oval 137" class="cls-13" cx="340.9" cy="81.23" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_138" data-name="Oval 138" class="cls-14" cx="340.9" cy="81.23" rx="1.91" ry="0.77"/>
+        <path id="Shape_91" data-name="Shape 91" class="cls-15"
+              d="M341.76,80.85l-.07,0-.25,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.08,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06H340l-.16.13h.4l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.19.19,0,0,0,.07-.14s0,0-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.38.38,0,0,0,.14-.14A.09.09,0,0,0,341.76,80.85Zm-.55.52a.3.3,0,0,1-.19.1,1.71,1.71,0,0,1-.45,0l.18-.24a1.61,1.61,0,0,1,.31,0,.35.35,0,0,1,.14,0,.07.07,0,0,1,0,.1Zm-.37-.23a1.22,1.22,0,0,0,.46-.06h0c.13-.08.09-.13,0-.16a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_92" data-name="Shape 92" class="cls-72"
+              d="M341.74,80.82l-.08,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.13.19h-.16l.15-.19H341l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.12.12,0,0,1-.12,0H340l-.16.15h.41l-.15.19h.2l.14-.19h.17l-.15.19h.21l.13-.18.25,0a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0,0-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.11.11,0,0,0,341.74,80.82Zm-.56.53a.39.39,0,0,1-.19.1,3.39,3.39,0,0,1-.45,0l.18-.24H341l.13,0S341.22,81.3,341.18,81.35Zm-.37-.25a1,1,0,0,0,.46,0c.13-.08.09-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_91" data-name="Path 91" class="cls-11"
+              d="M339.14,80s.22-.58,2.38-.58,2.23.58,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_139" data-name="Oval 139" class="cls-12" cx="341.48" cy="80.15" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_140" data-name="Oval 140" class="cls-13" cx="341.48" cy="80.07" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_141" data-name="Oval 141" class="cls-14" cx="341.48" cy="80.07" rx="1.91" ry="0.77"/>
+        <path id="Shape_93" data-name="Shape 93" class="cls-15"
+              d="M342.34,79.7l-.07,0-.25,0,.14-.2H342l-.14.18h-.14l.13-.18h-.18l-.14.18h-.39l-.08.13h.17c.07,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.17.25,0a.76.76,0,0,0,.38-.11l.13-.1a.21.21,0,0,0,.07-.14.16.16,0,0,0-.06-.08L342,80a.55.55,0,0,0,.18-.06.25.25,0,0,0,.13-.14A.09.09,0,0,0,342.34,79.7Zm-.55.53a.3.3,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0S341.83,80.18,341.79,80.23Zm-.37-.24a1,1,0,0,0,.46,0c.13-.08.09-.14,0-.15a.91.91,0,0,0-.33,0Z"/>
+        <path id="Shape_94" data-name="Shape 94" class="cls-73"
+              d="M342.31,79.66l-.08,0-.24,0,.14-.2h-.19l-.14.2h-.15l.14-.2h-.19l-.14.2h-.38l-.08.12h.17c.07,0,0,.05,0,.05l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.21l.13-.19h.16l-.13.19h.21l.13-.18.24,0a.89.89,0,0,0,.39-.12.57.57,0,0,0,.13-.1.17.17,0,0,0,.07-.14.11.11,0,0,0-.06-.07.29.29,0,0,0-.13,0l.18,0a.29.29,0,0,0,.13-.14A.1.1,0,0,0,342.31,79.66Zm-.55.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.24h.32l.13,0S341.8,80.14,341.76,80.19Zm-.37-.24a1.19,1.19,0,0,0,.46-.06c.13-.08.09-.13,0-.17a.86.86,0,0,0-.32,0Z"/>
+        <path id="Path_92" data-name="Path 92" class="cls-11"
+              d="M339,79.08s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_142" data-name="Oval 142" class="cls-12" cx="341.29" cy="79.18" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_143" data-name="Oval 143" class="cls-13" cx="341.29" cy="79.11" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_144" data-name="Oval 144" class="cls-14" cx="341.29" cy="79.11" rx="1.91" ry="0.77"/>
+        <path id="Shape_95" data-name="Shape 95" class="cls-15"
+              d="M342.15,78.74l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.39l-.08.13H341c.07,0,0,0,0,0l-.38.49a.12.12,0,0,1-.12.06h-.14l-.16.14h.41l-.15.2h.21l.13-.2H341l-.14.2h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.12,0L342,79a.29.29,0,0,0,.13-.14A.09.09,0,0,0,342.15,78.74Zm-.56.52a.27.27,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.24a1.71,1.71,0,0,1,.32,0,.31.31,0,0,1,.13,0A.05.05,0,0,1,341.59,79.26Zm-.37-.23a1,1,0,0,0,.46-.07c.13-.08.09-.13,0-.14a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_96" data-name="Shape 96" class="cls-74"
+              d="M342.12,78.7l-.08,0-.24,0,.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.39l-.08.13H341c.07,0,0,0,0,0l-.38.5a.11.11,0,0,1-.12,0h-.14l-.15.14h.4l-.15.2h.21l.13-.2H341l-.14.2H341l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.13s0,0-.07-.08a.22.22,0,0,0-.12,0L342,79a.34.34,0,0,0,.14-.15A.08.08,0,0,0,342.12,78.7Zm-.55.53a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.13,0S341.6,79.18,341.57,79.23ZM341.2,79a1.22,1.22,0,0,0,.46-.06h0c.13-.09.09-.14,0-.16a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_93" data-name="Path 93" class="cls-11"
+              d="M339.53,78.31s.22-.59,2.37-.59,2.23.59,2.29.71V79s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_145" data-name="Oval 145" class="cls-12" cx="341.87" cy="78.41" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_146" data-name="Oval 146" class="cls-13" cx="341.87" cy="78.33" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_147" data-name="Oval 147" class="cls-14" cx="341.87" cy="78.33" rx="1.91" ry="0.77"/>
+        <path id="Shape_97" data-name="Shape 97" class="cls-15"
+              d="M342.72,78a.13.13,0,0,1-.07,0,1,1,0,0,0-.25,0l.15-.2h-.2l-.14.18h-.15l.14-.18H342l-.15.18h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06H341l-.16.14h.41l-.15.19h.23l.14-.19h.16l-.14.19h.21l.13-.17.25,0a.73.73,0,0,0,.38-.11l.13-.1a.21.21,0,0,0,.07-.14s0-.06-.06-.08a.25.25,0,0,0-.12,0,.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.11.11,0,0,0,342.72,78Zm-.55.53a.27.27,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25H342l.13,0S342.21,78.44,342.17,78.49Zm-.37-.24a1,1,0,0,0,.46,0c.13-.08.09-.14,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_98" data-name="Shape 98" class="cls-75"
+              d="M342.7,77.93l-.08-.05-.24,0,.14-.19h-.19l-.14.19H342l.14-.19H342l-.14.19h-.38l-.08.13h.16c.08,0,0,0,0,0l-.38.49a.16.16,0,0,1-.13.06H341l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18H342a.81.81,0,0,0,.38-.12.41.41,0,0,0,.13-.1.18.18,0,0,0,.08-.14.12.12,0,0,0-.07-.07.25.25,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14.19.19,0,0,0,0-.07A.06.06,0,0,0,342.7,77.93Zm-.55.52a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25H342l.14,0S342.19,78.4,342.15,78.45Zm-.38-.24a.94.94,0,0,0,.47-.06c.13-.07.09-.13,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_94" data-name="Path 94" class="cls-11"
+              d="M339,77.15s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_148" data-name="Oval 148" class="cls-12" cx="341.29" cy="77.25" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_149" data-name="Oval 149" class="cls-13" cx="341.29" cy="77.18" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_150" data-name="Oval 150" class="cls-14" cx="341.29" cy="77.18" rx="1.91" ry="0.77"/>
+        <path id="Shape_99" data-name="Shape 99" class="cls-15"
+              d="M342.15,76.81l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.39l-.08.13H341c.07,0,0,0,0,0l-.38.5a.11.11,0,0,1-.12,0h-.14l-.16.14h.41l-.15.2h.21l.13-.2H341l-.14.2h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.13s0,0-.06-.09l-.12,0,.17-.05a.37.37,0,0,0,.13-.15A.08.08,0,0,0,342.15,76.81Zm-.56.52a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0A.06.06,0,0,1,341.59,77.33Zm-.37-.24a1.17,1.17,0,0,0,.46-.06c.13-.07.09-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_100" data-name="Shape 100" class="cls-76"
+              d="M342.12,76.77l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.39l-.08.13H341c.07,0,0,.05,0,.05l-.38.49a.11.11,0,0,1-.12.06h-.14l-.15.14h.4l-.15.2h.21l.13-.2H341l-.14.2H341l.13-.18h.25a.89.89,0,0,0,.38-.12l0,0,.11-.08a.27.27,0,0,0,.07-.14s0,0-.07-.08a.21.21,0,0,0-.12,0L342,77a.32.32,0,0,0,.14-.14A.09.09,0,0,0,342.12,76.77Zm-.55.52a.35.35,0,0,1-.19.1,2.36,2.36,0,0,1-.46,0l.18-.25h.32l.13,0A.07.07,0,0,1,341.57,77.29Zm-.37-.23a1.22,1.22,0,0,0,.46-.06c.13-.08.09-.14,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_95" data-name="Path 95" class="cls-11"
+              d="M339.34,76.38s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_151" data-name="Oval 151" class="cls-12" cx="341.67" cy="76.48" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_152" data-name="Oval 152" class="cls-13" cx="341.67" cy="76.41" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_153" data-name="Oval 153" class="cls-14" cx="341.67" cy="76.4" rx="1.91" ry="0.77"/>
+        <path id="Shape_101" data-name="Shape 101" class="cls-15"
+              d="M342.53,76a.2.2,0,0,0-.08,0,1,1,0,0,0-.24,0l.14-.2h-.19L342,76h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.13.13,0,0,1-.12.06h-.14l-.16.14H341l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18.26,0a1,1,0,0,0,.38-.11l.13-.1a.21.21,0,0,0,.07-.14.1.1,0,0,0-.06-.08.28.28,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14A.09.09,0,0,0,342.53,76Zm-.55.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0A.06.06,0,0,1,342,76.56Zm-.38-.23a1.24,1.24,0,0,0,.47-.06c.13-.08.09-.14,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_102" data-name="Shape 102" class="cls-77"
+              d="M342.5,76l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.13.19h-.16l.15-.19h-.2l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.13.13,0,0,1-.12.06h-.14l-.16.14H341l-.15.2h.2l.14-.2h.17l-.15.2h.21l.13-.18.26,0a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14s0-.05-.06-.08a.28.28,0,0,0-.13,0,.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.08.08,0,0,0,342.5,76Zm-.55.53a.34.34,0,0,1-.19.09,2.32,2.32,0,0,1-.46,0l.18-.25h.32l.14,0A.06.06,0,0,1,342,76.53Zm-.37-.24a1.19,1.19,0,0,0,.46-.06c.13-.08.09-.14,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_96" data-name="Path 96" class="cls-11"
+              d="M328.32,82.76s.22-.59,2.38-.59,2.22.59,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_154" data-name="Oval 154" class="cls-12" cx="330.67" cy="82.85" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_155" data-name="Oval 155" class="cls-13" cx="330.67" cy="82.77" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_156" data-name="Oval 156" class="cls-14" cx="330.67" cy="82.77" rx="1.91" ry="0.77"/>
+        <path id="Shape_103" data-name="Shape 103" class="cls-15"
+              d="M331.53,82.4l-.07,0-.25,0,.14-.2h-.19l-.13.2h-.16l.14-.2h-.18l-.14.2h-.39l-.08.12h.17c.07,0,0,0,0,0L330,83a.14.14,0,0,1-.12.06h-.14l-.16.14H330l-.15.19h.2l.14-.19h.16l-.13.19h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.13,0a.49.49,0,0,0,.17-.06.25.25,0,0,0,.14-.13A.1.1,0,0,0,331.53,82.4Zm-.54.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25a1.71,1.71,0,0,1,.32,0,.31.31,0,0,1,.13,0A.07.07,0,0,1,331,82.93Zm-.37-.24a1.24,1.24,0,0,0,.47-.06h0c.13-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_104" data-name="Shape 104" class="cls-78"
+              d="M331.51,82.37l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.18h-.15l.14-.18h-.19l-.14.18h-.38l-.08.13h.17c.07,0,0,0,0,0L330,83a.16.16,0,0,1-.13.06h-.13l-.16.14H330l-.15.19h.2l.14-.19h.16l-.14.19h.22l.13-.18.24,0a.89.89,0,0,0,.39-.12l.13-.1a.16.16,0,0,0,.06-.13s0,0-.05-.08a.22.22,0,0,0-.13,0l.17-.06a.32.32,0,0,0,.14-.14A.11.11,0,0,0,331.51,82.37Zm-.55.53a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0a.05.05,0,0,1,0,.08Zm-.37-.24a1.22,1.22,0,0,0,.46-.06h0c.13-.08.09-.13,0-.14a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_97" data-name="Path 97" class="cls-11"
+              d="M327.94,82s.22-.58,2.38-.58,2.22.58,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_157" data-name="Oval 157" class="cls-12" cx="330.29" cy="82.08" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_158" data-name="Oval 158" class="cls-13" cx="330.29" cy="82" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_159" data-name="Oval 159" class="cls-14" cx="330.29" cy="82" rx="1.91" ry="0.77"/>
+        <path id="Shape_105" data-name="Shape 105" class="cls-15"
+              d="M331.15,81.63l-.08,0-.24,0,.14-.2h-.2l-.13.2h-.15l.14-.2h-.19l-.14.2h-.38l-.08.12H330c.06,0,0,0,0,0l-.39.5a.13.13,0,0,1-.12.06h-.14l-.15.14h.41l-.15.19h.2l.14-.19H330l-.14.19h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0,0,0-.08l-.13,0a.49.49,0,0,0,.17-.06.25.25,0,0,0,.14-.13A.11.11,0,0,0,331.15,81.63Zm-.54.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25a1.6,1.6,0,0,1,.31,0l.14,0A.08.08,0,0,1,330.61,82.16Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.13-.08.08-.14,0-.17a.86.86,0,0,0-.32,0Z"/>
+        <path id="Shape_106" data-name="Shape 106" class="cls-79"
+              d="M331.12,81.61l-.07,0-.25,0,.14-.19h-.19l-.14.18h-.15l.14-.18h-.19l-.14.18h-.38l-.08.13H330c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.14l-.16.14h.41l-.15.19h.2l.15-.19H330l-.14.19h.21l.13-.17.25,0a.89.89,0,0,0,.38-.12.6.6,0,0,0,.13-.09.21.21,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.13,0l.18-.06a.35.35,0,0,0,.13-.14A.09.09,0,0,0,331.12,81.61Zm-.55.53a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0s.05,0,0,.07Zm-.37-.24a1.22,1.22,0,0,0,.46-.06v0c.13-.08.09-.13,0-.15a1.71,1.71,0,0,0-.32,0Z"/>
+        <path id="Path_98" data-name="Path 98" class="cls-11"
+              d="M328.53,80.82s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_160" data-name="Oval 160" class="cls-12" cx="330.87" cy="80.92" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_161" data-name="Oval 161" class="cls-13" cx="330.87" cy="80.84" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_162" data-name="Oval 162" class="cls-14" cx="330.87" cy="80.84" rx="1.91" ry="0.77"/>
+        <path id="Shape_107" data-name="Shape 107" class="cls-15"
+              d="M331.73,80.47l-.08,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.15-.19H331l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06H330l-.16.14h.42l-.15.19h.21l.13-.19h.17l-.14.19h.21l.13-.17.24,0a.89.89,0,0,0,.39-.12.57.57,0,0,0,.13-.1.17.17,0,0,0,.07-.13.1.1,0,0,0-.06-.08.28.28,0,0,0-.12,0l.17-.06a.35.35,0,0,0,.13-.14A.11.11,0,0,0,331.73,80.47Zm-.56.52a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25H331l.13,0a.06.06,0,0,1,0,.1Zm-.37-.24a1,1,0,0,0,.46,0h0c.13-.08.09-.13,0-.17a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_108" data-name="Shape 108" class="cls-80"
+              d="M331.7,80.44l-.07,0-.25,0,.14-.19h-.19l-.14.19H331l.14-.19H331l-.15.19h-.38l-.08.13h.17c.07,0,0,.05,0,.05l-.38.49a.16.16,0,0,1-.13.06H330l-.16.14h.41l-.15.19h.21l.13-.19h.17l-.14.19h.19l.13-.18H331a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14.11.11,0,0,0-.06-.07.31.31,0,0,0-.12,0l.17,0a.43.43,0,0,0,.13-.14A.09.09,0,0,0,331.7,80.44Zm-.56.52a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25H331l.13,0S331.18,80.91,331.14,81Zm-.37-.24a1.07,1.07,0,0,0,.47-.06c.14-.07.09-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_99" data-name="Path 99" class="cls-11"
+              d="M328.32,79.86s.22-.58,2.38-.58,2.22.58,2.29.69v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_163" data-name="Oval 163" class="cls-12" cx="330.67" cy="79.96" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_164" data-name="Oval 164" class="cls-13" cx="330.67" cy="79.88" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_165" data-name="Oval 165" class="cls-14" cx="330.67" cy="79.88" rx="1.91" ry="0.77"/>
+        <path id="Shape_109" data-name="Shape 109" class="cls-15"
+              d="M331.53,79.51l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.13.19h-.16l.14-.19h-.18l-.14.19h-.39l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.12.12,0,0,1-.12.06h-.14l-.16.14H330l-.15.2h.2l.14-.2h.16l-.13.2h.21l.13-.18h.25a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14s0,0-.06-.08l-.13,0,.17-.06a.32.32,0,0,0,.14-.14A.09.09,0,0,0,331.53,79.51ZM331,80a.35.35,0,0,1-.19.1,1.71,1.71,0,0,1-.45,0l.18-.24a1.71,1.71,0,0,1,.32,0,.31.31,0,0,1,.13,0A.06.06,0,0,1,331,80Zm-.37-.23a1.08,1.08,0,0,0,.47-.07h0c.13-.08.08-.13,0-.16a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_110" data-name="Shape 110" class="cls-81"
+              d="M331.51,79.47l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.13H330l-.16.21h.2l.15-.2h.16l-.13.2h.22l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.13,0a.51.51,0,0,0,.16-.09.35.35,0,0,0,.14-.13A.11.11,0,0,0,331.51,79.47ZM331,80a.44.44,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0A.08.08,0,0,1,331,80Zm-.37-.24a1.22,1.22,0,0,0,.46-.06h0c.13-.08.09-.13,0-.17a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_100" data-name="Path 100" class="cls-11"
+              d="M328.92,79.08s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_166" data-name="Oval 166" class="cls-12" cx="331.25" cy="79.18" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_167" data-name="Oval 167" class="cls-13" cx="331.26" cy="79.11" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_168" data-name="Oval 168" class="cls-14" cx="331.25" cy="79.11" rx="1.91" ry="0.77"/>
+        <path id="Shape_111" data-name="Shape 111" class="cls-15"
+              d="M332.11,78.74l-.07,0a1.07,1.07,0,0,0-.25,0l.14-.2h-.17l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.09.13H331c.07,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.39l-.14.2h.2l.14-.2H331l-.14.2H331l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.13,0A.64.64,0,0,0,332,79a.35.35,0,0,0,.13-.14A.08.08,0,0,0,332.11,78.74Zm-.55.52a.3.3,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.24a1.61,1.61,0,0,1,.31,0,.35.35,0,0,1,.14,0S331.6,79.21,331.56,79.26Zm-.38-.23a1.24,1.24,0,0,0,.47-.06c.13-.09.11-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_112" data-name="Shape 112" class="cls-82"
+              d="M332.09,78.7l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.39l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.13.13,0,0,1-.13,0h-.13l-.16.14h.41l-.15.2h.21l.13-.2h.17l-.14.2H331l.13-.18.24,0a.89.89,0,0,0,.39-.12l.13-.1a.17.17,0,0,0,.07-.13.1.1,0,0,0-.06-.08.31.31,0,0,0-.12,0L332,79a.47.47,0,0,0,.13-.15A.09.09,0,0,0,332.09,78.7Zm-.56.53a.32.32,0,0,1-.18.1,3.55,3.55,0,0,1-.46,0l.18-.25h.32l.13,0S331.57,79.18,331.53,79.23Zm-.37-.24a1.19,1.19,0,0,0,.46-.06h0c.14-.09.09-.14,0-.16a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_101" data-name="Path 101" class="cls-11"
+              d="M328.32,77.92s.22-.58,2.38-.58,2.22.58,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_169" data-name="Oval 169" class="cls-12" cx="330.67" cy="78.03" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_170" data-name="Oval 170" class="cls-13" cx="330.67" cy="77.95" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_171" data-name="Oval 171" class="cls-14" cx="330.67" cy="77.95" rx="1.91" ry="0.77"/>
+        <path id="Shape_113" data-name="Shape 113" class="cls-15"
+              d="M331.53,77.58l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.13.19h-.16l.14-.19h-.18l-.14.19h-.39l-.08.13h.17c.07,0,0,.05,0,.05s-.32.43-.38.49a.14.14,0,0,1-.12.07h-.14l-.16.13H330l-.15.2h.2l.14-.2h.16l-.13.2h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.05-.06-.08a.28.28,0,0,0-.13,0l.17-.06a.38.38,0,0,0,.14-.14A.09.09,0,0,0,331.53,77.58Zm-.54.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0A.07.07,0,0,1,331,78.11Zm-.37-.25a1.07,1.07,0,0,0,.47,0v0c.13-.06.08-.12,0-.13a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_114" data-name="Shape 114" class="cls-83"
+              d="M331.51,77.54a.2.2,0,0,0-.08,0,1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.13.13,0,0,1-.13,0h-.13l-.16.15H330l-.15.19h.2l.14-.19h.16l-.14.19h.22l.13-.18.24,0a.89.89,0,0,0,.39-.12l.13-.1a.18.18,0,0,0,.06-.14.1.1,0,0,0-.05-.08l-.13,0a.58.58,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,331.51,77.54Zm-.55.53a.44.44,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31a.35.35,0,0,1,.14,0A.06.06,0,0,1,331,78.07Zm-.37-.24a1.22,1.22,0,0,0,.46-.06c.13-.08.09-.13,0-.17a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_102" data-name="Path 102" class="cls-11"
+              d="M287.24,78.89s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_172" data-name="Oval 172" class="cls-12" cx="289.57" cy="78.99" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_173" data-name="Oval 173" class="cls-13" cx="289.58" cy="78.91" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_174" data-name="Oval 174" class="cls-14" cx="289.58" cy="78.91" rx="1.91" ry="0.77"/>
+        <path id="Shape_115" data-name="Shape 115" class="cls-15"
+              d="M290.43,78.56l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.13.19h-.17l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.08,0,0,0,0,0l-.38.49a.16.16,0,0,1-.13.06h-.13l-.16.14h.4l-.14.19H289l.14-.19h.16l-.14.19h.22l.13-.18h.25a.89.89,0,0,0,.38-.12.6.6,0,0,0,.13-.09.21.21,0,0,0,.07-.15s0,0-.06-.07a.28.28,0,0,0-.12,0l.17-.06a.29.29,0,0,0,.13-.14.1.1,0,0,0,0-.07S290.46,78.57,290.43,78.56Zm-.55.52a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0s.05,0,0,.08Zm-.37-.24a1.17,1.17,0,0,0,.46-.06h0c.13-.08.09-.13,0-.16a1.82,1.82,0,0,0-.33,0Z"/>
+        <path id="Shape_116" data-name="Shape 116" class="cls-84"
+              d="M290.41,78.5l-.08,0-.24,0,.14-.19H290l-.13.18h-.14l.14-.18h-.19l-.14.18h-.38l-.08.13h.16c.08,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.18.25,0a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0-.06-.06-.08a.24.24,0,0,0-.12,0l.17-.06a.38.38,0,0,0,.14-.14A.11.11,0,0,0,290.41,78.5Zm-.55.53a.5.5,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31a.28.28,0,0,1,.13,0S289.89,79,289.86,79Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.08-.13,0-.17a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_103" data-name="Path 103" class="cls-11"
+              d="M286.85,78.12s.22-.59,2.37-.59,2.23.59,2.3.7v.56s-.2,1-2.32,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_175" data-name="Oval 175" class="cls-12" cx="289.19" cy="78.22" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_176" data-name="Oval 176" class="cls-13" cx="289.19" cy="78.14" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_177" data-name="Oval 177" class="cls-14" cx="289.19" cy="78.14" rx="1.91" ry="0.77"/>
+        <path id="Shape_117" data-name="Shape 117" class="cls-15"
+              d="M290.05,77.77l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.19l-.14.19h-.16l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.08,0,0,.05,0,.05l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.23l.14-.19h.16l-.14.19H289l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0-.06-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.25.25,0,0,0,.13-.14A.09.09,0,0,0,290.05,77.77Zm-.55.52a.3.3,0,0,1-.19.1,1.71,1.71,0,0,1-.45,0l.18-.24a1.61,1.61,0,0,1,.31,0,.35.35,0,0,1,.14,0S289.54,78.24,289.5,78.29Zm-.37-.23a1.22,1.22,0,0,0,.46-.06c.13-.08.09-.13,0-.15a1.27,1.27,0,0,0-.34,0Z"/>
+        <path id="Shape_118" data-name="Shape 118" class="cls-85"
+              d="M290,77.73l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.13l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.08,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.14.19H289l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.18.18,0,0,0,.08-.14.13.13,0,0,0-.07-.08l-.12,0a.49.49,0,0,0,.17-.06.35.35,0,0,0,.14-.13A.12.12,0,0,0,290,77.73Zm-.55.53a.39.39,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25a1.6,1.6,0,0,1,.31,0l.13,0S289.51,78.21,289.47,78.26ZM289.1,78a1.19,1.19,0,0,0,.46-.06c.13-.08.09-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_104" data-name="Path 104" class="cls-11"
+              d="M287.44,77s.21-.59,2.37-.59,2.23.59,2.29.71v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_178" data-name="Oval 178" class="cls-12" cx="289.77" cy="77.06" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_179" data-name="Oval 179" class="cls-13" cx="289.77" cy="76.98" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_180" data-name="Oval 180" class="cls-14" cx="289.77" cy="76.99" rx="1.91" ry="0.77"/>
+        <path id="Shape_119" data-name="Shape 119" class="cls-15"
+              d="M290.63,76.62l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.19l-.14.19H290l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.4l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18.25,0a.75.75,0,0,0,.38-.13.6.6,0,0,0,.13-.09.22.22,0,0,0,.09-.16.16.16,0,0,0-.06-.08l-.13,0a.64.64,0,0,0,.18-.06.4.4,0,0,0,.13-.13A.11.11,0,0,0,290.63,76.62Zm-.55.52a.39.39,0,0,1-.19.1,2.37,2.37,0,0,1-.46,0l.18-.24a1.71,1.71,0,0,1,.32,0,.35.35,0,0,1,.14,0S290.11,77.09,290.08,77.14Zm-.38-.23a1.24,1.24,0,0,0,.47-.06c.13-.08.08-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_120" data-name="Shape 120" class="cls-86"
+              d="M290.6,76.58l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,.05,0,.05l-.38.49a.14.14,0,0,1-.13.06h-.13l-.16.14h.4l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.85.85,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.12,0a.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14.14.14,0,0,0,0-.07A.07.07,0,0,0,290.6,76.58Zm-.55.52a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0S290.09,77.05,290.05,77.1Zm-.37-.24a1,1,0,0,0,.46,0h0c.12-.08.08-.14,0-.15a.91.91,0,0,0-.33,0Z"/>
+        <path id="Path_105" data-name="Path 105" class="cls-11"
+              d="M287.24,76s.21-.59,2.37-.59,2.23.59,2.29.71v.55s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_181" data-name="Oval 181" class="cls-12" cx="289.57" cy="76.09" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_182" data-name="Oval 182" class="cls-13" cx="289.58" cy="76.02" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_183" data-name="Oval 183" class="cls-14" cx="289.58" cy="76.02" rx="1.91" ry="0.77"/>
+        <path id="Shape_121" data-name="Shape 121" class="cls-15"
+              d="M290.43,75.65l-.07,0a1,1,0,0,0-.25,0l.14-.2h-.19l-.13.19h-.17l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.08,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.14h.4l-.14.19H289l.14-.19h.16l-.14.19h.22l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08l-.12,0,.17,0a.37.37,0,0,0,.13-.15A.08.08,0,0,0,290.43,75.65Zm-.55.53a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0S289.92,76.13,289.88,76.18Zm-.37-.24a1.17,1.17,0,0,0,.46-.06h0c.13-.09.09-.14,0-.16a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_122" data-name="Shape 122" class="cls-87"
+              d="M290.41,75.61l-.08,0-.24,0,.14-.2H290l-.13.19h-.14l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.08,0,0,0,0,0l-.38.5a.16.16,0,0,1-.13.06h-.13l-.16.13h.4l-.14.2h.2l.14-.2h.16l-.14.2h.21l.13-.18h.25a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0-.06-.06-.08a.42.42,0,0,0-.12,0,.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,290.41,75.61Zm-.55.53a.5.5,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31a.28.28,0,0,1,.13,0S289.89,76.09,289.86,76.14Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.08-.14,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_106" data-name="Path 106" class="cls-11"
+              d="M287.82,75.22s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_184" data-name="Oval 184" class="cls-12" cx="290.16" cy="75.32" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_185" data-name="Oval 185" class="cls-13" cx="290.16" cy="75.25" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_186" data-name="Oval 186" class="cls-14" cx="290.16" cy="75.25" rx="1.91" ry="0.77"/>
+        <path id="Shape_123" data-name="Shape 123" class="cls-15"
+              d="M291,74.88l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.11.11,0,0,1-.12.06h-.14l-.15.14h.4l-.13.22h.2l.14-.2h.16l-.14.2H290l.13-.18.25,0a.81.81,0,0,0,.38-.12l.13-.1a.23.23,0,0,0,.08-.14.14.14,0,0,0-.07-.08l-.12,0a.76.76,0,0,0,.18-.09A.33.33,0,0,0,291,75,.11.11,0,0,0,291,74.88Zm-.55.52a.35.35,0,0,1-.19.1,1.71,1.71,0,0,1-.45,0l.18-.24a1.71,1.71,0,0,1,.32,0,.31.31,0,0,1,.13,0S290.5,75.35,290.46,75.4Zm-.37-.23a1,1,0,0,0,.46-.07v0c.13-.1.09-.15,0-.18a.86.86,0,0,0-.32,0Z"/>
+        <path id="Shape_124" data-name="Shape 124" class="cls-88"
+              d="M291,74.84l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.16l.15-.19h-.19l-.14.19h-.38l-.08.13h.16c.07,0,0,0,0,0s-.32.43-.38.49a.13.13,0,0,1-.12.07h-.14l-.15.13h.4l-.14.2h.19l.15-.2h.16l-.14.2h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.14.16.16,0,0,0-.06-.08.28.28,0,0,0-.13,0l.18-.07A.27.27,0,0,0,291,75,.11.11,0,0,0,291,74.84Zm-.55.53a.5.5,0,0,1-.19.1,3.55,3.55,0,0,1-.46,0l.18-.25a1.71,1.71,0,0,1,.32,0l.14,0A.07.07,0,0,1,290.44,75.37Zm-.38-.25a1.07,1.07,0,0,0,.47-.05c.13-.08.08-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_107" data-name="Path 107" class="cls-11"
+              d="M283.19,80.43s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_187" data-name="Oval 187" class="cls-12" cx="285.53" cy="80.54" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_188" data-name="Oval 188" class="cls-13" cx="285.53" cy="80.45" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_189" data-name="Oval 189" class="cls-14" cx="285.53" cy="80.45" rx="1.91" ry="0.77"/>
+        <path id="Shape_125" data-name="Shape 125" class="cls-15"
+              d="M286.38,80.09a.11.11,0,0,1-.07,0,1,1,0,0,0-.25,0l.15-.2H286l-.14.18h-.14l.13-.18h-.18l-.15.18h-.38l-.08.13h.17c.07,0,0,.05,0,.05l-.38.5a.14.14,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.17.25,0a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.13,0a.64.64,0,0,0,.18-.06.29.29,0,0,0,.13-.14A.08.08,0,0,0,286.38,80.09Zm-.55.52a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0a.05.05,0,0,1,0,.09Zm-.37-.24a.92.92,0,0,0,.46-.06h0c.13-.08.09-.14,0-.15a.7.7,0,0,0-.32,0Z"/>
+        <path id="Shape_126" data-name="Shape 126" class="cls-89"
+              d="M286.35,80.05l-.07,0a1,1,0,0,0-.24,0l.14-.2H286l-.13.19h-.16l.15-.19h-.19l-.14.19h-.38l-.09.13h.17c.07,0,0,.05,0,.05l-.38.5a.12.12,0,0,1-.12,0h-.14l-.15.14h.4l-.14.19h.2l.13-.19h.17l-.14.19h.21l.13-.17h.25a.89.89,0,0,0,.38-.12l.13-.1a.21.21,0,0,0,.07-.14.12.12,0,0,0-.06-.08.28.28,0,0,0-.13,0l.18-.06a.29.29,0,0,0,.13-.14.09.09,0,0,0,0-.07A.21.21,0,0,0,286.35,80.05Zm-.54.52a.38.38,0,0,1-.2.1,3.4,3.4,0,0,1-.45,0l.18-.25h.32l.13,0S285.84,80.52,285.81,80.57Zm-.38-.24a.94.94,0,0,0,.47-.06c.13-.07.08-.13,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_108" data-name="Path 108" class="cls-11"
+              d="M282.8,79.66s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_190" data-name="Oval 190" class="cls-12" cx="285.14" cy="79.76" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_191" data-name="Oval 191" class="cls-13" cx="285.14" cy="79.68" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_192" data-name="Oval 192" class="cls-14" cx="285.14" cy="79.68" rx="1.91" ry="0.77"/>
+        <path id="Shape_127" data-name="Shape 127" class="cls-15"
+              d="M286,79.32l-.08,0-.24,0,.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.06,0,0,0,0,0l-.39.5a.11.11,0,0,1-.12,0h-.14l-.15.15h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.18.25,0a.89.89,0,0,0,.38-.12.41.41,0,0,0,.13-.1.17.17,0,0,0,.07-.13.1.1,0,0,0-.06-.08.31.31,0,0,0-.12-.05l.17,0a.25.25,0,0,0,.13-.14A.09.09,0,0,0,286,79.32Zm-.55.53a.44.44,0,0,1-.19.1,3.55,3.55,0,0,1-.46,0l.19-.25h.31l.14,0s.05,0,0,.09Zm-.37-.24a1.22,1.22,0,0,0,.46-.06h0c.13-.08.09-.14,0-.15a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_128" data-name="Shape 128" class="cls-90"
+              d="M286,79.27l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.12h.17c.07,0,0,.05,0,.05l-.38.5a.14.14,0,0,1-.13.06h-.13l-.16.14h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18.25,0a.7.7,0,0,0,.38-.11l.13-.1a.17.17,0,0,0,.07-.14s0,0-.06-.08a.28.28,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14A.11.11,0,0,0,286,79.27Zm-.55.53a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S285.46,79.75,285.42,79.8Zm-.37-.23a1.06,1.06,0,0,0,.46-.07c.13-.08.09-.13,0-.14a.92.92,0,0,0-.33,0Z"/>
+        <path id="Path_109" data-name="Path 109" class="cls-11"
+              d="M283.38,78.5s.22-.58,2.37-.58,2.23.58,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_193" data-name="Oval 193" class="cls-12" cx="285.72" cy="78.6" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_194" data-name="Oval 194" class="cls-13" cx="285.72" cy="78.53" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_195" data-name="Oval 195" class="cls-14" cx="285.72" cy="78.53" rx="1.91" ry="0.77"/>
+        <path id="Shape_129" data-name="Shape 129" class="cls-15"
+              d="M286.58,78.18l-.08-.05-.25,0,.15-.19h-.2l-.13.19h-.16l.15-.19h-.2l-.13.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.38.49a.11.11,0,0,1-.12.06h-.14l-.15.14h.4l-.14.19h.2l.14-.19h.16l-.14.19h.21l.13-.18.25,0a1,1,0,0,0,.38-.11l.13-.1a.18.18,0,0,0,.07-.15.09.09,0,0,0-.06-.07.28.28,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14A.11.11,0,0,0,286.58,78.18Zm-.56.52a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.27h.32l.13,0a.06.06,0,0,1,0,.1Zm-.37-.24a.89.89,0,0,0,.46-.06h0c.13-.08.09-.13,0-.15a.91.91,0,0,0-.33,0Z"/>
+        <path id="Shape_130" data-name="Shape 130" class="cls-91"
+              d="M286.55,78.12l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.19L286,78h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.38.49a.11.11,0,0,1-.12.06h-.13l-.16.14h.41l-.15.2h.21l.13-.2h.17l-.14.2h.21l.13-.18.24,0a.9.9,0,0,0,.39-.13l.13-.09a.27.27,0,0,0,.07-.14s0,0-.07-.08a.25.25,0,0,0-.12,0l.17-.06a.32.32,0,0,0,.14-.14A.09.09,0,0,0,286.55,78.12Zm-.55.52a.35.35,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25h.31l.14,0S286,78.59,286,78.64Zm-.37-.23a1.22,1.22,0,0,0,.46-.06c.13-.09.09-.14,0-.15a.85.85,0,0,0-.32,0Z"/>
+        <path id="Path_110" data-name="Path 110" class="cls-11"
+              d="M324.89,89.69s.21-.58,2.37-.58,2.23.58,2.29.7v.56s-.2,1-2.32,1-2.34-.94-2.34-.94Z"/>
+        <ellipse id="Oval_196" data-name="Oval 196" class="cls-12" cx="327.2" cy="89.8" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_197" data-name="Oval 197" class="cls-13" cx="327.2" cy="89.72" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_198" data-name="Oval 198" class="cls-14" cx="327.2" cy="89.72" rx="1.91" ry="0.77"/>
+        <path id="Shape_131" data-name="Shape 131" class="cls-15"
+              d="M328.06,89.35l-.07,0a1,1,0,0,0-.25,0l.15-.2h-.2l-.14.19h-.15l.14-.19h-.18l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.14.14,0,0,1-.12.06h-.14l-.15.13h.4l-.14.2h.2l.14-.2h.16l-.14.2H327l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.17.17,0,0,0,.07-.13.1.1,0,0,0-.06-.08.2.2,0,0,0-.13,0l.18-.06a.35.35,0,0,0,.13-.14A.09.09,0,0,0,328.06,89.35Zm-.55.53a.44.44,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.18-.25a1.71,1.71,0,0,1,.32,0l.13,0S327.56,89.83,327.51,89.88Zm-.37-.24a1.22,1.22,0,0,0,.46-.06c.13-.08.09-.13,0-.17a.91.91,0,0,0-.33,0Z"/>
+        <path id="Shape_132" data-name="Shape 132" class="cls-92"
+              d="M328,89.31l-.07,0a1,1,0,0,0-.24,0l.13-.2h-.19l-.13.19h-.16l.14-.19h-.18l-.14.19h-.39l-.08.13h.17c.07,0,0,0,0,0l-.38.5a.12.12,0,0,1-.12,0h-.14l-.15.15h.4l-.15.19h.2l.14-.19h.16l-.13.19H327l.13-.18.25,0a.89.89,0,0,0,.38-.12l.13-.1a.19.19,0,0,0,.07-.14.16.16,0,0,0-.06-.08l-.13,0a.64.64,0,0,0,.18-.06.29.29,0,0,0,.13-.14A.09.09,0,0,0,328,89.31Zm-.55.53a.31.31,0,0,1-.19.09,2.28,2.28,0,0,1-.45,0l.18-.25h.32a.31.31,0,0,1,.13,0S327.52,89.79,327.48,89.84Zm-.37-.24a1.17,1.17,0,0,0,.46-.06h0c.14-.08.1-.13.05-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_111" data-name="Path 111" class="cls-11"
+              d="M288.59,83.72s.22-.59,2.37-.59,2.23.59,2.29.7v.56s-.19,1-2.31,1-2.32-1-2.32-1Z"/>
+        <ellipse id="Oval_199" data-name="Oval 199" class="cls-12" cx="290.93" cy="83.81" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_200" data-name="Oval 200" class="cls-13" cx="290.93" cy="83.74" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_201" data-name="Oval 201" class="cls-14" cx="290.93" cy="83.74" rx="1.91" ry="0.77"/>
+        <path id="Shape_133" data-name="Shape 133" class="cls-15"
+              d="M291.79,83.37l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.14.19h-.14l.14-.19h-.19l-.15.19h-.38l-.08.13h.17c.07,0,0,0,0,0l-.38.49a.17.17,0,0,1-.13.07H290l-.16.13h.41l-.15.2h.21l.13-.2h.17l-.14.2h.21l.13-.18.24,0a.89.89,0,0,0,.39-.12.58.58,0,0,0,.12-.1.19.19,0,0,0,.08-.14.16.16,0,0,0-.06-.08l-.13,0a.64.64,0,0,0,.18-.06.35.35,0,0,0,.13-.14A.11.11,0,0,0,291.79,83.37Zm-.56.53a.32.32,0,0,1-.19.1,3.4,3.4,0,0,1-.45,0l.19-.25h.31l.13,0S291.29,83.85,291.23,83.9Zm-.37-.23a1.24,1.24,0,0,0,.47-.06h0c.13-.08.08-.14,0-.14a.92.92,0,0,0-.33,0Z"/>
+        <path id="Shape_134" data-name="Shape 134" class="cls-93"
+              d="M291.76,83.33l-.07,0a1.07,1.07,0,0,0-.25,0l.14-.2h-.19l-.14.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.17c.07,0,0,.05,0,.05l-.38.5a.13.13,0,0,1-.13,0H290l-.16.15h.41l-.15.19h.21l.13-.19h.17l-.14.19h.21l.13-.18h.24a.89.89,0,0,0,.39-.12l.13-.1a.21.21,0,0,0,.07-.13.1.1,0,0,0-.06-.08.29.29,0,0,0-.13,0l.18,0a.47.47,0,0,0,.13-.15,0,0,0,0,0,0-.06A.09.09,0,0,0,291.76,83.33Zm-.55.53a.35.35,0,0,1-.19.1,3.44,3.44,0,0,1-.46,0l.19-.25h.31l.14,0S291.25,83.81,291.21,83.86Zm-.38-.24a1.24,1.24,0,0,0,.47-.06h0c.14-.08.1-.13,0-.15a1.2,1.2,0,0,0-.33,0Z"/>
+        <path id="Path_112" data-name="Path 112" class="cls-11"
+              d="M335.09,86.41s.22-.58,2.38-.58,2.22.58,2.29.7v.56s-.2,1-2.32,1-2.31-1-2.31-1Z"/>
+        <ellipse id="Oval_202" data-name="Oval 202" class="cls-12" cx="337.43" cy="86.51" rx="2.34" ry="1.16"/>
+        <ellipse id="Oval_203" data-name="Oval 203" class="cls-13" cx="337.43" cy="86.44" rx="2.12" ry="0.93"/>
+        <ellipse id="Oval_204" data-name="Oval 204" class="cls-14" cx="337.43" cy="86.44" rx="1.91" ry="0.77"/>
+        <path id="Shape_135" data-name="Shape 135" class="cls-15"
+              d="M338.29,86.07l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19h-.38l-.08.13h.16c.07,0,0,0,0,0l-.39.5a.11.11,0,0,1-.12,0h-.14l-.15.15h.41l-.15.19h.2l.14-.19h.16l-.14.19h.21l.13-.18.25,0a.81.81,0,0,0,.38-.12l.13-.1a.15.15,0,0,0,.07-.14s0,0-.06-.08l-.12,0a.58.58,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.11.11,0,0,0,338.29,86.07Zm-.55.53a.5.5,0,0,1-.19.1l-.46,0,.18-.25h.32l.13,0A.07.07,0,0,1,337.74,86.6Zm-.38-.24a1.24,1.24,0,0,0,.47-.06c.13-.08.08-.13,0-.15a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Shape_136" data-name="Shape 136" class="cls-94"
+              d="M338.25,86l-.08,0a1,1,0,0,0-.24,0l.14-.2h-.2l-.13.19h-.15l.14-.19h-.19l-.14.19H337l-.08.13h.16c.07,0,0,0,0,0l-.38.49a.12.12,0,0,1-.12.07h-.14l-.15.13h.4l-.14.2h.2l.14-.2h.16L337,87h.21l.13-.18.25,0a.89.89,0,0,0,.39-.12l.13-.1a.17.17,0,0,0,.06-.14s0,0-.05-.08l-.13,0a.49.49,0,0,0,.17-.06.32.32,0,0,0,.14-.14A.09.09,0,0,0,338.25,86Zm-.54.55a.34.34,0,0,1-.19.09,2.28,2.28,0,0,1-.45,0l.18-.25h.31a.35.35,0,0,1,.14,0S337.74,86.51,337.71,86.58Zm-.37-.24a1.22,1.22,0,0,0,.46-.06v0c.13-.07.09-.14,0-.13a1.22,1.22,0,0,0-.33,0Z"/>
+        <path id="Path_113" data-name="Path 113" class="cls-95" d="M175.84,267.54,175.68,94.9l48,29.9-.07,183.73Z"/>
+        <path id="Path_114" data-name="Path 114" class="cls-96" d="M223.71,251.64l-.19-129.28,47.79-23.49,1.14,122.2Z"/>
+        <path id="Path_115" data-name="Path 115" class="cls-3" d="M271.31,95.45v3.47l-47.79,28.44L175.73,98.71V94.83Z"/>
+        <path id="Path_116" data-name="Path 116" class="cls-4" d="M223.52,127.42l47.79-27.93v-4l-47.79,24.83Z"/>
+        <path id="Path_117" data-name="Path 117" class="cls-5" d="M175.73,94.83l48.1-27.3,47.48,27.93-47.79,27.61Z"/>
+        <ellipse id="Oval_205" data-name="Oval 205" class="cls-97" cx="221.43" cy="94.76" rx="1.47" ry="9.69"
+                 transform="translate(28.65 239.15) rotate(-60)"/>
+        <path id="Path_118" data-name="Path 118" class="cls-98"
+              d="M211.73,43.32c-.27-1.65,1.86-1.55,1.86-1.55s.59.21.65.23c.55.23,1.08.48,1.61.73,1.64.77,3.26,1.53,4.88,2.33,2.19,1,4.37,2.07,6.57,3.08,1.58.72,3.39,1.55,3.71,3.43a46.74,46.74,0,0,1,.25,7.85v8.82c0,7.92.16,15.84,0,23.76a1.68,1.68,0,0,1-.23.9,1.52,1.52,0,0,1-.91.57,2.23,2.23,0,0,1-2.52-.46,4.81,4.81,0,0,1-.79-2.53,171.75,171.75,0,0,1-.32-17.28q.19-11.46.68-22.89C227.23,50.17,212,45.18,211.73,43.32Z"/>
+        <path id="Path_119" data-name="Path 119" class="cls-99"
+              d="M230,52.79a4,4,0,0,0-2-3.27l-14.66-7.29a1.27,1.27,0,0,0-2,1.25l.32,38.14a4.4,4.4,0,0,0,2,3.39l14.44,8.38c1.08.63,1.95.12,1.95-1.12Z"/>
+        <path id="Path_120" data-name="Path 120" class="cls-100"
+              d="M229,53.74a3.63,3.63,0,0,0-1.83-3L214.18,44.3a1.15,1.15,0,0,0-1.81,1.15l.28,35.35a4,4,0,0,0,1.78,3l12.78,7.38c1,.56,1.77.1,1.77-1Z"/>
+        <path id="Path_121" data-name="Path 121" class="cls-99"
+              d="M217.51,47.19a.84.84,0,0,0,.41.66l5.27,2.65a.26.26,0,0,0,.4-.25V48.6a.81.81,0,0,0-.41-.67l-5.27-2.62a.24.24,0,0,0-.29,0,.27.27,0,0,0-.12.26Z"/>
+        <path id="Path_122" data-name="Path 122" class="cls-99"
+              d="M217.72,84.77a.47.47,0,0,0,.22.38l5.55,3.2a.14.14,0,0,0,.22-.13V88a.47.47,0,0,0-.23-.38l-5.54-3.19a.14.14,0,0,0-.22.13Z"/>
+        <path id="Path_123" data-name="Path 123" class="cls-99"
+              d="M129.24,67.1a.81.81,0,0,0,.41.67l5.26,2.65a.26.26,0,0,0,.29,0,.25.25,0,0,0,.12-.26V68.52a.84.84,0,0,0-.41-.67l-5.27-2.62a.26.26,0,0,0-.29,0,.27.27,0,0,0-.12.27Z"/>
+        <path id="Path_124" data-name="Path 124" class="cls-101" d="M.05,280.46,0,135.31l47.84,28.18.19,157Z"/>
+        <path id="Path_125" data-name="Path 125" class="cls-102" d="M48,308.2V167.77L95.63,138V277.86Z"/>
+        <path id="Path_126" data-name="Path 126" class="cls-3" d="M95.63,135.87v3.46L47.84,167.77.05,139.12v-3.87Z"/>
+        <path id="Path_127" data-name="Path 127" class="cls-4" d="M47.84,167.83,95.63,139.9v-4L47.84,160.69Z"/>
+        <path id="Path_128" data-name="Path 128" class="cls-5" d="M.05,135.24l48.1-27.3,47.48,27.93L47.84,163.48Z"/>
+        <ellipse id="Oval_206" data-name="Oval 206" class="cls-97" cx="45.76" cy="135.17" rx="1.47" ry="9.69"
+                 transform="translate(-94.18 107.21) rotate(-60)"/>
+        <path id="Path_129" data-name="Path 129" class="cls-98"
+              d="M36.05,83.73c-.27-1.64,1.87-1.55,1.87-1.55s.58.21.65.23l1.61.73,4.88,2.33c2.18,1,4.36,2.08,6.57,3.08C53.2,89.27,55,90.1,55.34,92a47.66,47.66,0,0,1,.24,7.84v8.82c0,7.92.15,15.85,0,23.76a1.66,1.66,0,0,1-.23.9,1.55,1.55,0,0,1-.91.57,2.22,2.22,0,0,1-2.51-.45,4.66,4.66,0,0,1-.8-2.54,168.74,168.74,0,0,1-.32-17.28q.19-11.46.68-22.91C51.54,90.58,36.37,85.59,36.05,83.73Z"/>
+        <path id="Path_130" data-name="Path 130" class="cls-99"
+              d="M54.36,93.2a4,4,0,0,0-2-3.27L37.68,82.64a1.27,1.27,0,0,0-2,1.25L36,122a4.4,4.4,0,0,0,2,3.39l14.44,8.4c1.07.62,2,.12,2-1.13Z"/>
+        <path id="Path_131" data-name="Path 131" class="cls-103"
+              d="M53.27,94.16a3.64,3.64,0,0,0-1.83-3L38.49,84.71a1.16,1.16,0,0,0-1.82,1.15L37,121.21a4,4,0,0,0,1.79,3.05l12.8,7.38c1,.56,1.77.1,1.77-1Z"/>
+        <path id="Path_132" data-name="Path 132" class="cls-99"
+              d="M41.83,87.6a.82.82,0,0,0,.42.66l5.26,2.67a.26.26,0,0,0,.29,0,.29.29,0,0,0,.12-.27V89a.82.82,0,0,0-.42-.66l-5.27-2.63a.26.26,0,0,0-.29,0,.26.26,0,0,0-.11.27Z"/>
+        <path id="Path_133" data-name="Path 133" class="cls-99"
+              d="M42,125.19a.55.55,0,0,0,.23.38l5.54,3.19a.14.14,0,0,0,.22-.13v-.24a.5.5,0,0,0-.22-.38l-5.55-3.18A.13.13,0,0,0,42,125Z"/>
+        <path id="Path_135" data-name="Path 135" class="cls-104"
+              d="M135.42,41c2.22,1.11,3.3,1,5.58.06a13.48,13.48,0,0,0,5.26-4.51c5.69-7.23,7.67-17.69,14-24.21C168,4.42,171.08,3,179.52,1.05c11-2.47,21.49,2.05,22.74,14.48.54,5.2,1.34,9.38.73,14.6-.7,6-.71,12.37,1.49,17.92s6.86,11.82,12.31,11.85"/>
+        <path id="Path_136" data-name="Path 136" class="cls-104"
+              d="M232.56,72.51a12.27,12.27,0,0,0,10.2-.54c4.7-2.36,7.09-7.64,11-11.16a18,18,0,0,1,18.1-3.39c5.58,2.14,9.11,8,14.67,10.17,6.74,2.63,9.88,2.37,14-2"/>
+        <g id="Group_2" data-name="Group 2">
+          <path id="Path_137" data-name="Path 137" class="cls-105" d="M80.9,302.12,80.73,66.89l48,32V368.7Z"/>
+          <path id="Path_138" data-name="Path 138" class="cls-106" d="M128.58,295.68V98.87l47.79-29.26V255.27Z"/>
+          <path id="Path_139" data-name="Path 139" class="cls-3"
+                d="M176.37,67.44v3.47L128.58,99.35,80.79,70.69V66.82Z"/>
+          <path id="Path_140" data-name="Path 140" class="cls-4" d="M128.58,99.4l47.79-27.92v-4L128.58,92.27Z"/>
+          <path id="Path_141" data-name="Path 141" class="cls-5" d="M80.79,66.82l48.1-27.31,47.48,27.93L128.58,95.06Z"/>
+          <ellipse id="Oval_207" data-name="Oval 207" class="cls-97" cx="126.49" cy="66.74" rx="1.47" ry="9.69"
+                   transform="translate(5.44 142.92) rotate(-60)"/>
+          <path id="Path_142" data-name="Path 142" class="cls-98"
+                d="M116.79,15.3c-.27-1.64,1.86-1.54,1.86-1.55s.59.21.65.24c.54.23,1.08.48,1.61.73,1.64.76,3.26,1.52,4.88,2.32,2.19,1.05,4.37,2.08,6.58,3.09,1.57.71,3.38,1.52,3.7,3.43a45.62,45.62,0,0,1,.24,7.84l0,8.83c0,7.91.16,15.84,0,23.76a1.7,1.7,0,0,1-.23.9,1.6,1.6,0,0,1-.92.57,2.22,2.22,0,0,1-2.51-.46,4.72,4.72,0,0,1-.79-2.53,171.64,171.64,0,0,1-.33-17.28q.21-11.46.69-22.89C132.3,22.15,117.1,17.17,116.79,15.3Z"/>
+          <path id="Path_143" data-name="Path 143" class="cls-99"
+                d="M135.1,24.77a4,4,0,0,0-2-3.26L118.41,14.2a1.27,1.27,0,0,0-2,1.25l.32,38.14a4.39,4.39,0,0,0,2,3.39l14.44,8.4c1.07.62,1.95.12,1.95-1.12Z"/>
+          <path id="Path_144" data-name="Path 144" class="cls-107"
+                d="M134,25.74a3.67,3.67,0,0,0-1.83-3l-13-6.49a1.15,1.15,0,0,0-1.81,1.15l.28,35.35a3.93,3.93,0,0,0,1.79,3l12.77,7.38c1,.56,1.77.1,1.77-1Z"/>
+        </g>
+        <path id="Path_145" data-name="Path 145" class="cls-104"
+              d="M44.14,103.16c-3.08,9.11-7.14,14.34-11,12S25.6,102,24.76,87.86c-.81-13.6.95-28,3.71-37.58s6.36-15.16,10-19.43c8.7-10.36,18.15-14.6,27-6.63,6,5.43,11.61,16.25,17.32,25.27,7.08,11.23,14.61,19.94,22.32,20.28s13.27-16.65,18.78-36.44"/>
+      </g>
+    </g>
+  </g>
+</svg>

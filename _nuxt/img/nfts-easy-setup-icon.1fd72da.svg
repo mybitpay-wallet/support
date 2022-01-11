@@ -1,0 +1,28 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="25" cy="25" r="25" transform="rotate(-180 25 25)" fill="#214497"/>
+<mask id="mask0_1386_39073" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="50">
+<circle cx="25" cy="25" r="25" transform="rotate(-180 25 25)" fill="white"/>
+</mask>
+<g mask="url(#mask0_1386_39073)">
+<ellipse cx="34.4444" cy="36.6654" rx="26.6667" ry="26.6667" transform="rotate(-180 34.4444 36.6654)" fill="#1A2C57"/>
+<mask id="mask1_1386_39073" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="9" width="55" height="55">
+<ellipse cx="34.4444" cy="36.6654" rx="26.6667" ry="26.6667" transform="rotate(-180 34.4444 36.6654)" fill="white"/>
+</mask>
+<g mask="url(#mask1_1386_39073)">
+</g>
+<g clip-path="url(#clip0_1386_39073)">
+<g clip-path="url(#clip1_1386_39073)">
+<path d="M24.0626 33.3482C26.0761 33.3482 27.7084 31.6797 27.7084 29.6214C27.7084 27.5631 26.0761 25.8945 24.0626 25.8945C22.049 25.8945 20.4167 27.5631 20.4167 29.6214C20.4167 31.6797 22.049 33.3482 24.0626 33.3482Z" fill="#4F6EF7"/>
+<path d="M32.7366 14.9493L21.8866 20.4889L19.3521 14.183L28.3121 5.02392L26.25 2.91602L15.5064 13.8983L1.62893 12.3226L1.30664 15.2862L12.5212 16.5593L16.0416 24.7777V37.8202H18.9583V25.3144L34.0389 17.6177L32.7366 14.9493Z" fill="#4F6EF7"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_1386_39073">
+<rect width="31" height="31.6889" fill="white" transform="translate(2 6.02148)"/>
+</clipPath>
+<clipPath id="clip1_1386_39073">
+<rect width="35" height="35.7778" fill="white" transform="translate(0 2.04297)"/>
+</clipPath>
+</defs>
+</svg>

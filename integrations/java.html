@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="en" ng-csp>
+<!-- Mirrored from bitpay.com/integrations/java by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jan 2022 14:07:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>BitPay Java Library</title><meta name="description" content="Implement blockchain payments on your e-commerce website using BitPay's Java Library."><!-- Twitter Card data--><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@BitPay"><meta name="twitter:title" content="BitPay Java Library"><meta name="twitter:description" content="Implement blockchain payments on your e-commerce website using BitPay's Java Library."><meta name="twitter:image" content="../images/social/bitpay-hero-og.jpg"><!-- Open Graph data (Facebook and Reddit)--><meta property="og:title" content="BitPay Java Library"><meta property="og:type" content="article"><meta property="og:url" content="../index.html"><meta property="og:image" content="../images/social/bitpay-hero-og.jpg"><meta property="og:description" content="Implement blockchain payments on your e-commerce website using BitPay's Java Library."><meta property="og:site_name" content="BitPay"><!-- Add to homescreen for Chrome on Android--><meta name="mobile-web-app-capable" content="yes"><link rel="icon" sizes="192x192" href="../images/touch/android-chrome-192x192.61659022.png"><!-- Add to homescreen for Safari on iOS--><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="BitPay Website"><link rel="apple-touch-icon" sizes="144x144" href="../images/touch/apple-touch-icon-144x144.6f64a26e.png"><link rel="apple-touch-icon" sizes="152x152" href="../images/touch/apple-touch-icon-152x152.b17759e7.png"><link rel="apple-touch-icon" sizes="180x180" href="../images/touch/apple-touch-icon-180x180.d02e843b.png"><!-- Tile icon for Windows--><meta name="msapplication-TileImage" content="../images/touch/mstile-144x144.c1e37852.png"><meta name="msapplication-square150x150logo" content="../images/touch/mstile-150x150.b17dbca0.png"><meta name="msapplication-wide310x150logo" content="../images/touch/mstile-310x150.20036d39.png"><meta name="msapplication-square310x310logo" content="../images/touch/mstile-310x310.815ff051.png"><meta name="msapplication-TileColor" content="#1D3E92"><meta name="theme-color" content="#1D3E92"><!-- Favicon--><link rel="shortcut icon" href="../favicon.ico"><noscript><script type="application/ld+json">{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "BitPay",
+  "url" : "https://bitpay.com/",
+  "logo" : "https://bitpay.com/images/bitpay-logo-inverse.png",
+  "sameAs" : [
+    "http://www.facebook.com/BitPayOfficial",
+    "http://www.twitter.com/BitPay",
+    "http://plus.google.com/b/103321420256995341273/+BitPay1/posts",
+    "http://www.linkedin.com/company/bitpay-inc-?",
+    "http://www.youtube.com/user/BitPayVideos",
+    "http://angel.co/bitpay"
+  ]
+}
+</script></noscript><meta name="google-site-verification" content="ERpG77x8sqtARiA_nXt5TPjY2fEdjDHocAoWEktHTTw"><link rel="stylesheet" href="../styles/main.d8eebd45.css" data-instant-track><link rel="stylesheet" href="../assets/banner-latest.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700"></head><body class="white-header"><div data-offcanvas class="off-canvas-wrap container"><div class="inner-wrap"><div class="bp-wrap"><div class="sticky bg-blue"><nav data-topbar style="max-width: 90rem !important" class="row top-bar"><div style="display: inline-flex; align-items: center" class="column small-4"><a href="../index.html" style="position: relative; top: 1px;" aria-label="BitPay Homepage" class="bp-logo logo margin-top"><svg width="86" height="30"><title>BitPay</title><path d="M86.1,7.4h-4.4l-2.6,10.8l-0.4,1.5c-0.3,0.1-0.5,0.1-0.8,0.2C77.5,20,77.1,20,76.6,20c-0.6,0-1-0.1-1.4-0.3
+	c-0.3-0.2-0.6-0.4-0.7-0.7c-0.1-0.3-0.2-0.7-0.2-1.1c0-0.4,0.1-0.9,0.2-1.3l1.4-5.6l0.9-3.7h-4.5L70.2,16c-0.3,1.1-0.4,2.1-0.4,2.9
+	c0,1,0.1,1.8,0.4,2.5c0.3,0.7,0.9,1.3,1.7,1.7c0.8,0.4,1.9,0.6,3.2,0.6c1,0,1.9-0.1,2.6-0.3h0.1c-0.2,0.9-0.6,1.6-1.3,2.2
+	c-0.7,0.6-1.6,0.9-2.8,0.9c-0.5,0-1.1,0-1.5-0.1l-0.9,3.6c0.6,0.1,1.3,0.1,2,0.1c1.4,0,2.6-0.2,3.5-0.5c1-0.3,1.9-0.8,2.7-1.4
+	c0.7-0.6,1.4-1.4,1.9-2.4c0.5-1,0.9-2.1,1.2-3.3l3-12.9L86.1,7.4L86.1,7.4z M67.6,16.7c-0.3,1.1-0.4,2.3-0.3,3.4
+	c0.1,1.2,0.6,2.8,1,3.7h-4.3c-0.5-0.9-0.5-1.3-0.6-1.6c-0.6,0.5-1.2,0.8-1.9,1.1c-0.7,0.3-1.4,0.5-2.3,0.5c-1,0-1.9-0.2-2.6-0.5
+	c-0.7-0.3-1.3-0.8-1.8-1.4c-0.5-0.6-0.8-1.3-1-2.1c-0.2-0.8-0.3-1.6-0.3-2.6c0-1.4,0.3-2.7,0.7-3.8c0.5-1.2,1.2-2.3,2.1-3.1
+	c0.9-0.9,2.9-2.9,6.4-2.9h6.9L67.6,16.7L67.6,16.7z M64.4,11.2c-2.1,0-2.5,0-3.3,0.4c-0.6,0.3-1.1,0.8-1.6,1.4
+	c-0.4,0.5-0.8,1.2-1.1,1.9c-0.3,0.7-0.4,1.5-0.4,2.3c0,1,0.2,1.7,0.5,2.3c0.3,0.6,0.9,0.8,1.8,0.8c0.5,0,0.9-0.1,1.3-0.3
+	c0.4-0.2,0.8-0.5,1.2-0.9c0-0.5,0.1-1,0.2-1.6c0.1-0.6,0.2-1.1,0.3-1.5L64.4,11.2 M52.5,13.9c0,1.5-0.3,2.8-0.7,4
+	c-0.5,1.2-1.2,2.3-2,3.1c-0.9,0.9-1.9,1.6-3,2.1c-1.2,0.5-2.5,0.8-3.8,0.8c-0.7,0-1.4-0.1-2.1-0.2l-1.4,5.4h-4.4l5.1-21.6h5.9
+	c1.1,0,2.1,0.2,2.8,0.5c0.8,0.3,1.5,0.8,2,1.4s0.9,1.3,1.2,2.1C52.4,12.2,52.5,13,52.5,13.9L52.5,13.9z M41.6,20
+	c0.3,0.1,0.8,0.1,1.3,0.1c0.8,0,1.5-0.1,2.2-0.4c0.6-0.3,1.2-0.7,1.7-1.2c0.5-0.5,0.8-1.2,1.1-1.9s0.4-1.6,0.4-2.5s-0.2-1.6-0.6-2.2
+	c-0.4-0.6-1.1-0.9-2-0.9h-1.8L41.6,20L41.6,20z M32.4,20c-0.6,0-1-0.1-1.4-0.3c-0.3-0.2-0.6-0.4-0.7-0.7c-0.1-0.3-0.2-0.7-0.2-1.1
+	c0-0.4,0.1-0.9,0.2-1.3l1.4-5.6h5l0.9-3.7h-5.1l1.2-4.7L29,3.4L26,16.1c-0.3,1.1-0.4,2.1-0.4,2.9c0,1,0.1,1.8,0.4,2.5
+	c0.3,0.7,0.9,1.3,1.7,1.7c0.8,0.4,1.9,0.6,3.2,0.6c1,0,1.9-0.1,2.6-0.3c0.1,0,0.2,0,0.3-0.1l0.9-3.8c-0.3,0.1-0.6,0.2-0.9,0.2
+	C33.3,20,32.9,20,32.4,20L32.4,20z M21.1,7.4l-3.9,16.4h4.4l3.9-16.4H21.1z M25.9,5.5l0.7-2.8h-4.4l-0.7,2.8H25.9z M11.3,7.4
+	c1,0,1.8,0.2,2.5,0.5s1.3,0.8,1.8,1.4c0.5,0.6,0.8,1.3,1,2.1c0.2,0.8,0.3,1.6,0.3,2.5c0,1.4-0.3,2.7-0.8,3.9
+	c-0.5,1.2-1.2,2.3-2.1,3.2c-0.9,1-1.9,1.6-3.1,2.2c-1.2,0.5-2.5,0.8-3.8,0.8H6c-0.5,0-1,0-1.6-0.1c-0.6-0.1-1.2-0.2-1.9-0.4
+	s-1.3-0.4-1.9-0.7L5.8,1.1l4.6-0.7L8.5,8.1c0.4-0.2,0.8-0.3,1.2-0.4C10.4,7.4,10.8,7.4,11.3,7.4L11.3,7.4z M7.3,20.2
+	c0.7,0,1.4-0.2,2-0.5s1.2-0.8,1.6-1.4c0.5-0.6,0.8-1.2,1.1-1.9s0.4-1.5,0.4-2.3c0-1-0.2-1.7-0.5-2.3c-0.3-0.5-1-0.8-1.9-0.8
+	c-0.3,0-0.6,0-1,0.1c-0.5,0.1-0.8,0.3-1.2,0.6l-2,8.2c0.6,0.1,0.8,0.1,0.9,0.1C6.9,20.2,7.1,20.2,7.3,20.2z"/></svg>
+</a></div><div class="column small-3 hide-for-large-up margin-top override-show"><a href="javascript:;" aria-label="menu toggle" class="right-off-canvas-toggle menu-icon right"><span></span></a></div></nav><aside class="right-off-canvas-menu"></aside></div><div class="section"><div class="row"><div class="integration-guide-body column large-8 small-12"><h1>BitPay Java Library<p class="lead">Implement blockchain payments on your e-commerce website using BitPay's Java Library.</p></h1><h2 id="using-the-bitpay-java-library">Using the BitPay Java Library</h2>
+<p>This library provides a convenient abstraction of BitPay&#39;s <a href="../api/index.html">cryptographically-secure API</a> and allows payment gateway developers to focus on payment flow/e-commerce integration rather than on the specific details of client-server interaction using the API.  This library optionally provides the flexibility for developers to have control over important details, including the handling of private keys needed for client-server communication.</p>
+<p>It also implements BitPay&#39;s remote client authentication and authorization strategy.  No private or shared-secret information is ever transmitted over the wire.</p>
+<h3 id="dependencies">Dependencies</h3>
+<p>You must have a BitPay merchant account to use this library.  It&#39;s free to <a href="../dashboard/signup.html">sign-up for a BitPay merchant account</a>.</p>
+<p>If you need a test account, please visit <a href="https://test.bitpay.com/dashboard/signup">https://test.bitpay.com/dashboard/signup</a> and register for a BitPay merchant test account. Please fill in all questions, so you get a fully working test account.
+If you are looking for a testnet bitcoin wallet to test with, please visit <a href="../wallet/index.html">https://bitpay.com/wallet</a> and
+create a new wallet.
+If you need testnet bitcoin please visit a testnet faucet, e.g. <a href="https://testnet.coinfaucet.eu/en/">https://testnet.coinfaucet.eu/en/</a> or <a href="http://tpfaucet.appspot.com/">http://tpfaucet.appspot.com/</a></p>
+<p>For more information about testing, please see <a href="../docs/testing.html">https://bitpay.com/docs/testing</a></p>
+<h3 id="handling-your-client-private-key">Handling your client private key</h3>
+<p>Each client paired with the BitPay server requires a ECDSA key.  This key provides the security mechanism for all client interaction with the BitPay server. The public key is used to derive the specific client identity that is displayed on your BitPay dashboard.  The public key is also used for securely signing all API requests from the client.  See the <a href="../api/index.html">BitPay API</a> for more information.</p>
+<p>The private key should be stored in the client environment such that it cannot be compromised.  If your private key is compromised you should revoke the compromised client identity from the BitPay server and re-pair your client, see the <a href="../dashboard/login.html">API tokens</a> for more information.</p>
+<p><strong>There are two ways to generate the configuration file required to load the library:</strong></p>
+<ul>
+<li><p>Using the <a href="https://github.com/bitpay/java-bitpay-client/blob/master/src/setup/java/BitPaySetup.java">BitPaySetup Script</a> helps to generate the private key, as well as a environment file formatted in JSON which contains all configuration requirements, that should be stored in the client local file system. It is not recommended to transmit the private key over any public or unsecure networks.</p>
+<p>Once the BitPaySetup Script has run and generated the Json correctly, read the console output and follow the instructions in order to pair your new tokens.
+This method would also allow you to generate the Private Key as plain text which you can securely store in case you are using cloud services.</p>
+</li>
+<li><p>Or using the <a href="https://github.com/bitpay/csharp-bitpay-client/releases/download/v2.0.1904/BitPay.Net_Setup_utility.zip">BitPay.Net Setup utility</a> on a Windows machine, helps to generate the private key, as well as a environment file formatted in JSON which contains all configuration requirements, that should be stored in the client local file system. It is not recommended to transmit the private key over any public or unsecure networks.</p>
+<p>Follow the guide <a href="https://github.com/bitpay/csharp-bitpay-client/blob/master/BitPaySetup/README.md">BitPay.Net Setup utility guide</a> that assist you to create the environment file which you will be able to modify it, either manually or by using the BitPay.Net Setup utility, later on by asking you to provide the path to your existing JSON file.</p>
+</li>
+</ul>
+<p>The environment file can be either generated by the BitPay.Net Setup utility or created manually by copying the following Json structure:</p>
+<pre><code>{
+  &quot;BitPayConfiguration&quot;: {
+    &quot;Environment&quot;: &quot;&quot;,
+    &quot;EnvConfig&quot;: {
+      &quot;Test&quot;: {
+        &quot;PrivateKeyPath&quot;: &quot;&quot;,
+        &quot;PrivateKey&quot;: &quot;&quot;,
+        &quot;ApiTokens&quot;: {
+          &quot;pos&quot;: &quot;&quot;,
+          &quot;merchant&quot;: &quot;&quot;,
+          &quot;payroll&quot;: &quot;&quot;
+        }
+      },
+      &quot;Prod&quot;: {
+        &quot;PrivateKeyPath&quot;: &quot;&quot;,
+        &quot;PrivateKey&quot;: &quot;&quot;,
+        &quot;ApiTokens&quot;: {
+          &quot;pos&quot;: &quot;&quot;,
+          &quot;merchant&quot;: &quot;&quot;,
+          &quot;payroll&quot;: &quot;&quot;
+        }
+      }
+    }
+  }
+}
+</code></pre><p><br/></p>
+<h3 id="usage">Usage</h3>
+<p>This library was built and tested using the Intellij IDE; the source code tree is directly compatible with Other Java IDEs.
+Library dependencies can be downloaded by executing the following command at the root of the library:</p>
+<p>You can also look ar the full JavaDoc for reference <a href="http://htmlpreview.github.io/?https://github.com/bitpay/java-bitpay-client/blob/master/apidocs/index.html">here</a></p>
+<h3 id="initializing-your-bitpay-client">Initializing your BitPay client</h3>
+<p>Once you have the environment file (JSON previously generated) you can initialize the client on two different ways:</p>
+<pre><code>// Provide the full path to the env file which you have previously stored securely.
+
+Client bitpay = new Client(&quot;[FULL_PATH_TO_THE_CONFIG_FILE]&quot;, null); //as second argument, Pass a HttpHost object for proxy usage or NULL to ignore
+</code></pre><p><br/></p>
+<pre><code>// Initialize with separate variables.
+
+Client bitpay = new Client(
+    Env.Test,
+    &quot;[FULL_PATH_TO_THE_PRIVATE_KEY_|OR|_PRIVATE_KEY_AS-PLAIN_TEXT]&quot;,
+    new Env.Tokens(){{
+        pos = &quot;AvJdGrEqTW9HVsJit9zabAnrJabqaQDhWHRacHYgfgxK&quot;;
+        merchant = &quot;2smKkjA1ACPKWUGN7wUEEqdWi3rhXYhDX6AKgG4njKvj&quot;;
+        payroll = &quot;9pJ7fzW1GGeuDQfj32aNATCDnyY6YAacVMcDrs7HHUNo&quot;;
+    }},
+    null //Pass a HttpHost object for proxy usage or NULL to ignore
+);
+</code></pre><p><br/></p>
+<h3 id="pair-your-client-with-bitpay">Pair your client with BitPay</h3>
+<p>Your client must be paired with the BitPay server. The pairing initializes authentication and authorization for your client to communicate with BitPay for your specific merchant account.</p>
+<p>Pairing is accomplished by having the BitPay.Net Setup utility request a pairing code from the BitPay server.
+Meanwhile a new pairing code is generated, the BitPay.Net Setup utility will ask you to activate it in your BitPay account. It will also store the paired token in the environment file.</p>
+<p>The pairing code is then entered into the BitPay merchant dashboard for the desired merchant.  Your interactive authentication at <a href="../dashboard/login.html">https://bitpay.com/login</a> provides the authentication needed to create finalize the client-server pairing request.</p>
+<h3 id="create-an-invoice">Create an invoice</h3>
+<pre><code>Invoice invoice = bitpay.createInvoice(new Invoice(50.0, &quot;USD&quot;));
+
+String invoiceUrl = invoice.getURL();
+
+String status = invoice.getStatus();
+</code></pre><p><br/></p>
+<h3 id="retrieve-an-invoice">Retrieve an invoice</h3>
+<pre><code>Invoice invoice = bitpay.getInvoice(invoice.getId());
+</code></pre><p><br/></p>
+<h3 id="get-exchange-rates">Get exchange Rates</h3>
+<p>You can retrieve BitPay&#39;s <a href="../exchange-rates/index.html">BBB exchange rates</a>.</p>
+<pre><code>Rates rates = bitpay.getRates();
+
+double rate = rates.getRate(&quot;USD&quot;);
+
+rates.update();
+</code></pre><p><br/>
+See also the test package for more examples of API calls.</p>
+</div><div class="column large-4 small-12"><div class="h5 uppercase">Integration Options</div><select id="integrationDrop" selected="Select Plugin" class="js-dropdown margin-top-less radius"><option value="#">Plugins</option><option value="#">---</option><option value="/integrations/shopify">Shopify</option><option value="/integrations/wix">Wix</option><option value="/integrations/woocommerce">WooCommerce</option><option value="/integrations/whmcs">WHMCS</option><option value="/integrations/magento1">Magento 1</option><option value="/integrations/magento2">Magento 2</option><option value="/integrations/opencart">OpenCart</option><option value="/integrations/prestashop">PrestaShop</option><option value="/integrations/easy-digital-downloads">Easy Digital Downloads</option><option value="/integrations/drupal-commerce">Drupal Commerce</option><option value="https://github.com/bitpay/ubercart-drupal8">Ubercart</option><option value="https://github.com/bitpay/zencart-plugin">Zen Cart</option></select><select id="integrationDrop" selected="Select SDK" class="js-dropdown margin-top-less radius"><option value="#">Libraries</option><option value="#">---</option><option value="/integrations/php">PHP</option><option value="/integrations/php-lite">PHP (Lite)</option><option value="/integrations/java">Java</option><option value="/integrations/java-lite">Java (Lite)</option><option value="/integrations/csharp">C# .NET</option><option value="/integrations/csharp-lite">C# .NET (Lite)</option><option value="/integrations/nodejs">Node.js</option><option value="/integrations/ruby">Ruby</option><option value="/integrations/python">Python</option></select><img src="../images/integrations/java.804fd0c5.svg" alt="BitPay Java Library" style="max-width:100%" class="padding-vertical-less"><div class="h6">Category</div><p>Libraries</p><img src="../images/integrations/github-icon.b28d3f8f.svg" alt=""><a href="https://github.com/bitpay/java-bitpay-client" class="bold">  View on GitHub</a><a href="https://search.maven.org/artifact/com.bitpay/bitpay_sdk" class="white btn btn-blue-solid uppercase bold btn-margin block text-center margin-top">view on maven</a></div></div></div><div class="section bg-lightblue-gradient border-top-gray"><div class="row"><div class="column medium-8 medium-offset-2"><h2 class="text-center white">Get Started with the BitPay Java Library integration</h2></div></div><div class="row"><div class="column medium-8 medium-offset-2 text-center"><a href="../dashboard/signup.html" class="white btn btn-blue-solid uppercase bold btn-margin">Sign Up</a><a href="https://search.maven.org/artifact/com.bitpay/bitpay_sdk" class="white btn btn-blue-border uppercase bold arrow btn-margin">view on maven</a></div></div></div></div><a class="exit-off-canvas"></a></div></div></body><script src="../scripts/main.min.16707520.js" data-no-instant="data-no-instant"></script><script src="../track/banner.min.js"></script>
+<!-- Mirrored from bitpay.com/integrations/java by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Jan 2022 14:07:21 GMT -->
+</html>

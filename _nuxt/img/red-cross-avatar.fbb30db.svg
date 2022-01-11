@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="67" viewBox="0 0 68 67">
+  <defs>
+    <polygon id="red-cross-avatar-a" points="1.319 68.662 68.005 68.662 68.005 1.976 1.319 1.976 1.319 68.662"/>
+    <path id="red-cross-avatar-c" d="M34.40478,68.6619 C17.647831,68.553616 3.29774,55.862239 1.506132,38.805048 C-0.41837,20.492747 12.863647,4.08526 31.173487,2.160758 C49.488249,0.238717 65.900658,13.523195 67.820238,31.833035 C69.749662,50.147797 56.45534,66.552823 38.140578,68.477325 C37.033128,68.592992 35.935522,68.654517 34.842838,68.6619 L34.40478,68.6619 L34.40478,68.6619 Z"/>
+    <polygon id="red-cross-avatar-e" points="10.191 85.151 86.886 77.092 78.828 .404 2.133 8.463 10.191 85.15"/>
+    <radialGradient id="red-cross-avatar-f" cx="50.217%" cy="50.917%" r="50.741%" fx="50.217%" fy="50.917%" gradientTransform="rotate(-5.998 .502 .51)">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="5.94%" stop-color="#FFF"/>
+      <stop offset="54.916%" stop-color="#FFF"/>
+      <stop offset="67.23%" stop-color="#F1F1F1"/>
+      <stop offset="84.741%" stop-color="#E4E4E4"/>
+      <stop offset="96.928%" stop-color="#CAC9CA"/>
+      <stop offset="99.891%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </radialGradient>
+    <polygon id="red-cross-avatar-h" points=".957 71.6 72.164 71.6 72.164 .393 .957 .393 .957 71.6"/>
+    <path id="red-cross-avatar-j" d="M1.50121,38.8838 C-0.423292,20.571499 12.858725,4.164012 31.173487,2.237049 C49.483327,0.317469 65.898197,13.601947 67.812855,31.909326 C69.74474,50.224088 56.450418,66.626653 38.140578,68.553616 C36.956837,68.679127 35.78294,68.738191 34.616426,68.738191 C17.765959,68.738191 3.300201,56.009899 1.50121,38.8838"/>
+    <polygon id="red-cross-avatar-l" points=".957 72.6 72.164 72.6 72.164 1.393 .957 1.393 .957 72.6"/>
+    <path id="red-cross-avatar-n" d="M36.329282,72.5995 C32.148043,72.572429 27.895435,71.804597 23.763416,70.21233 C9.681574,64.783364 1.021315,51.380758 0.95979,37.146334 L0.95979,36.819021 C0.979478,32.623016 1.749771,28.358103 3.349421,24.208857 C8.746394,10.195923 22.038255,1.55043 36.189005,1.395387 L36.959298,1.395387 C41.086395,1.439685 45.277478,2.212439 49.355355,3.782557 C63.46919,9.218906 72.136832,22.66581 72.1663699,36.929766 L72.1663699,36.981447 C72.168825,41.243899 71.398532,45.575259 69.776733,49.788491 C64.362533,63.855567 50.986998,72.513365 36.772262,72.5995 L36.329282,72.5995 L36.329282,72.5995 Z"/>
+    <polygon id="red-cross-avatar-p" points="1.255 98.932 98.433 136.359 135.857 39.184 38.68 1.757 1.255 98.932"/>
+    <radialGradient id="red-cross-avatar-q" cx="49.889%" cy="50.575%" r="50.73%" fx="49.889%" fy="50.575%" gradientTransform="matrix(.93315 .3594 -.35939 .93318 .215 -.146)">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="5.94%" stop-color="#FFF"/>
+      <stop offset="64.924%" stop-color="#FFF"/>
+      <stop offset="79.755%" stop-color="#F1F1F1"/>
+      <stop offset="91.411%" stop-color="#E4E4E4"/>
+      <stop offset="93.864%" stop-color="#CAC9CA"/>
+      <stop offset="95.355%" stop-color="#D1D0D0"/>
+      <stop offset="95.676%" stop-color="#D1D0D0"/>
+      <stop offset="97.971%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </radialGradient>
+    <polygon id="red-cross-avatar-s" points="2.431 45.529 47.222 45.529 47.222 .728 2.431 .728"/>
+    <polygon id="red-cross-avatar-u" points="17.362 45.529 17.362 30.595 2.431 30.595 2.431 15.669 17.362 15.669 17.362 .736 32.286 .736 32.286 15.669 47.222 15.669 47.222 30.593 32.286 30.595 32.291 45.529 17.362 45.529"/>
+    <polygon id="red-cross-avatar-w" points="47.222 45.529 47.222 .736 2.429 .736 2.429 45.529"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="matrix(1 0 0 -1 -2.915 69.788)">
+    <path fill="#FFF" fill-rule="nonzero" d="M68.908,31.993 C66.98842,13.685621 50.578472,0.398682 32.26371,2.323184 C13.95387,4.245225 0.669392,20.652712 2.593894,38.965013 C4.518396,57.279775 20.9185,70.559331 39.230801,68.639751 C57.543102,66.715249 70.837424,50.307762 68.908,31.993" transform="translate(1.373 .848)"/>
+    <g transform="translate(2.461 .922)">
+      <mask id="red-cross-avatar-b" fill="#fff">
+        <use xlink:href="#red-cross-avatar-a"/>
+      </mask>
+      <g mask="url(#red-cross-avatar-b)" opacity=".8">
+        <mask id="red-cross-avatar-d" fill="#fff">
+          <use xlink:href="#red-cross-avatar-c"/>
+        </mask>
+        <g mask="url(#red-cross-avatar-d)">
+          <g transform="translate(-9.844 -7.383)">
+            <mask id="red-cross-avatar-g" fill="#fff">
+              <use xlink:href="#red-cross-avatar-e"/>
+            </mask>
+            <path fill="url(#red-cross-avatar-f)" fill-rule="nonzero" d="M44.24878,76.0449 C27.491831,75.936616 13.14174,63.245239 11.350132,46.188048 C9.42563,27.875747 22.707647,11.46826 41.017487,9.543758 C59.332249,7.621717 75.744658,20.906195 77.664238,39.216035 C79.593662,57.530797 66.29934,73.935823 47.984578,75.860325 C46.877128,75.975992 45.779522,76.037517 44.686838,76.0449 L44.24878,76.0449 L44.24878,76.0449 Z" mask="url(#red-cross-avatar-g)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(0 1.922)">
+      <mask id="red-cross-avatar-i" fill="#fff">
+        <use xlink:href="#red-cross-avatar-h"/>
+      </mask>
+      <g mask="url(#red-cross-avatar-i)" opacity=".77">
+        <g transform="translate(2.461 -1)">
+          <mask id="red-cross-avatar-k" fill="#fff">
+            <use xlink:href="#red-cross-avatar-j"/>
+          </mask>
+          <g mask="url(#red-cross-avatar-k)">
+            <g transform="translate(-2.461)">
+              <mask id="red-cross-avatar-m" fill="#fff">
+                <use xlink:href="#red-cross-avatar-l"/>
+              </mask>
+              <g mask="url(#red-cross-avatar-m)" opacity=".8">
+                <mask id="red-cross-avatar-o" fill="#fff">
+                  <use xlink:href="#red-cross-avatar-n"/>
+                </mask>
+                <g mask="url(#red-cross-avatar-o)">
+                  <g transform="translate(-31.993 -31.993)">
+                    <mask id="red-cross-avatar-r" fill="#fff">
+                      <use xlink:href="#red-cross-avatar-p"/>
+                    </mask>
+                    <path fill="url(#red-cross-avatar-q)" fill-rule="nonzero" d="M68.322282,104.5925 C64.141043,104.565429 59.888435,103.797597 55.756416,102.20533 C41.674574,96.776364 33.014315,83.373758 32.95279,69.139334 L32.95279,68.812021 C32.972478,64.616016 33.742771,60.351103 35.342421,56.201857 C40.739394,42.188923 54.031255,33.54343 68.182005,33.388387 L68.952298,33.388387 C73.079395,33.432685 77.270478,34.205439 81.348355,35.775557 C95.46219,41.211906 104.129832,54.65881 104.15937,68.922766 L104.15937,68.974447 C104.161825,73.236899 103.391532,77.568259 101.769733,81.781491 C96.355533,95.848567 82.979998,104.506365 68.765262,104.5925 L68.322282,104.5925 L68.322282,104.5925 Z" mask="url(#red-cross-avatar-r)"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(12.305 13.227)">
+      <mask id="red-cross-avatar-t" fill="#fff">
+        <use xlink:href="#red-cross-avatar-s"/>
+      </mask>
+      <g mask="url(#red-cross-avatar-t)">
+        <mask id="red-cross-avatar-v" fill="#fff">
+          <use xlink:href="#red-cross-avatar-u"/>
+        </mask>
+        <g mask="url(#red-cross-avatar-v)">
+          <mask id="red-cross-avatar-x" fill="#fff">
+            <use xlink:href="#red-cross-avatar-w"/>
+          </mask>
+          <g fill="#ED1B2E" fill-rule="nonzero" mask="url(#red-cross-avatar-x)">
+            <polygon points="17.362 45.529 17.362 30.595 2.431 30.595 2.431 15.669 17.362 15.669 17.362 .736 32.286 .736 32.286 15.669 47.222 15.669 47.222 30.593 32.286 30.595 32.291 45.529 17.362 45.529"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

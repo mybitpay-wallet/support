@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/legal/accessibility", {data:[{}],fetch:[],mutations:[]});

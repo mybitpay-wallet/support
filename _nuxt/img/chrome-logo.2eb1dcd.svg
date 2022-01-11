@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="30" viewBox="0 0 28 30">
+  <defs>
+    <circle id="chrome-logo-a" cx="14" cy="14" r="14"/>
+    <linearGradient id="chrome-logo-c" x1="4.547%" x2="36.948%" y1="55.356%" y2="42.741%">
+      <stop offset="0%" stop-color="#A52714" stop-opacity=".6"/>
+      <stop offset="66%" stop-color="#A52714" stop-opacity="0"/>
+    </linearGradient>
+    <circle id="chrome-logo-d" cx="14" cy="14" r="14"/>
+    <circle id="chrome-logo-f" cx="14" cy="14" r="14"/>
+    <linearGradient id="chrome-logo-h" x1="70.025%" x2="41.909%" y1="87.773%" y2="66.355%">
+      <stop offset="0%" stop-color="#055524" stop-opacity=".4"/>
+      <stop offset="33%" stop-color="#055524" stop-opacity="0"/>
+    </linearGradient>
+    <circle id="chrome-logo-i" cx="14" cy="14" r="14"/>
+    <circle id="chrome-logo-k" cx="14" cy="14" r="14"/>
+    <polygon id="chrome-logo-m" points="0 25.455 13.327 25.455 19.512 19.269 19.512 14.636 8.489 14.636 0 .076"/>
+    <linearGradient id="chrome-logo-o" x1="40.978%" x2="49.247%" y1="-4.841%" y2="45.414%">
+      <stop offset="0%" stop-color="#EA6100" stop-opacity=".3"/>
+      <stop offset="66%" stop-color="#EA6100" stop-opacity="0"/>
+    </linearGradient>
+    <circle id="chrome-logo-p" cx="14" cy="14" r="14"/>
+    <circle id="chrome-logo-r" cx="14" cy="14" r="14"/>
+    <polygon id="chrome-logo-t" points=".795 0 6.308 9.545 .122 20.364 14.795 20.364 14.795 0"/>
+    <circle id="chrome-logo-v" cx="14" cy="14" r="14"/>
+    <radialGradient id="chrome-logo-w" cx="-4.878%" cy="-.248%" r="401.327%" fx="-4.878%" fy="-.248%" gradientTransform="matrix(.26722 0 0 1 -.036 0)">
+      <stop offset="0%" stop-color="#3E2723" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#3E2723" stop-opacity="0"/>
+    </radialGradient>
+    <circle id="chrome-logo-y" cx="14" cy="14" r="14"/>
+    <polygon id="chrome-logo-A" points=".154 0 .154 6.418 6.421 17.182 11.932 7.636 25.932 7.636 25.932 0"/>
+    <circle id="chrome-logo-C" cx="14" cy="14" r="14"/>
+    <radialGradient id="chrome-logo-D" cx="-.166%" cy=".104%" r="136.321%" fx="-.166%" fy=".104%" gradientTransform="scale(1 .84752)">
+      <stop offset="0%" stop-color="#3E2723" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#3E2723" stop-opacity="0"/>
+    </radialGradient>
+    <circle id="chrome-logo-F" cx="14" cy="14" r="14"/>
+    <radialGradient id="chrome-logo-G" cx="10.34%" cy="-12.215%" r="226.352%" fx="10.34%" fy="-12.215%" gradientTransform="matrix(1 0 0 .49642 0 -.062)">
+      <stop offset="0%" stop-color="#263238" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#263238" stop-opacity="0"/>
+    </radialGradient>
+    <circle id="chrome-logo-I" cx="14" cy="14" r="14"/>
+    <circle id="chrome-logo-K" cx="14" cy="14" r="14"/>
+    <circle id="chrome-logo-M" cx="14" cy="14" r="14"/>
+    <radialGradient id="chrome-logo-O" cx="14.935%" cy="13.644%" r="100.424%" fx="14.935%" fy="13.644%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".1"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+    <mask id="chrome-logo-b" fill="#fff">
+      <use xlink:href="#chrome-logo-a"/>
+    </mask>
+    <g fill-rule="nonzero" mask="url(#chrome-logo-b)">
+      <g transform="translate(2.068)">
+        <polygon fill="#DB4437" points=".154 0 .154 17.182 6.421 17.182 11.932 7.636 25.932 7.636 25.932 0"/>
+        <polygon fill="url(#chrome-logo-c)" points=".154 0 .154 17.182 6.421 17.182 11.932 7.636 25.932 7.636 25.932 0"/>
+      </g>
+    </g>
+    <mask id="chrome-logo-e" fill="#fff">
+      <use xlink:href="#chrome-logo-d"/>
+    </mask>
+    <polygon fill="#3E2723" fill-opacity=".15" fill-rule="nonzero" points="8.64 17.126 2.304 6.259 2.211 6.418 8.502 17.204" mask="url(#chrome-logo-e)"/>
+    <mask id="chrome-logo-g" fill="#fff">
+      <use xlink:href="#chrome-logo-f"/>
+    </mask>
+    <g fill-rule="nonzero" mask="url(#chrome-logo-g)">
+      <g transform="translate(0 2.545)">
+        <polygon fill="#0F9D58" points="0 25.455 13.327 25.455 19.512 19.269 19.512 14.636 8.489 14.636 0 .076"/>
+        <polygon fill="url(#chrome-logo-h)" points="0 25.455 13.327 25.455 19.512 19.269 19.512 14.636 8.489 14.636 0 .076"/>
+      </g>
+    </g>
+    <mask id="chrome-logo-j" fill="#fff">
+      <use xlink:href="#chrome-logo-i"/>
+    </mask>
+    <polygon fill="#263238" fill-opacity=".15" fill-rule="nonzero" points="19.384 17.393 19.252 17.317 13.144 28 13.327 28 19.388 17.398" mask="url(#chrome-logo-j)"/>
+    <mask id="chrome-logo-l" fill="#fff">
+      <use xlink:href="#chrome-logo-k"/>
+    </mask>
+    <g mask="url(#chrome-logo-l)">
+      <g transform="translate(0 2.545)">
+        <mask id="chrome-logo-n" fill="#fff">
+          <use xlink:href="#chrome-logo-m"/>
+        </mask>
+        <g mask="url(#chrome-logo-n)">
+          <g fill-rule="nonzero" transform="translate(13.205 5.09)">
+            <polygon fill="#FFCD40" points=".795 0 6.308 9.545 .122 20.364 14.795 20.364 14.795 0"/>
+            <polygon fill="url(#chrome-logo-o)" points=".795 0 6.308 9.545 .122 20.364 14.795 20.364 14.795 0"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <mask id="chrome-logo-q" fill="#fff">
+      <use xlink:href="#chrome-logo-p"/>
+    </mask>
+    <g fill-rule="nonzero" mask="url(#chrome-logo-q)">
+      <g transform="translate(13.205 7.636)">
+        <polygon fill="#FFCD40" points=".795 0 6.308 9.545 .122 20.364 14.795 20.364 14.795 0"/>
+        <polygon fill="url(#chrome-logo-o)" points=".795 0 6.308 9.545 .122 20.364 14.795 20.364 14.795 0"/>
+      </g>
+    </g>
+    <mask id="chrome-logo-s" fill="#fff">
+      <use xlink:href="#chrome-logo-r"/>
+    </mask>
+    <g mask="url(#chrome-logo-s)">
+      <g transform="translate(13.205 7.636)">
+        <mask id="chrome-logo-u" fill="#fff">
+          <use xlink:href="#chrome-logo-t"/>
+        </mask>
+        <g mask="url(#chrome-logo-u)">
+          <g fill-rule="nonzero" transform="translate(-11.136 -7.636)">
+            <polygon fill="#DB4437" points=".154 0 .154 17.182 6.421 17.182 11.932 7.636 25.932 7.636 25.932 0"/>
+            <polygon fill="url(#chrome-logo-c)" points=".154 0 .154 17.182 6.421 17.182 11.932 7.636 25.932 7.636 25.932 0"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <mask id="chrome-logo-x" fill="#fff">
+      <use xlink:href="#chrome-logo-v"/>
+    </mask>
+    <polygon fill="url(#chrome-logo-w)" fill-rule="nonzero" points="14 7.636 14 10.969 26.473 7.636" mask="url(#chrome-logo-x)"/>
+    <mask id="chrome-logo-z" fill="#fff">
+      <use xlink:href="#chrome-logo-y"/>
+    </mask>
+    <g mask="url(#chrome-logo-z)">
+      <g transform="translate(2.068)">
+        <mask id="chrome-logo-B" fill="#fff">
+          <use xlink:href="#chrome-logo-A"/>
+        </mask>
+        <g mask="url(#chrome-logo-B)">
+          <g fill-rule="nonzero" transform="translate(-2.068 2.545)">
+            <polygon fill="#0F9D58" points="0 25.455 13.327 25.455 19.512 19.269 19.512 14.636 8.489 14.636 0 .076"/>
+            <polygon fill="url(#chrome-logo-h)" points="0 25.455 13.327 25.455 19.512 19.269 19.512 14.636 8.489 14.636 0 .076"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <mask id="chrome-logo-E" fill="#fff">
+      <use xlink:href="#chrome-logo-C"/>
+    </mask>
+    <polygon fill="url(#chrome-logo-D)" fill-rule="nonzero" points="2.223 6.435 11.33 15.542 8.489 17.182" mask="url(#chrome-logo-E)"/>
+    <mask id="chrome-logo-H" fill="#fff">
+      <use xlink:href="#chrome-logo-F"/>
+    </mask>
+    <polygon fill="url(#chrome-logo-G)" fill-rule="nonzero" points="13.337 27.983 16.671 15.542 19.512 17.182" mask="url(#chrome-logo-H)"/>
+    <mask id="chrome-logo-J" fill="#fff">
+      <use xlink:href="#chrome-logo-I"/>
+    </mask>
+    <g fill-rule="nonzero" mask="url(#chrome-logo-J)">
+      <g transform="translate(7.636 7.636)">
+        <circle cx="6.364" cy="6.364" r="6.364" fill="#F1F1F1"/>
+        <circle cx="6.364" cy="6.364" r="5.091" fill="#4285F4"/>
+      </g>
+    </g>
+    <mask id="chrome-logo-L" fill="#fff">
+      <use xlink:href="#chrome-logo-K"/>
+    </mask>
+    <g fill-rule="nonzero" mask="url(#chrome-logo-L)">
+      <g transform="translate(0 2.545)">
+        <path fill="#3E2723" fill-opacity=".2" d="M14,4.93181818 C10.4856818,4.93181818 7.63636364,7.78113636 7.63636364,11.2954545 L7.63636364,11.4545455 C7.63636364,7.94022727 10.4856818,5.09090909 14,5.09090909 L28,5.09090909 L28,4.93181818 L14,4.93181818 Z"/>
+        <path fill="#FFF" fill-opacity=".1" d="M19.5045455,14.6363636 C18.4036364,16.5359091 16.3529545,17.8181818 14,17.8181818 C11.6454545,17.8181818 9.59477273,16.5359091 8.49386364,14.6363636 L8.4875,14.6363636 L0,0.0763636364 L0,0.235454545 L8.48909091,14.7954545 L8.49545455,14.7954545 C9.59636364,16.695 11.6470455,17.9772727 14.0015909,17.9772727 C16.3545455,17.9772727 18.4052273,16.6965909 19.5061364,14.7954545 L19.5140909,14.7954545 L19.5140909,14.6363636 L19.5045455,14.6363636 Z"/>
+        <path fill="#3E2723" d="M14.1590909,5.09090909 C14.1320455,5.09090909 14.1065909,5.09409091 14.0795455,5.09568182 C17.5572727,5.13863636 20.3636364,7.96727273 20.3636364,11.4545455 C20.3636364,14.9418182 17.5572727,17.7704545 14.0795455,17.8134091 C14.1065909,17.8134091 14.1320455,17.8181818 14.1590909,17.8181818 C17.6734091,17.8181818 20.5227273,14.9688636 20.5227273,11.4545455 C20.5227273,7.94022727 17.6734091,5.09090909 14.1590909,5.09090909 Z" opacity=".1"/>
+        <path fill="#FFF" fill-opacity=".2" d="M19.5681818,14.8479545 C20.1090909,13.9125 20.4225,12.8306818 20.4225,11.6725 C20.4225,11.0011364 20.3175,10.3552273 20.125,9.74909091 C20.2761364,10.2931818 20.3636364,10.8643182 20.3636364,11.4561364 C20.3636364,12.6143182 20.0502273,13.6961364 19.5093182,14.6315909 L19.5125,14.6379545 L13.3270455,25.4561364 L13.5115909,25.4561364 L19.5713636,14.8543182 L19.5681818,14.8479545 Z"/>
+      </g>
+    </g>
+    <mask id="chrome-logo-N" fill="#fff">
+      <use xlink:href="#chrome-logo-M"/>
+    </mask>
+    <g fill-rule="nonzero" mask="url(#chrome-logo-N)">
+      <path fill="#FFF" fill-opacity=".2" d="M14,0.159090909 C21.7047727,0.159090909 27.9554545,6.38431818 27.9984091,14.0795455 C27.9984091,14.0525 28,14.0270455 28,14 C28,6.26818182 21.7318182,0 14,0 C6.26818182,0 0,6.26818182 0,14 C0,14.0270455 0.00159090909,14.0525 0.00159090909,14.0795455 C0.0445454545,6.38431818 6.29522727,0.159090909 14,0.159090909 Z"/>
+      <path fill="#3E2723" fill-opacity=".15" d="M14,27.8409091 C21.7047727,27.8409091 27.9554545,21.6156818 27.9984091,13.9204545 C27.9984091,13.9475 28,13.9729545 28,14 C28,21.7318182 21.7318182,28 14,28 C6.26818182,28 0,21.7318182 0,14 C0,13.9729545 0.00159090909,13.9475 0.00159090909,13.9204545 C0.0445454545,21.6156818 6.29522727,27.8409091 14,27.8409091 Z"/>
+    </g>
+    <circle cx="14" cy="14" r="14" fill="url(#chrome-logo-O)" fill-rule="nonzero"/>
+  </g>
+</svg>

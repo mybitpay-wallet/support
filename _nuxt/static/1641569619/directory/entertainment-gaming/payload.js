@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/directory/entertainment-gaming", {data:[{}],fetch:[],mutations:[]});
